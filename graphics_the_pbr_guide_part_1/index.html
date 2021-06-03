@@ -1,0 +1,432 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta http-equiv="x-ua-compatible" content="ie=edge"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><style id="typography.js">html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block}audio:not([controls]){display:none;height:0}progress{vertical-align:baseline}[hidden],template{display:none}a{background-color:transparent;}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,optgroup,select,textarea{font:inherit;margin:0}optgroup{font-weight:700}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}html{font:112.5%/1.44 'Fira Sans',sans-serif;box-sizing:border-box;overflow-y:scroll;}*{box-sizing:inherit;}*:before{box-sizing:inherit;}*:after{box-sizing:inherit;}body{color:hsla(0,0%,0%,0.8);font-family:'Fira Sans',sans-serif;font-weight:400;word-wrap:break-word;font-kerning:normal;-moz-font-feature-settings:"kern", "liga", "clig", "calt";-ms-font-feature-settings:"kern", "liga", "clig", "calt";-webkit-font-feature-settings:"kern", "liga", "clig", "calt";font-feature-settings:"kern", "liga", "clig", "calt";}img{max-width:100%;margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}h1{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:2.15rem;line-height:1.1;}h2{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.58293rem;line-height:1.1;}h3{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1.35824rem;line-height:1.1;}h4{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:1rem;line-height:1.1;}h5{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.85805rem;line-height:1.1;}h6{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;color:hsla(0,0%,0%,1);font-family:'Playfair Display',serif;font-weight:700;text-rendering:optimizeLegibility;font-size:0.79482rem;line-height:1.1;}hgroup{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}ul{margin-left:1.44rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;list-style-position:outside;list-style-image:none;}ol{margin-left:1.44rem;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;list-style-position:outside;list-style-image:none;}dl{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}dd{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}p{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}figure{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}pre{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:0.85rem;line-height:1.44rem;}table{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:1rem;line-height:1.44rem;border-collapse:collapse;width:100%;}fieldset{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}blockquote{margin-left:0;margin-right:1.44rem;margin-top:0;padding-bottom:0;padding-left:1.17rem;padding-right:0;padding-top:0;margin-bottom:1.08rem;font-size:1.16543rem;line-height:1.44rem;color:hsla(0,0%,0%,0.59);font-style:italic;border-left:0.27rem solid hsla(0,0%,0%,0.2);}form{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}noscript{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}iframe{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}hr{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:calc(1.08rem - 1px);background:hsla(0,0%,0%,0.2);border:none;height:1px;}address{margin-left:0;margin-right:0;margin-top:0;padding-bottom:0;padding-left:0;padding-right:0;padding-top:0;margin-bottom:1.08rem;}b{font-weight:700;}strong{font-weight:700;}dt{font-weight:700;}th{font-weight:700;}li{margin-bottom:calc(1.08rem / 2);}ol li{padding-left:0;}ul li{padding-left:0;}li > ol{margin-left:1.44rem;margin-bottom:calc(1.08rem / 2);margin-top:calc(1.08rem / 2);}li > ul{margin-left:1.44rem;margin-bottom:calc(1.08rem / 2);margin-top:calc(1.08rem / 2);}blockquote *:last-child{margin-bottom:0;}li *:last-child{margin-bottom:0;}p *:last-child{margin-bottom:0;}li > p{margin-bottom:calc(1.08rem / 2);}code{font-size:0.85rem;line-height:1.44rem;}kbd{font-size:0.85rem;line-height:1.44rem;}samp{font-size:0.85rem;line-height:1.44rem;}abbr{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}acronym{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;}abbr[title]{border-bottom:1px dotted hsla(0,0%,0%,0.5);cursor:help;text-decoration:none;}thead{text-align:left;}td,th{text-align:left;border-bottom:1px solid hsla(0,0%,0%,0.12);font-feature-settings:"tnum";-moz-font-feature-settings:"tnum";-ms-font-feature-settings:"tnum";-webkit-font-feature-settings:"tnum";padding-left:0.96rem;padding-right:0.96rem;padding-top:0.72rem;padding-bottom:calc(0.72rem - 1px);}th:first-child,td:first-child{padding-left:0;}th:last-child,td:last-child{padding-right:0;}a{color:#9f392b;}blockquote > :last-child{margin-bottom:0;}blockquote cite{font-size:1rem;line-height:1.44rem;color:hsla(0,0%,0%,0.8);font-weight:400;}blockquote cite:before{content:"— ";}@media only screen and (max-width:480px){blockquote{margin-left:-1.08rem;margin-right:0;padding-left:0.81rem;}}</style><meta name="generator" content="Gatsby 3.6.2"/><link rel="icon" href="/favicon-32x32.png?v=e92c68cc850fdcc8b338d8cd3627f98a" type="image/png"/><link rel="manifest" href="/manifest.webmanifest" crossorigin="anonymous"/><meta name="theme-color" content="#6b37bf"/><link rel="apple-touch-icon" sizes="48x48" href="/icons/icon-48x48.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="72x72" href="/icons/icon-72x72.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="96x96" href="/icons/icon-96x96.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="144x144" href="/icons/icon-144x144.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="192x192" href="/icons/icon-192x192.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="256x256" href="/icons/icon-256x256.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="384x384" href="/icons/icon-384x384.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><link rel="apple-touch-icon" sizes="512x512" href="/icons/icon-512x512.png?v=e92c68cc850fdcc8b338d8cd3627f98a"/><title data-react-helmet="true">[그래픽스][번역] 물리 기반 렌더링(PBR) 가이드 - 파트 1 | Game Criticism</title><meta data-react-helmet="true" name="description" content="본문은 Allegorithmic사의 물리 기반 렌더링 가이드 - 파트 1 문서를 학습 목적으로 번역한 것이다. 파트 1. 빛과 물질: 물리 기반 렌더링 이론과 셰이딩 이론 목차 광선(光線, Light Rays…"/><meta data-react-helmet="true" property="og:title" content="[그래픽스][번역] 물리 기반 렌더링(PBR) 가이드 - 파트 1"/><meta data-react-helmet="true" property="og:description" content="본문은 Allegorithmic사의 물리 기반 렌더링 가이드 - 파트 1 문서를 학습 목적으로 번역한 것이다. 파트 1. 빛과 물질: 물리 기반 렌더링 이론과 셰이딩 이론 목차 광선(光線, Light Rays…"/><meta data-react-helmet="true" property="og:type" content="website"/><meta data-react-helmet="true" name="twitter:card" content="summary"/><meta data-react-helmet="true" name="twitter:creator" content="Sungkuk Park"/><meta data-react-helmet="true" name="twitter:title" content="[그래픽스][번역] 물리 기반 렌더링(PBR) 가이드 - 파트 1"/><meta data-react-helmet="true" name="twitter:description" content="본문은 Allegorithmic사의 물리 기반 렌더링 가이드 - 파트 1 문서를 학습 목적으로 번역한 것이다. 파트 1. 빛과 물질: 물리 기반 렌더링 이론과 셰이딩 이론 목차 광선(光線, Light Rays…"/><link href="//fonts.googleapis.com/css?family=Playfair+Display:700|Fira+Sans:400,400i,700,700i" rel="stylesheet" type="text/css"/><link as="script" rel="preload" href="/webpack-runtime-719cd584059c4231b6ef.js"/><link as="script" rel="preload" href="/framework-a17c9893df41f16dd6ed.js"/><link as="script" rel="preload" href="/app-3a890d058a16ea76b791.js"/><link as="script" rel="preload" href="/3cb3c15893adc5143435e86eacfa519efc959b1b-a573080baf502825e9ab.js"/><link as="script" rel="preload" href="/0a483a1aa7992b78498602e1316e4383e7e52bb2-d0ba6f0cecf0c658f2ae.js"/><link as="script" rel="preload" href="/component---src-templates-blog-post-js-0d38287e03ba1aa33825.js"/><link as="fetch" rel="preload" href="/page-data/graphics_the_pbr_guide_part_1/page-data.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/3159585216.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/sq/d/63159454.json" crossorigin="anonymous"/><link as="fetch" rel="preload" href="/page-data/app-data.json" crossorigin="anonymous"/></head><body><div id="___gatsby"><div style="outline:none" tabindex="-1" id="gatsby-focus-wrapper"><style data-emotion="css 1si8awd">.css-1si8awd{margin:0 auto;max-width:700px;padding:2.88rem;padding-top:2.16rem;}</style><div style="background-color:var(--bg);color:var(--textNormal);transition:color 0.2s ease-out, background 0.2s ease-out" class="css-1si8awd"><a href="/"><style data-emotion="css i0b9uu">.css-i0b9uu{margin-bottom:2.88rem;display:inline-block;font-style:normal;}</style><h3 class="css-i0b9uu">Game Criticism</h3></a><ul style="list-style:none;float:right"><li style="display:inline-block;margin-right:1rem"><a href="/about/">About</a></li><li style="display:inline-block;margin-right:1rem"><a href="/contact/">Contact</a></li></ul><div><h1>[그래픽스][번역] 물리 기반 렌더링(PBR) 가이드 - 파트 1</h1><div><p>본문은 Allegorithmic사의 물리 기반 렌더링 가이드 - 파트 1 문서를 학습 목적으로 번역한 것이다.</p>
+<hr>
+<h2>파트 1. 빛과 물질: 물리 기반 렌더링 이론과 셰이딩 이론</h2>
+<h3>목차</h3>
+<ul>
+<li>광선(光線, Light Rays)</li>
+<li>흡수와 산란 - 투명과 반투명(Transparency and Translucency)</li>
+<li>난반사와 정반사</li>
+<li>미세표면(Microfacet) 이론</li>
+<li>색(色)</li>
+<li>BRDF</li>
+<li>에너지 보존</li>
+<li>프레넬(Fresnel) 효과</li>
+<li>F0 (0도에서의 프레넬 반사율)</li>
+<li>도체와 절연체</li>
+<li>금속과 비금속</li>
+<li>선형 공간 렌더링</li>
+<li>PBR의 주요 특징들</li>
+</ul>
+<h2>물리 기반 렌더링 이론과 셰이딩 이론</h2>
+<p>빛은 파장으로서의 속성과 입자로서의 속성을 동시에 보이는 복잡한 현상이다. 이때문에 빛의 동작을 설명하기 위한 여러 이론 모델들이 등장했다.</p>
+<p>텍스처 아티스트의 입장에서는 그중에서도 빛과 물질 사이의 상호작용을 설명하는 광선 모델에 더 관심이 있다. 텍스처 아티스트의 업무는 텍스처를 만들어 표면을 표현하는 것이므로 광선이 어떤 방식으로 표면의 입자와 상호작용하는지 이해하는 것은 중요하다. 우리가 만드는 텍스처와 머테리얼(material)은 가상 세계의 빛과 상호작용한다. 우리가 빛이 어떤 원리로 움직이는지 더 잘 이해할수록 더 높은 품질의 텍스처를 만들 수 있다.</p>
+<p>이 가이드에서 우리는 물리 기반 렌더링(PBR)이라는 모델의 배후에 있는 이론에 대해 논할 것이다. 우리는 먼저 광선의 동작을 설명하는 동시에 PBR의 특징들을 정의할 것이다.</p>
+<h3>광선(光線, Light Rays)</h3>
+<p>빛의 광선 모델은 광선이 공기와 같은 균질하고 투명한 매질에서 직선의 궤도를 가진다고 설명하는 모델이다. 광선 모델은 광선이 불투명한 물체의 표면을 만나거나 공기나 물과 같은 일부 매질을 관통할 떄 예측할 수 있는 방식으로 움직인다고 주장하는 모델이다.</p>
+<p>이러한 모델은 광선이 열과 같은 다른 형태의 에너지로 변하는 동안 한 점에서 다른 점으로 향하는 광선의 경로를 시각화하는 것을 가능하게 해준다.</p>
+<p>표면과 충돌하는 광선을 입사광(incident ray)라고 부르며 이 광선이 충돌하는 각도를 입사각(the angle of incidence)이라고 부른다 (그림 1 참조).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/7e3b9a62fe15c33209d2590bb79002bf/c1b63/figure_01_angle_of_incidence_incident_and_reflected_rays.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAABrUlEQVQoz3WSfW+bMBDG+f7fpNs0Td2maftnXdVsa6RqyQJsCxTKOwZMMMaYswF3CRprGuVkWbbv+fms56yNx6GUmmbf9x3HCYJAKTUMw6lMKaWpM8E5N3S9g+40JaWs63oPU0oRQhjjoig457Oi73tru53WhBCEUFEUCCHGWBzH20NKK8vSsizDMHzfJ4T0fQ8AXdcBgDgshBCu65qmGQSB53mmaVJKj57ddV3TNEopACjLMsuyNEkDP0jTFCE0qxljADD7os0GUErTJCGEdIfHj+M4XTeOI2OMUuq6btu2M/m/8rTHGHueN1vKGJvOpZRRGJKqekoeuT2dAgDGuO97pdRUWUqZ57kQ4hn5vFVPeSkl5xwA8jyXUp6SZ/s8DANCyLZtlKJRjef+glZnUWZvcsecBrL1B/0usTb3q+93nz86P5fRn3X0e5U7xj/Nr8ze1Hmyh3fhfbj+GuvLWL9NjOXDj5ury4svlxffPrxevH91++nN9dsXN+9eeqtFYuw1sbEM14td5O5haBmrcEvKafB6J1gtGgINAVoBrURDRENmQUtKVmHg7C/8CA9l4jqvWE/iAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 01: 입사각, 입사광과 반사광"
+        title="그림 01: 입사각, 입사광과 반사광"
+        src="/static/7e3b9a62fe15c33209d2590bb79002bf/5a190/figure_01_angle_of_incidence_incident_and_reflected_rays.png"
+        srcset="/static/7e3b9a62fe15c33209d2590bb79002bf/772e8/figure_01_angle_of_incidence_incident_and_reflected_rays.png 200w,
+/static/7e3b9a62fe15c33209d2590bb79002bf/e17e5/figure_01_angle_of_incidence_incident_and_reflected_rays.png 400w,
+/static/7e3b9a62fe15c33209d2590bb79002bf/5a190/figure_01_angle_of_incidence_incident_and_reflected_rays.png 800w,
+/static/7e3b9a62fe15c33209d2590bb79002bf/c1b63/figure_01_angle_of_incidence_incident_and_reflected_rays.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 01: 입사각, 입사광과 반사광</p>
+</blockquote>
+<p>평면 위에 입사되는 광선은 두 개의 매질을 연결한다. 광선이 표면과 충돌할 때, 다음 중 하나의 사건이나 두 사건 모두가 발생할 수 있다:</p>
+<ol>
+<li>광선이 표면에서 반사되어 다른 방향으로 진행한다. 이는 **반사의 법칙(the Law of Reflection)**을 따르며, 이는 입사각과 반사각이 같다는 법칙이다 → <strong>반사광(reflected light)</strong>.</li>
+<li>광선이 한 매질을 통과해 다른 매질로 진행하며 직선의 궤도를 그린다 → <strong>굴절광(refracted light)</strong>.</li>
+</ol>
+<p>이 시점에서 광선은 <strong>반사광</strong>과 <strong>굴절광</strong> 두 방향으로 분산된다. 표면에서 광선은 반사되거나 굴절되며 이는 결과적으로 어느 한쪽의 매질에 의해 흡수될 수도 있다. 그러나 흡수는 물질의 표면에서 이뤄지지는 않는다.</p>
+<h3>흡수와 산란 - 투명과 반투명(Transparency and Translucency)</h3>
+<p>불균질한 매질이나 반투명한 물질을 지나는 경우, 빛은 흡수되거나 산란한다.</p>
+<p>빛이 흡수되는 경우, 빛은 열과 같은 다른 에너지의 형태로 변환되면서 그 세기(intensity)가 약해진다. 빛의 색은 파장에 따라 흡수되는 빛의 양에 따라 변하지만 빛의 방향은 변하지 않는다.</p>
+<p>빛이 산란할 때, 빛의 방향은 임의로 바뀌며, 이 편차의 양은 물질에 따라 다르다. 산란은 빛의 방향을 임의로 바꾸지만 빛의 세기를 바꾸지는 않는다. 인간의 귀는 이러한 현상의 좋은 예시로 들 수 있다. 인간의 귀는 그 두께가 얇기 때문에 흡수되는 빛의 양이 적다. 때문에 귀 뒤쪽에서 방출되는 산란광(散亂光, scattered light)을 볼 수 있다 (그림 2 참조).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/1755a1a2c8691b70b3eff44dad3a9fb4/a878e/figure_02_scattered_light_radiating_from_back_of_the_ear.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAAFH0lEQVQ4yzWUy28bCQGH5x9AZbPs0jZpEre2J7Zn/Bp7xs8Zjx8z9viVOI5fiZPWSZo0ifNou00bti9aqBbtu6uuoFQU7WolELC3FRKCRWIvCAlp4cYiceHChX/hQ90Vh+/6/X6nTygVVQqmgmko5PQIhq6QTIZx7Cx7G4vcPLjI0/fusbNSw9ajaKpMVPETjvgIh30EQyLBoIgkeZFkD4JVjGKaYfRsCD3zjTBvKtzc63Nnr8d4UMSISUTmXGgBN5WUTD4pEQzNfUNQRA6KhMNeVNWDoGeCZFLS16STMgnNx6BdYq1VZG72NJp8Hsk7S1zyUDNU8okwpVQILe4jpsyhxkWSmo9UUkSJnkdQYwHUmB9NlUgm/KSTfnbWu2ghH7OvnCLomuT8d1/CN3MGJ6NwqZojn46hxbzEFZFY1ENcuUBKFSlmQwhaXCKmBFDjMtHIHItNi+1Rj0w8zP3xJVZNjTUjzGE5wZPNef786Ar7lRQXPLPIL94HXKRUH/NWnF7TREhowa+FStSPLLnZ314hFgrQMFO8f7zFIB3iasvg8brD5w8v899Pf8jf3tlFj8kYaZlaMcru0Ga9V6JdNxB2tpbZ3uhx5XKfzdES18aXiMg+nGSYbTvJpq3xet/k+WGL394e8s9nx/zn+Q0W0kGGzQzdskrLUlksJyikJITl3gJH+5vcvL7D9793wK39i/hd0wwKCfZaFkM9wt2OzmcPRvzi6hJfvrXPV+9fo29EqOYitG2NtqUxn1doFGIIdTtNs6JjmykOuw4PBgUCEy9xuZikoviITL1KT/Xxq+NV3hwU+XBg8Ubf4dGoRdOMsmip9Bs6nUqKVklFWGsZrLUyWCmZzbrO016elZiPawt5+okACe8kytTLrGUknu/Ms5H0885en7/+6JCNZo5qXqFlJ2j/X7i/arO7UmRzKcewqPF2OcHDToHbnTK1iI980Evg9HdYVOb44tEWtxsGHx1t8Lu7u3QtlYoeppmP0q4kaeQVhKNRlb1Vm/3lAmuWxg/qOm+NGlzJadRCcziySDnoZaQr/P64z78eX+fvb57w1eMTRmWVhaLCeqfIyoJJVQ8hXB2VGa+WuLlhc6WZ5qRX5qIhseSdphsRacpuujEfg+AFfjm0+PLeOv/+4Dr/eGPM1rzJqGfTr2dpmBGcrISwtVJl1Cuzv9FhOaOwnJApeM7ScE/TCboxXWdw/LM47ik+WMzz6+02n606fH6wQq+QolstUbXyLDXKtOoWQiKZRlFUsrkSxWwaaWaS06e+RXx2kppnmtKcm1ZE4oap8WG3xh/vjPniYMizbpWsLNIrZmgvtLALBbqdLoKqJYnHNZR4CiWmEva6ODvxbSYnTmG6Z3BkHxXRxbbi5+1qjk82+/zhtcu85picmzjFhmMwHAyoOw6teg2hVLIpFoqksyZ6roQq+1FFF65XJki4zlHwzlCTZhkmA9xvF/n0aMCf7u5yyUwjnn6Zq50Ky50lDg6PaM/PIyy2WpTLDtmchV2pkY4r6EGR2IVpQlNnyXpmqUZErjUNnh0u85f3bvGbkzEZ0U343KvcGS2x2u8y3hvz8OGDFz1MY1fqWOUaFadKNpMhp0hYL2IxdYbozDkMv4ddJ8vrbYufHqxzstREmZ4k657i1sVFnjx+l/v37nB84zqC5PNh22XypolhGJSsMnpCpZ2J0kmEqAZFKpKXhRcjfjebuspxo0BOdKG4znK40uJnz37CJx//nKc/fsL/AHDf7NU+VCifAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 02: 귀 뒤쪽에서 방출되는 산란광"
+        title="그림 02: 귀 뒤쪽에서 방출되는 산란광"
+        src="/static/1755a1a2c8691b70b3eff44dad3a9fb4/5a190/figure_02_scattered_light_radiating_from_back_of_the_ear.png"
+        srcset="/static/1755a1a2c8691b70b3eff44dad3a9fb4/772e8/figure_02_scattered_light_radiating_from_back_of_the_ear.png 200w,
+/static/1755a1a2c8691b70b3eff44dad3a9fb4/e17e5/figure_02_scattered_light_radiating_from_back_of_the_ear.png 400w,
+/static/1755a1a2c8691b70b3eff44dad3a9fb4/5a190/figure_02_scattered_light_radiating_from_back_of_the_ear.png 800w,
+/static/1755a1a2c8691b70b3eff44dad3a9fb4/c1b63/figure_02_scattered_light_radiating_from_back_of_the_ear.png 1200w,
+/static/1755a1a2c8691b70b3eff44dad3a9fb4/29007/figure_02_scattered_light_radiating_from_back_of_the_ear.png 1600w,
+/static/1755a1a2c8691b70b3eff44dad3a9fb4/a878e/figure_02_scattered_light_radiating_from_back_of_the_ear.png 2048w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 02: 귀 뒤쪽에서 방출되는 산란광</p>
+</blockquote>
+<p>산란이 없고 흡수되는 빛의 양이 적으면, 광선은 표면을 관통해 지나친다. 이는 유리와 같은 물질에서 일어나는 현상에 해당한다. 예컨대, 깨끗한 수영장에서 수영을 하는 사람의 경우는 깨끗한 물을 통해 상당한 거리까지 시야를 확보할 수 있다. 그러나 상대적으로 더러운 수영장에서는 먼지 입자가 빛을 산란시켜 물의 투명도를 낮추고 결과적으로 수중에서의 시야를 확보하는 것을 어렵게 만든다.</p>
+<p>빛이 매질이나 물질을 더 관통할수록 더 많은 양의 빛이 흡수되거나 산란된다. 따라서 물체의 두께는 빛이 흡수되거나 산란되는 정도에 결정적인 영향을 미친다. 두께 맵(map)의 경우에는 그림 3처럼 셰이더(shader)<sup id="fnref-1"><a href="#fn-1" class="footnote-ref">1</a></sup>에서 물체의 두께를 결정할 수 있다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/4d48daa03810302575fb0e6d6fa1c4d3/c1b63/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACqUlEQVQoz6XSP0wacRQH8N8gUFutpmqLwN2JeByc1aL8qRpJjampMYT0D+GPmCKENMpSbZq41Jygh7WROHhxwGIcdXFwUDYXBxecuTtEwbvEMNhETUhRuUZoGvd+hpe8l7y8N3xBoeT6+vpfLftdUigUOI5jWTadTp+cnGSzWZ7nLy4uzs/P8/k8KJbc3t4KglAsFoV7ym0wGPR6vRMTEwRBkCQZi8XS6XQ8Hk8kEsBqtTocDpvNZrfbbbYPIyPu8U9ev8/jGh52u90ul8vpdPp8vrGxsXA4HAqFFhcXc7lcpgQAACorK0UisVgsrhA/eGVA7UN6kw6ufvSwQiQCAIx6vbOzs+FweG5ujqKo+fn5TCbDcVwulwMSiQSCILlMJm2U67Sq4aHe0Lfxr4H3uAaVSuV1dfU/FhYODg62trYikUgoFIrFYolEYm9v7+6yRCJRKBQyWeMzaWObWvm6Rzc++s7S36PRaHBcC8Pw2toaz/MMw6RSqZ2dnZWVleXlZYqiTk9P735GEFgml0MQbNbjjrfmzwGLzWJGW1ClsvlpQ0M0GuU4jmGYTDazurrq9/snJycJgkgmk6C6qgpuUqqUiKWvo7sDf9PfFZx2B3zWAbOxDcdkcsX6+jrP82dnZ4eHh1NTU06n0+PxkCRZWn5co1GjAy+13frnCri5U9e5sTEd/u7Tatt69a2GVuVHz+jMzMz+/v729jZJkgRBRCKRpaWl4+NjUP+kdtCoMuJKCFGpVGiXQU9RX35GA0aDrqlJhWMoBMG1NTWbm5uCIOTz+aurq18lhUIBoIi036Btx9VqDMMwjaldbenTOYZMpheaFjXWgqJqDEMQZDe+KwjCzc3N/RQBhk6ybIpm2LIjljli6RRDs+zfEcMwNE1fXl6WM3cfEP7DH2qquS2Eff0DAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 03: 서브스턴스 페인터의 두께 맵을 통한 표면하산란(Subsurface Scattering, SS) 구현"
+        title="그림 03: 서브스턴스 페인터의 두께 맵을 통한 표면하산란(Subsurface Scattering, SS) 구현"
+        src="/static/4d48daa03810302575fb0e6d6fa1c4d3/5a190/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png"
+        srcset="/static/4d48daa03810302575fb0e6d6fa1c4d3/772e8/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png 200w,
+/static/4d48daa03810302575fb0e6d6fa1c4d3/e17e5/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png 400w,
+/static/4d48daa03810302575fb0e6d6fa1c4d3/5a190/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png 800w,
+/static/4d48daa03810302575fb0e6d6fa1c4d3/c1b63/figure_03_thickness_map_used_with_subsurface_scattering_within_substance_painter.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 03: 서브스턴스 페인터의 두께 맵을 통한 표면하산란(Subsurface Scattering, SS) 구현</p>
+</blockquote>
+<h3>난반사와 정반사</h3>
+<p>정반사(Specular reflection)는 위에서 광선을 논한 때 언급한 표면에서 반사되는 빛을 일컫는다. 광선은 표면에서 반사되어 각기 다른 방향으로 반사된다. 이는 "완전한" 평면상에서는 반사각이 입사각과 같다는 **반사의 법칙(the Law of Reflection)**을 따른다. 그러나 대부분의 표면은 고르지 못하기 때문에 반사각은 표면의 거칠기(roughness)에 따라 임의로 달라진다. 이 거칠기는 빛의 방향을 바꾸지만 빛의 세기를 바꾸지는 않는다.</p>
+<p>거친 표면은 더 큰 면적의 하이라이트(highlight)를 갖게 되며 이는 더 어두워진다(dimmer). 부드러운 표면은 정반사가 집중되게 만들고 이는 특정 각도에서 정반사되는 빛을 더 밝고 강하게 만들어준다. 그러나 이 두 경우에 모두 같은 양의 빛이 반사된다 (그림 4 참고).</p>
+<p>![그림 04: 반사광은 표면의 거칠기에 따라 임의로 달라진다](./graphics_the_pbr_guide_part_1/figure_04_reflected_direction_will_vary_randomly_based_on_the surface_roughness.png)</p>
+<blockquote>
+<p>그림 04: 반사광은 표면의 거칠기에 따라 임의로 달라진다</p>
+</blockquote>
+<p>굴절(Refraction)은 "광선의 방향이 바뀌는 것"을 의미한다. 빛은 하나의 매질에서 다른 매질로 이동할 때 그 속도와 방향이 바뀐다. **굴절률(屈折率, Index Of Refraction, IOR)**은 광학적 측정 단위로서 빛이 진행함에 따라 광선의 방향이 바뀌는 정도를 표현한다. 예컨대, 물의 IOR은 1.33인 반면, 판유리의 IOR은 1.52이다. 그림 5를 보면, 빨대 하나가 물이 담긴 유리로 된 잔에 담겨있는 것을 볼 수 있다. 이 빨대는 빛이 각기 다른 매질(공기, 물, 유리)을 거쳐 진행하면서 굴절됨으로써 휘어져 보인다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/11f78bab826c9f2aefe75e1cd66554de/e6283/figure_05_the_straw_appears_bent_due_to_refraction.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 100%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAACXBIWXMAAAsSAAALEgHS3X78AAADVElEQVQ4y3WTW3PbRBiG/QPBsa1d7VGSJdvyIakTx2nIsQ4JPUyTtsAwUw5D4AJmym0uGu74EzC0F/0tD7OyndgFLt7Rp5W+Z199+6rWbDZptVpEUVRdl3WQEOJf9fJaD31SEkuJEQIdCQKrtgpZratGIRChXlF4FiBjn7CpDJtKs6U0bSHvgUsXq7BK0RzaWsAjIdmIIvaLgpExiEaDqNFgo9mksTBT+z93lRshUM0Grl7H1Ovoep0iiphZh/rkU+LQszKWO+A9KFqfmYxJGk2cEHhjqvW9NGWoVOXOb2zMgSumaktANRttyDtdysGILO/i2wU9nzIcbnJ0esL4wZhJu00raiKjCPsRMKgWtdbnZ60hL3LSLMOlGT3nGPZ7bE8nnO9O2Mra1QmrVeBK/5pDGUvybpe8U5BlKVmeUnrNoJfz6NEhF7vbJFrREtEc2Nj47xkuF4zRlMMh3bIk73RodwpK7+l1CiY7Y/pFXmVOSFkBXThlKe9SseZwuWiMwWcp3icYn1AYXY2gPxrSNxatNVIptJT4VgsRx8gAlfP+2lruQkyUwicJSZKgnKVQMe004XA4YJxleGexWpEoRVtKtHNYaysjYf61JSjsEhTH8R3QWItXMUNnOctzBomn0IoszFrFpNbg0gTvPc450jShtgqKF/bDjs47jNYIo9npFIzCqWcJ1juUtShrECpG6Zg8T5nuPmB2+tkcGEDhU8N8Qh2chdgobUh9wmGnpCwH9Lp9tsa77O0fMd075OrqJdc//syvv7zhh++uef70ktoqzBqD8ylJVpBmXYTJ2C1G7JQTDk6f8sWTb7m9/YO//nzPu78/8P7dB35785aT45cMB/tk7SG1JSwMNcQma7eZ7B/w8HjG7PwxF5OHzB5f8uqb13z9+prLy1f8/vaWm5sbpntnpNkIbdrEyiGlDsAYY1R1QtZqnLccnV1w/vwFTy6vOJhOuXj2jC+//4mTp19RlgVp6mmGyMiIKEgsFHKo9QJodAVUsWRre8zs/HO6/T5Z3qFbDtg7PsNnHaRozXNXpUMudP+31JSSBOiqlIzwLmygKsdJ6tFKEItmtbl3hjiWd6lY+1PiOIRZVtJLBWgc4hQRnod7Z3UFC++FtWXcPgb+A5CERjvgVwhJAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 05: 빨대가 굴절 때문에 휘어져 보인다"
+        title="그림 05: 빨대가 굴절 때문에 휘어져 보인다"
+        src="/static/11f78bab826c9f2aefe75e1cd66554de/5a190/figure_05_the_straw_appears_bent_due_to_refraction.png"
+        srcset="/static/11f78bab826c9f2aefe75e1cd66554de/772e8/figure_05_the_straw_appears_bent_due_to_refraction.png 200w,
+/static/11f78bab826c9f2aefe75e1cd66554de/e17e5/figure_05_the_straw_appears_bent_due_to_refraction.png 400w,
+/static/11f78bab826c9f2aefe75e1cd66554de/5a190/figure_05_the_straw_appears_bent_due_to_refraction.png 800w,
+/static/11f78bab826c9f2aefe75e1cd66554de/c1b63/figure_05_the_straw_appears_bent_due_to_refraction.png 1200w,
+/static/11f78bab826c9f2aefe75e1cd66554de/29007/figure_05_the_straw_appears_bent_due_to_refraction.png 1600w,
+/static/11f78bab826c9f2aefe75e1cd66554de/e6283/figure_05_the_straw_appears_bent_due_to_refraction.png 4096w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 05: 빨대가 굴절 때문에 휘어져 보인다</p>
+</blockquote>
+<p>난반사(Diffuse reflection)는 굴절된 빛이다. 예컨대, 한 매질을 통과해 다른 매질로 이동한 광선의 경우 어떤 한 물체에 들어갔다고 치자. 이때, 빛은 물체의 내부에서 수차례 산란하게 된다. 마침내 빛은 굴절되어 해당 물체의 바깥으로 빠져나와 최초에 출발했던 매질의 애초에 들어왔던 지점과 근사한 지점으로 되돌아간다 (그림 6).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/5da36a3f79985f35e9d57aa2c9b906a1/c1b63/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAACf0lEQVQoz2WRW3OaUBSF+dv9B33vQ9vptNNpJ7FN0kliIonGaKKEYAwSL0QBFUTkIoKAAgc4nNOJfUg7XW97z/r2rFmbQDDBCCIIEEIIvyrfTTlC+b/7v0XAjQZ0Bm4tvPO4YbhYr70o+t+KcphHy2yjwdCEoYFgTKSuAOY3GNjbJM1yRIvSxLYN35dMC2Ns+P5ivQZZ9odG6QZlUQ68xGznSUAk8/rGGa/mj/KkZTi2F8WW5+cICYbphVFHmRm+HybJC7uLhrIocwWURbvY3jRajaRRIzTYmXibAn9sO3bgS6a5BWBq2RnMMwgx3lWQBOlqgCAIozhNE2J3L1e0oa8/yTwZqzVd4ylJaU/lOEnUlUOL4+qAzzHOwTp1njGGIEk3QQAhJDDKMcZeHM+dleeqmnQDJifn5Y8L1w0SeMayl93u3PUxcFJXBBncguS1bYyxoBvycjmzVyFIVMdVDalRfVc/ecMNmnVBtrfRWOnl3gRjPJhrC9fFGMP85YMvMETICjbX/HALAL/QP1MMp1nKjDM6n9pcxdNaqsJuknRsLe1ggzHWDcMyzTRNiR7T1MVBn6HYFvXhZ+H9j/0vhwVt+HRVbxQrJfLwrcic9jutk8sS320P2daQe9ClAXd3Y+kawdUv7itn/bsqW7+kSgf0eaFb/dW+KPSvvivUN+Gu2LktPzdLvWZFajfuK8XmxfGUpaSHuq2rRKdGco3K832NLhefbsvV4z2KPGDI/Ra5d3X0lSYPKPJoQF8zlTOevn6skXKHeqZrTPl06ywJay5PxJE6lRRJ4Pu9qTjS5PFEGI2HvKZMDU1dGgvPNpe65q8sfT7buivfWeqqkoL4NwG0tR7phR+3AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 06: 한 매질에서 다른 매질로 진행하는 광선이 물체의 내부에서 산란되는 모습"
+        title="그림 06: 한 매질에서 다른 매질로 진행하는 광선이 물체의 내부에서 산란되는 모습"
+        src="/static/5da36a3f79985f35e9d57aa2c9b906a1/5a190/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png"
+        srcset="/static/5da36a3f79985f35e9d57aa2c9b906a1/772e8/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png 200w,
+/static/5da36a3f79985f35e9d57aa2c9b906a1/e17e5/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png 400w,
+/static/5da36a3f79985f35e9d57aa2c9b906a1/5a190/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png 800w,
+/static/5da36a3f79985f35e9d57aa2c9b906a1/c1b63/figure_06_a_light_ray_travelling_from_one_medium_to_another_scattering_inside_the_object.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 06: 한 매질에서 다른 매질로 진행하는 광선이 물체의 내부에서 산란되는 모습</p>
+</blockquote>
+<p>난반사하는 물체는 흡수성(吸收性, absorbent)이 있다. 굴절된 빛이 해당 물체에서 너무 오래 체류하게 되면 해당 빛은 물체에 완전히 흡수되어버린다. 만약 빛이 해당 물체를 빠져나오게 되면, 해당 빛은 물체로 들어간 지점으로부터 아주 조금 떨어진 거리만큼 이동할 수 있을 것이다.</p>
+<p>따라서, 빛이 들어간 지점과 빠져나오는 지점 사이의 거리는 너무 짧아 무시해도 될 정도다. 전통적인 셰이딩 관점에서의 <strong>렘버트(Lambertian) 모델</strong>은 표면의 거칠기를 염두에 두지 않는다. 그러나 <strong>오렌-네이여(Oren-Nayar) 모델</strong>은 거칠기를 염두고 두고 있다.</p>
+<p>높은 산란도와 낮은 흡수도를 가진 물체는 때로는 반투과 매체(participating media)라거나 반투명 물체(translucent materials)로 지칭된다. 이러한 예로서는 연기, 우유, 피부, 옥과 대리석을 들 수 있다. 특히 피부, 옥, 대리석의 경우에는 빛이 들어오는 지점과 빠져나오는 지점 사이의 거리가 더는 무시할 수 없을 정도로 커진 표면하산란(subsurface scattering)을 추가로 구현하는 것으로 해결할 수 있을 것이다. 그러나 변화무쌍하면서 극도로 낮은 산란도와 흡수도를 가진 연기나 안개의 경우에는 몬테 카를로(Monte Carlo) 시뮬레이션과 같은 비싼 방식을 통해 구현될 수 있다.</p>
+<h3>미세표면(Microfacet) 이론</h3>
+<p>이론상 난반사와 정반사는 광선이 매질과 교차하는 **표면 요철도(irregularities)**에 따라 달라진다. 하지만 실제로는 난반사에 미치는 거칠기의 영향은 빛이 물체 내부에서 산란하는 것에 비하면 그다지 크지 않다. 그 결과로서 빠져나오는 광선의 방향은 표면의 거칠기와 입사각에는 꽤 독립적인 편이다. 이에 따라 난반사에 대한 가장 일반적인 모델인 <strong>렘버트(Lambertian) 모델</strong>은 거칠기를 완전히 무시한다.</p>
+<p>본 가이드에서는 **표면 요철도(surface irregularities)**를 표면 거칠기라고 칭하기로 한다. 표면 요철도는 어떤 PBR 워크플로우에서 언급되느냐에 따라 거칠기(roughness), 부드러운 정도(smoothness), 광택도(glossiness) 또는 미세-표면 등의 다른 이름으로 불릴 수 있다. 이러한 모든 용어는 표면의 같은 양상을 기술하기 위해 사용되며 이는 서브-텍셀 지오메트리(sub-texel geometric)의 디테일에 해당한다.</p>
+<p>표면 요철도는 어떤 PBR 워크플로우에서 쓰이느냐에 따라 거칠기나 광택도 맵에 의해 구현된다. 물리 기반 BRDF는 <strong>미세표면(microfacet) 이론</strong>에 근거하며 이는 어떤 표면이든 다양한 세부 표면 방향성을 가진 소규모 평면(이를 미세표면이라 부른다)으로 구성된다고 가정하는 이론이다. 각각의 소규모 평면은 법선(normal)에 따라 단일한 방향으로 빛을 반사한다. (그림 7).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/0312751196e989483a57a1a8edc744b7/c1b63/figure_07_physically-based_brdf_based_on_microfacet_theory.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsSAAALEgHS3X78AAAB90lEQVQoz4WSb2/SUBTG+1234kph2Qs/gMYY46cYhbboG000MWHJppNNEGFlc0OBpAxYsdC/IIXb++8YqPhCw/zlJvfk5jl5Tp57BPiHmALjq4JxHDGGOIctCMlFKeU8UfG2z62fq9JG5oyiJVs9bm3mnM9mM8YSP6AczClgyqfYJgAU4D/OG1fKlyOIw3BBRguwZ+bnRuOsWo3mcwAghPzdvBqYsRihpmHUqlWrd8OQD9i57rZeH731p2Gr3T4vl7udjuu6mFJESEwIXSMwzqcA14536flmjD90zXNz0LDHJ1fNAUIBgAvw1fMrd1YrCCwAk3P3j7Oiqjklr2oFXVc1TS0WtefPnj55/Eg5PNQ1TS2oSi6n6/rL4ou8quZUVcknFPI5RRCzWTEt70mpPWlXksVUaucgk354kN2XRDm1sy9J8gM5sydLYmqlyGREeX3SmdSuKGwJch0z84AjBoQDuS/tBEwIoyQO+nF4O+nflI9fHddLjf7pcPnNx1Ywd5P/phsEy7JM0+z3+8Ph0GheXVaPlvYXAF6v1RzPcyeu/qbwIxpUv78vnbwb2+PJZMI3OycEQeA4ju/74/F4sVjcWdan01K98tG4uEgUnW77rFI2DCMMQmtk2bZN6e/FEZZrMMYIoSiKYoQcx7vt9ebRHGMM9/ILrMGv20zmF3oAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 07: 미세표면(microfacet) 이론에 근거한 물리기반 BRDF"
+        title="그림 07: 미세표면(microfacet) 이론에 근거한 물리기반 BRDF"
+        src="/static/0312751196e989483a57a1a8edc744b7/5a190/figure_07_physically-based_brdf_based_on_microfacet_theory.png"
+        srcset="/static/0312751196e989483a57a1a8edc744b7/772e8/figure_07_physically-based_brdf_based_on_microfacet_theory.png 200w,
+/static/0312751196e989483a57a1a8edc744b7/e17e5/figure_07_physically-based_brdf_based_on_microfacet_theory.png 400w,
+/static/0312751196e989483a57a1a8edc744b7/5a190/figure_07_physically-based_brdf_based_on_microfacet_theory.png 800w,
+/static/0312751196e989483a57a1a8edc744b7/c1b63/figure_07_physically-based_brdf_based_on_microfacet_theory.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 07: 미세표면(microfacet) 이론에 근거한 물리기반 BRDF</p>
+</blockquote>
+<p>이 미세표면의 법선이 빛의 방향과 보는(view) 방향의 정확히 중간에 해당하는 방향을 바라보는 경우는 가시적인 빛을 반사하게 된다. 그러나 미세표면의 노말(법선)과 하프 노말이 같은 경우에는 그림 8에서 보이는 것처럼 그림자(빛 방향)나 마스킹(보는 방향)에 의해 모든 빛을 반사하지는 못하게 된다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/a18e6e86e8ab561037718d63ae71cfa6/c1b63/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAAC/UlEQVQoz0WS+0vTYRSHv/9AkGGppEVRFkRSEEhhWZkQaNAFvKEYihUi4n2bc9O5ZS1NTTTTVNKIkkrRysyWdnEbtkyzLZStbVnNe86t7/1931Nm1uH8dOCB83zOoXgB8QJiWZ7jRZGAAIABsMAjQRBEJAgiAMzOzg3qjXqjcX5hAQAIIfCnqI7PdJed6Z5E98fcTe36my29fYNjX72sixHH3azO7tW9HJQUFWdLFRKlSnnx8phl/B9PdXgEHYbWIWtOfEZaSFjWgaOSoydqJBqDY3oC4JVzJq9QWaBQlWqvXqmpraitv1LfvOTxrPCUHYhlak6SdD4jPDwrPCJz36HCyGhJ2MHaPLkFw7PR0ex8qbRELVdpisu0lXU3rjU0fjSbAQBjTPEAtxpvn91/ICsqKivyREZYtDIm+XFd1d3S0uEh0/tPI9n5svxChVSpkpdqLldWF6nUJtO7VVhE8pTkmG2BqXtD0g8dzjxyXHY6dqjnoa6tobe1acxiVpSoc2VFSk2ZWltRrCkrKJQvrMZGmQ1t8rgjsTsCE4MDk4M3pe7YnL57e27YXmVEaFF8dJ4i4+XAC21FVY5Ell0gk8oVw8PD/wP7olfX5pyMClofu8U/PmhD0ma/lK3+F4I3pm3x67iUoO9V/fT8cDq/9Pf3GwzGmRkXYJqI7N9TWXpK3twpSAwNPh6w7lSAb0yAb8JG3zg/H+mxPY43F62vtfOzrrm5P3sC4fkZxvsVs4tEpAEINfFIZnuu6m1MuxCxMyrIJ9p/zZmgtTmRu540pPa1pXXePDftmnRNuXjEeX9+d3tsojiNRS9iFjBiqNHndcandSbd9dddlQ8aFC3luZ3N6hed1QPdVU/bL3XdK3fYbTTNcHh2ibZx3NRn24jbPYnJooBZiuVFlhcZVuB4hAhgAggTjkccJ3L88m9arVaDweB0DM0vjlvMbx1Ox1vTwLfvtmXnZZflxkAwwQgjRBACglYmQDDDMDTNOJz2kQ+mRfcSANA07fF4fzv/AlhpKZ4fNUMWAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 08: 산란 광선에 의한 흐릿한 반사(Blurred reflections)"
+        title="그림 08: 산란 광선에 의한 흐릿한 반사(Blurred reflections)"
+        src="/static/a18e6e86e8ab561037718d63ae71cfa6/5a190/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png"
+        srcset="/static/a18e6e86e8ab561037718d63ae71cfa6/772e8/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png 200w,
+/static/a18e6e86e8ab561037718d63ae71cfa6/e17e5/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png 400w,
+/static/a18e6e86e8ab561037718d63ae71cfa6/5a190/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png 800w,
+/static/a18e6e86e8ab561037718d63ae71cfa6/c1b63/figure_08_blurred_reflections_are_due_to_scattered_light_rays.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 08: 산란 광선에 의한 흐릿한 반사(Blurred reflections)</p>
+</blockquote>
+<p>미세한 관점에서 보면 표면 요철도는 미세한 수준에서 빛의 확산(diffusion)을 발생시킨다. 예컨대, 흐릿한 반사는 산란된 광선에 의해 발생한다. 각 광선은 평행해 반사되지 않으므로 정반사를 흐릿하게 인지하게 된다 (그림 8).</p>
+<h3>색(色)</h3>
+<p>표면의 가시적인 색상은 광원에서 발산되는 파장에 의해 좌우된다. 이 파장은 물체에 의해 흡수되며 정반사와 난반사 모두를 하게 된다. 여기서 흡수되지 않고 반사된 파장을 색(色, color)이라고 부른다.</p>
+<p>예컨대, 사과의 색은 대체로 빨간 빛을 반사한다. 오직 빨간 파장만이 사과 껍질의 바깥으로 산란하며 다른 파장은 흡수된다 (그림 9).</p>
+<p>사과는 광원과 같은 색의 밝은 정반사를 하게 된다. 왜냐하면 피부나 사과와 같이 전기를 전도(傳導)하지 않는 물질 - 절연체(絕緣體, dielectrics) - 의 경우 정반사는 파장과 거의 독립적이기 때문이다. 이러한 물질들에서 정반사는 색을 갖지 않는다. 본 가이드에서는 이후에 여러 가지 서로 다른 물질들(금속과 절연체)에 대해 논하게 될 것이다.</p>
+<p>서브스턴스 PBR 셰이더는 GGX 미세표면 분포를 사용한다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/008c457c7e534b55b8d6ad8d1200079b/c1b63/figure_09_red_wavelengths_are_reflected_to_the_eye.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAABsElEQVQoz41STW/TQBD1r+bCH0HigqoitWqaBg5VqQo9hAiaNJWBhmKIk3idOCl1HCX+WO/szA6y3YQ2EqJPc1jNzpu382YtnAS0XJokZWazis1yxcXJcIXN4QGIyJR5S7U+w3UP3QF5vny1q51f1X0RG/7DKPOmhMVa5/U30OnK2pH6dEFRhJ5ggIKGaJT622UtGwSB1rpQhnY3P3qbH5/Ez57Lnde67+orW52d54cNdIfYd9Efo/DREyiEngQcLRq1w9N3p1JKS/dumBmue9mLl/T7rmqvnZ/Zzi5OxuSNTDDl6YxntyaYgid4MKwf1Pb39nzft0ycPDIGFENGtyG1DjixkZUEnQIkWsO6xvnhDNxB8WyTpuV0qLJMKcA8MRCQP/zeqfczN4plliRpGaDUvZdlPRFZFM6ZeRFFo9FICDEP7wKMFzfO8f75eJ6vwpSQtlZVWV0oa/trMaRShUIcS5mHqZk1Poiuz2Qq5qZ6C5a2v+DQ24ytgeJmG7/1/vVDHpGN1tD8CM0WdC5Vu6PO3uOVzeZ/vIpcKeB0Vm7SN1n2FM012RjesoSIn8TlP7Zc5BUa2SYMAAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 09: 눈에 반사되는 빨간 파장"
+        title="그림 09: 눈에 반사되는 빨간 파장"
+        src="/static/008c457c7e534b55b8d6ad8d1200079b/5a190/figure_09_red_wavelengths_are_reflected_to_the_eye.png"
+        srcset="/static/008c457c7e534b55b8d6ad8d1200079b/772e8/figure_09_red_wavelengths_are_reflected_to_the_eye.png 200w,
+/static/008c457c7e534b55b8d6ad8d1200079b/e17e5/figure_09_red_wavelengths_are_reflected_to_the_eye.png 400w,
+/static/008c457c7e534b55b8d6ad8d1200079b/5a190/figure_09_red_wavelengths_are_reflected_to_the_eye.png 800w,
+/static/008c457c7e534b55b8d6ad8d1200079b/c1b63/figure_09_red_wavelengths_are_reflected_to_the_eye.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 09: 눈에 반사되는 빨간 파장</p>
+</blockquote>
+<h3>BRDF</h3>
+<p>**BRDF(양방향 반사 분포 함수, Bidirectional Reflectance Distribution Function)**는 표면의 반사 속성을 표현하는 함수이다. 컴퓨터 그래픽에는 여러가지 BRDF 모델들이 있지만 일부는 물리적으로 타당하지 않다. BRDF가 물리적으로 타당해지기 위해서는 에너지 보존과 전시 상반성(exhibit reciprocity)을 갖춰야 한다. 여기서 상반성(相反性)은 들어오는 빛과 나가는 광선이 BRDF의 결과에 영향을 주지 않으면서 서로 상반된다는 헬름홀츠 상반 원리(Helmholtz Reciprocity Principle)를 말한다.</p>
+<p>서브스턴스 PBR 셰이더에서 사용된 BRDF는 디즈니의 원칙에 입각한 반사율 모델(principled reflectance model)에 기반을 두고 있다. 이 모델은 GGX 미세표면 분포에 근거하고 있다. GGX는 정반사 분포에서 더 나은 솔루션 중 하나를 제공하며 이에 따라 더 짧은 하일라이트부와 더 길게 늘어지는 감소부를 가지며 이에 따라 더 사실적으로 보인다 (그림 10).</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/c8e202f475246d6a778a14c454b2a519/5d72a/figure_10_ggx_vs_blinn_specular_distribution.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 78.99999999999999%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAQCAIAAACZeshMAAAACXBIWXMAAAsTAAALEwEAmpwYAAADm0lEQVQozxXESW8TVwAA4PkhbdWQxGtm3oxnfzPzZrEnY4/3GDtxFtuxY2cjIY5jxyEQbEwWRKNsRClFqWhKkApE0FIBKqpASiuFI5ceKrX3HttfUPEdPmxr5+j4u9Mnz35Ya6/XmzeqjVa9tb99dHr206snL389eXH+519///7hot7aW1heX2x2mhvHr99f/PvfP2fv/sDaW3tLKzdV3YzEUtVaY6Fai8bi6Wy+89WD+ydnb97+srN34DeDkWiyVm9OlKdGRnPzC9WPHz+8Pb/Ajh89FRUDBwzPCVBSeYgkGVkhe3Lm6ub+w2Z7mwAM8PEsL7E8pDmJ40XDtBavdZ6+Pse2d3cBZwCK9rq6SNwpyzDQ318Yz81XFzZ2H+QrVQ8hUKx8qeuzPteXFAVU3RjOpm+21755/BwrTEwqisIAJ2SJT/OA53xrq/ONxpVr7fX0cF5BGg3cLOkkvd0s6QSEu1Ia3ug0D08eYyKHRzQgMQ4auF2ubpp0sz6PDBm/IemGhiAVQrjk6+WAs/vSF7i7x0f0cgxuaHBoJIv5A4ptUAlbNXUYMJSIHYhFrGQ0mBkI50sTxeJYMqwkw7qPcLgdXQB30JSH9Xl1FaqygOUrk8FQQKSdDOnifR6JJyBHQh70G3w2VxgczWsSYEEPhfcypFNgPCzlgRxhGXw+pWGbt+bby8XRuCBxHoF2yzxuyFTYFATKFbLtaCJlGJoqEgzRI9IuCndoMhk1Wa/jcxLvxY62Z7dbpalcJOBHskBbfjidj9Wms5VKMTs6Fk8NhqOJsG3LkqBKDBTZRMxcWSxcjps06ca+vj0cCoUgsoJ2LBxNxhOpRCozXp5da7WvLxVHcmOm2S8jv2ZYvCjLSNMMcyBbXG7WVufi2Le3B1UkKAipmq7pn4TscGJgoF6bu7c5U57IWQYURRapSFU1TVODQatULq2tzO6sprDyiIUTQIQChHIwGAzZdiwePjy4c7jb+u3HO0tXi5IkKTI0TX8mk84MDU5NFl6+eLS7tXS/M4KpijhamL5x6y4yLE1TVQ0lE/b3Dw/27l4/3Z9NxwPZsfLM3BKgGB/p4VjS9Cv3djpzU0NzORPTEV9ttJ+/es9DnQIehvJSpLe+OLO6PHMlZ0KOPjl99vObd304CTmCZ/pkyAxlkql4YPwywgwdSaqlmxFeRJJACSzBMQQUGQNx6SCHJAgVv6T4fQwPWVwWSJbuo4BHlRlTpf8Hi6E7G9ITUDEAAAAASUVORK5CYII='); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 10: GGX vs 블린(Blinn) 정반사 분포 – GGX는 정반사 분포에 관해서는 더 나은 해결책 중 하나를 제공한다"
+        title="그림 10: GGX vs 블린(Blinn) 정반사 분포 – GGX는 정반사 분포에 관해서는 더 나은 해결책 중 하나를 제공한다"
+        src="/static/c8e202f475246d6a778a14c454b2a519/5a190/figure_10_ggx_vs_blinn_specular_distribution.png"
+        srcset="/static/c8e202f475246d6a778a14c454b2a519/772e8/figure_10_ggx_vs_blinn_specular_distribution.png 200w,
+/static/c8e202f475246d6a778a14c454b2a519/e17e5/figure_10_ggx_vs_blinn_specular_distribution.png 400w,
+/static/c8e202f475246d6a778a14c454b2a519/5a190/figure_10_ggx_vs_blinn_specular_distribution.png 800w,
+/static/c8e202f475246d6a778a14c454b2a519/5d72a/figure_10_ggx_vs_blinn_specular_distribution.png 834w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 10: GGX vs 블린(Blinn) 정반사 분포 – GGX는 정반사 분포에 관해서는 더 나은 해결책 중 하나를 제공한다</p>
+</blockquote>
+<h3>에너지 보존</h3>
+<p>에너지 보존은 물리 기반 렌더링 솔루션에서 핵심적인 역할을 담당한다. 에너지 보존 원리는 표면에서 반사되고 산란되어 다시 발광하는 빛의 총량은 애초에 표면이 받은 빛의 총량보다 적다는 원리이다. 다시 말해, 표면에서 반사되는 빛은 표면과 충돌한 빛의 세기보다 절대로 커질 수 없다는 의미이다. 이때 아티스트 입장에서는 에너지 보존을 통제할 걱정은 할 필요가 없다. 이처럼 에너지 보존이 항상 셰이더에 의해 강제되는 부분은 PBR의 장점 중 하나이다. 이는 물리 기반 모델의 특징 중 하나로서 아티스트들이 물리가 아닌 예술적 표현에 집중할 수 있도록 도와준다.</p>
+<h3>프레넬 효과</h3>
+<p>프레넬 반사 지수(Fresnel reflection factor)는 물리 기반 셰이딩에서 BRDF의 계수(coefficient)로서 핵심적인 역할을 담당한다. 프레넬 효과는 프랑스의 물리학자인 오귀스탱 장 프레넬(Augustin-Jean Fresnel)에 의해 최초로 관측된 효과로서 표면에서 반사된 빛의 양이 관찰하는 각도에 따라 달라지는 효과이다. 예컨대, 물이 담긴 수영장을 떠올려보자. 관찰자가 물의 표면을 수직으로 바라보면 수영장의 바닥까지 꿰뚫어 볼 수 있다. 이런 각도로 수영장을 보는 것은 0도나 법선 입사(normal incidence)에서 보는 것으로 여기서 법선은 표면의 법선에 해당한다. 관찰자가 스침 입사(grazing incidence)로 물을 바라보면 물의 표면과 평행에 가까워질수록 물의 표면에서의 정반사가 더 강하게 관측되며 물의 바닥은 거의 보이지 않을 것이다.</p>
+<h3>F0 (0도에서의 프레넬 반사율)</h3>
+<p>빛이 수직으로 표면과 충돌하면(0도의 경우) 해당 빛의 특정 퍼센테이지(%)가 정반사된다. 표면의 굴절률(IOR, Index Of Refraction)를 활용하면 여기서 반사되는 빛의 양을 도출할 수 있다. 이를 그림 11에서 보는 것처럼 F0(프레넬 제로)라고 부른다. 이때, 표면에서 굴절되는 빛의 양을 1-F0라고 부른다.</p>
+<p><span
+      class="gatsby-resp-image-wrapper"
+      style="position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 800px; "
+    >
+      <a
+    class="gatsby-resp-image-link"
+    href="/static/767919d04f67ee1cb920592f06a1cb0b/c1b63/figure_11_fresnel_zero.png"
+    style="display: block"
+    target="_blank"
+    rel="noopener"
+  >
+    <span
+    class="gatsby-resp-image-background-image"
+    style="padding-bottom: 62.5%; position: relative; bottom: 0; left: 0; background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAANCAIAAAAmMtkJAAAACXBIWXMAAAsTAAALEwEAmpwYAAACeUlEQVQoz2P4jwz+/vn/7y+C/fcfiiQY/Pv3D0L+//+f4fzdbxfvfb/68PuD19+ffP736t3na9cfXrv17MWXX+9+/3769duz799ffv/29tvXv3///kcFDAtO/Fh56ffaG793Pv4/a/q2ep/YCkuXOme/xZVNV+4/evD//4s/f779///s3dvLly8fPnz46dOn9+7du3bt2r9//xhOff9z+fe/O///z5+9IUvLPFtRI19Jo1Rdt1LXZEZc2tvnb//8+fPy2bOL58/fu3fv48ePL1++fPfu3devX0E2n7xx5cKjO0fP3yj3jck3sy60tKlz9yjVMq0wtG3y8Fo+Yda2XXt279135vzFHz9+oDs7PyMiLTWwPD0538o6XV2h2tmhKz6hIyopzdSuMT55+9z5C6a21NZmNzWVf/v27f///99/fP/+/TtUc0t1WFdzfGuqZ4aWTIq8YIObTWeIb29MWLmJXq2F0cRAl3lNSVM6s7obs+7cuXMDDK5duwZxBUNPS8jqRXlTy0OTNWST5EXz9FTrnC1q7IyK1QSLlAWbnQ1XTS9aP79o0/JWiIV///79+fPn79+/QZqrC7076yMmtyRkWWlES/DFiPMmSfGly/DkqwkUKvHV+xl2NIR3N4TNmVwK0QyJYaizextiuuviu+rimvJDkgyVw0T5wvg4InjYYkV4Ch20W8pCaoqCCtNc2hvSsGhuLA1sLA1uKAtpqY8sy/JI99CPMlaKNVbO8DPJTXXKTXYsTHXJiLVqqk7CovnksQPHj+4/dvTAsSP7jh/Zd+7sscuXzl65cu7CxdNnTh07c/LI6ZNHT508cuP6pb//MFLYfwoAAPNPKcoNtnH/AAAAAElFTkSuQmCC'); background-size: cover; display: block;"
+  ></span>
+  <img
+        class="gatsby-resp-image-image"
+        alt="그림 11: 매끄러운 유전체(誘電體)의 표면에서 F0는 2-5%의 빛을 반사하고 비스듬한 각도에서는 100%를 반사한다"
+        title="그림 11: 매끄러운 유전체(誘電體)의 표면에서 F0는 2-5%의 빛을 반사하고 비스듬한 각도에서는 100%를 반사한다"
+        src="/static/767919d04f67ee1cb920592f06a1cb0b/5a190/figure_11_fresnel_zero.png"
+        srcset="/static/767919d04f67ee1cb920592f06a1cb0b/772e8/figure_11_fresnel_zero.png 200w,
+/static/767919d04f67ee1cb920592f06a1cb0b/e17e5/figure_11_fresnel_zero.png 400w,
+/static/767919d04f67ee1cb920592f06a1cb0b/5a190/figure_11_fresnel_zero.png 800w,
+/static/767919d04f67ee1cb920592f06a1cb0b/c1b63/figure_11_fresnel_zero.png 1200w"
+        sizes="(max-width: 800px) 100vw, 800px"
+        style="width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;"
+        loading="lazy"
+      />
+  </a>
+    </span></p>
+<blockquote>
+<p>그림 11: 매끄러운 유전체(誘電體)의 표면에서 F0는 2-5%의 빛을 반사하고 비스듬한 각도에서는 100%를 반사한다</p>
+</blockquote>
+<p>F0는 대부분의 유전체(誘電體)에서 0.02-0.05(선형 값)이다. 도체(導體, conductors)의 경우에 F0는 0.5-1.0이다. 따라서 표면의 반사성은 다음 공식의 굴절률에 의해 결정된다 (Lagarde 2011).</p>
+<p>F0 반사율은</p>
+<p>It is the F0 reflectance value that we are concerned with in regards to authoring our textures. Non-metals (dielectrics/insulators) will have a greyscale value and metals (conductors) will have an RGB value. With regards to PBR and from an artistic interpretation of reflectance, we can state that for a common smooth dielectric surface, F0 will reflect between 2% and 5% of light and 100% at grazing angles as was shown in Figure 11.</p>
+<p>The dielectric (non-metal) reflectance values don't actually change very drastically. In fact, when altered by roughness the actual changes in value can be hard to see. However, there is a difference in the values. In Figure 12, you can see a chart that shows the F0 ranges for both metal and non-metal materials.</p>
+<p>Notice that the ranges for non-metals do not deviate from each other drastically. Gemstones are an exception as they have higher values. We will discuss F0 as it specifically relates to conductors and insulators a bit later.</p>
+<h3>도체와 절연체</h3>
+<p>Conductors and Insulators (Metals and Non-Metals)</p>
+<p>When creating materials for PBR, it is helpful to think in terms of metal or non-metal. Ask yourself if the surface is metal or not. If it is, you will need to follow one set of guidelines. If it is not, you will need to follow another.</p>
+<p>This can be a simplistic approach as some materials may not fall into these categories such as metalloids (a mix of metal and non-metal), but in the overall process of creating materials, distinguishing between metal and non-metal is a good approach and metalloids are an exception. To set up guidelines for materials, we must first understand what we are trying to create. With PBR, we can look at the properties of metals (conductors) and non-metals (insulators) to derive this set of guidelines as shown in Figure 12.</p>
+<blockquote>
+<p>Figure 12: F0 ranges for both metal and non-metal materials</p>
+</blockquote>
+<p>Refracted light is absorbed, and the color tint of metals comes from the reflected light, so in our maps, we don’t give metals a diffuse color.</p>
+<h3>금속</h3>
+<blockquote>
+<p>작성 중</p>
+</blockquote>
+<h2>원문</h2>
+<ul>
+<li><a href="https://academy.substance3d.com/courses/the-pbr-guide-part-1">The PBR Guide - Part 1</a></li>
+</ul>
+<div class="footnotes">
+<hr>
+<ol>
+<li id="fn-1">여기서 셰이더(shader)란 "픽셀의 위치와 색을 결정하는 함수"를 의미한다.<a href="#fnref-1" class="footnote-backref">↩</a></li>
+</ol>
+</div></div></div></div></div><div id="gatsby-announcer" style="position:absolute;top:0;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0, 0, 0, 0);white-space:nowrap;border:0" aria-live="assertive" aria-atomic="true"></div></div><script id="gatsby-script-loader">/*<![CDATA[*/window.pagePath="/graphics_the_pbr_guide_part_1/";/*]]>*/</script><script id="gatsby-chunk-mapping">/*<![CDATA[*/window.___chunkMapping={"polyfill":["/polyfill-e8f67d573e8806a538a0.js"],"app":["/app-3a890d058a16ea76b791.js"],"component---cache-caches-gatsby-plugin-offline-app-shell-js":["/component---cache-caches-gatsby-plugin-offline-app-shell-js-b3411e3bcf9659fa3cfa.js"],"component---src-pages-404-js":["/component---src-pages-404-js-a7a8e13780b8b1d6dda4.js"],"component---src-pages-about-js":["/component---src-pages-about-js-3a1ea2022a28575dd632.js"],"component---src-pages-contact-js":["/component---src-pages-contact-js-785966717ac1cc356f80.js"],"component---src-pages-index-js":["/component---src-pages-index-js-e0d19793b9f9c96e477e.js"],"component---src-pages-my-files-js":["/component---src-pages-my-files-js-177a030010b6a6b1ec48.js"],"component---src-templates-blog-post-js":["/component---src-templates-blog-post-js-0d38287e03ba1aa33825.js"]};/*]]>*/</script><script src="/polyfill-e8f67d573e8806a538a0.js" nomodule=""></script><script src="/component---src-templates-blog-post-js-0d38287e03ba1aa33825.js" async=""></script><script src="/0a483a1aa7992b78498602e1316e4383e7e52bb2-d0ba6f0cecf0c658f2ae.js" async=""></script><script src="/3cb3c15893adc5143435e86eacfa519efc959b1b-a573080baf502825e9ab.js" async=""></script><script src="/app-3a890d058a16ea76b791.js" async=""></script><script src="/framework-a17c9893df41f16dd6ed.js" async=""></script><script src="/webpack-runtime-719cd584059c4231b6ef.js" async=""></script></body></html>
