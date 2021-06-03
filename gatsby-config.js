@@ -1,6 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: "sungkukpark.github.io",
+    author: `Sungkuk Park`,
+    title: `Game Criticism`,
+    siteUrl: `https://sungkukpark.github.io/`,
+    description: `External brain of Sungkuk Park`
   },
   plugins: [
     "gatsby-plugin-gatsby-cloud",
