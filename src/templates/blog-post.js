@@ -6,12 +6,12 @@ import SEO from "../components/seo"
 
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
-  let disqusConfig = {
-    // TODO: Add url and identifier to Disquis config object
-    // url: `${config.siteUrl+location.pathname}`,
-    // identifier: post.frontmatter.identifier,
-    title: post.frontmatter.title,
-  }
+  // let disqusConfig = {
+  //   // TODO: Add url and identifier to Disquis config object
+  //   // url: `${config.siteUrl+location.pathname}`,
+  //   // identifier: post.frontmatter.identifier,
+  //   title: post.frontmatter.title,
+  // }
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.excerpt} />
