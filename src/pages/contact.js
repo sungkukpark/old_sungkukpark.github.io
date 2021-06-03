@@ -3,7 +3,7 @@ import Header from "../components/header";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 
-export default () => (
+const ContactPage = () => (
   <Layout>
     <Helmet htmlAttributes={{ lang : 'en' }}>
       <meta charSet="utf-8" />
@@ -21,3 +21,5 @@ export default () => (
     </p>
   </Layout>
 );
+
+export default ContactPage;
