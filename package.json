@@ -13,7 +13,9 @@
     "build": "gatsby build",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "deploy": "gatsby build && gh-pages -d public -b release -r https://$GH_TOKEN@github.com/sungkukpark/sungkukpark.github.io.git"
+    "deploy": "gatsby build && gh-pages -d public -b release -r git@github.com:sungkukpark/sungkukpark.github.io.git",
+    "publish": "gh-pages -d public -b release -r git@github.com:sungkukpark/sungkukpark.github.io.git",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache"
   },
   "dependencies": {
     "@emotion/core": "^11.0.0",
