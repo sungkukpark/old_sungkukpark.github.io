@@ -52,6 +52,9 @@ const AboutPage = () => {
     <li>
       <b>Participated as Reviewer</b> of <i>Hands-On Unity 2020 Game Development (Packt)</i>, Written by Nicolas Alejandro Borromeo
     </li>
+    <li>
+      <b>Participated as Reviewer</b> of <i>Unity 2020 Cookbook (Packt)</i>
+    </li>
   </Layout>
   )
 }
