@@ -4,7 +4,7 @@ import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import portrait from "../images/sungkukpark_portrait.png";
 
-export default () => (
+const AboutPage = () => {
   <Layout>
     <Helmet htmlAttributes={{ lang: "en" }}>
       <meta charSet="utf-8" />
@@ -52,7 +52,9 @@ export default () => (
       <b>Participated as Reviewer</b> of <i>Hands-On Unity 2020 Game Development (Packt)</i>, Written by Nicolas Alejandro Borromeo
     </li>
   </Layout>
-);
+}
+
+export default AboutPage
 
 export const query = graphql`
   query {
@@ -62,4 +64,4 @@ export const query = graphql`
       }
     }
   }
-`;
+`
