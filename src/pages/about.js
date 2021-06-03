@@ -5,6 +5,7 @@ import { Helmet } from "react-helmet";
 import portrait from "../images/sungkukpark_portrait.png";
 
 const AboutPage = () => {
+  return (
   <Layout>
     <Helmet htmlAttributes={{ lang: "en" }}>
       <meta charSet="utf-8" />
@@ -52,6 +53,7 @@ const AboutPage = () => {
       <b>Participated as Reviewer</b> of <i>Hands-On Unity 2020 Game Development (Packt)</i>, Written by Nicolas Alejandro Borromeo
     </li>
   </Layout>
+  )
 }
 
 export default AboutPage
