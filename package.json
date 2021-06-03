@@ -12,7 +12,7 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
     "deploy": "gatsby build && gh-pages -d public -b release -r https://$GH_TOKEN@github.com/sungkukpark/sungkukpark.github.io.git"
   },
   "dependencies": {
