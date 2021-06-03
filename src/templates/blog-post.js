@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 // import { Disqus, CommentCount } from 'gatsby-plugin-disqus'
 
-export default ({ data }) => {
+const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   let disqusConfig = {
     // TODO: Add url and identifier to Disquis config object
@@ -24,6 +24,8 @@ export default ({ data }) => {
     </Layout>
   )
 }
+
+export default BlogPost;
 
 export const query = graphql`
   query($slug: String!) {

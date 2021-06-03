@@ -5,7 +5,7 @@ import { rhythm } from "../utils/typography";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 
-export default ({ data }) => {
+const IndexPage = ({ data }) => {
   return (
     <Layout>
       <Helmet htmlAttributes={{ lang: "en" }}>
@@ -65,6 +65,8 @@ export default ({ data }) => {
     </Layout>
   );
 };
+
+export default IndexPage;
 
 export const query = graphql`
   query {
