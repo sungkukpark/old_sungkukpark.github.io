@@ -20,7 +20,7 @@ const BlogPost = ({ data }) => {
         <h1>{post.frontmatter.title}</h1>
         <div dangerouslySetInnerHTML={{ __html: post.html }} />
         <DiscussionEmbed {...disqusConfig} />
-DiscussionEmbed      </div>
+      </div>
     </Layout>
   )
 }
