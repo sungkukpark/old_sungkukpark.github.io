@@ -7,7 +7,7 @@ import { DiscussionEmbed } from "disqus-react"
 const BlogPost = ({ data }) => {
   const post = data.markdownRemark
   const disqusConfig = {
-    shortname: process.env.GATSBY_DISQUS_NAME,
+    shortname: 'gamecriticism',
     config: {
       identifier: post.frontmatter.identifier,
       title: post.frontmatter.title
