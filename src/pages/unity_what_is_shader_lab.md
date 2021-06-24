@@ -1,5 +1,5 @@
 ---
-title: "[Shader] 셰이더 랩(ShaderLab)이란?"
+title: "[유니티] 셰이더 랩(ShaderLab)이란?"
 date: "2021-06-24"
 ---
 
