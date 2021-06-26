@@ -46,7 +46,15 @@ Shader "MyShaders/EmptyShader"
 }
 ```
 
-이제 해당 Properties에 색을 표현할 컬러값을 가진 프로퍼티 하나를 추가해보자.
+## 머테리얼 프로퍼티 선언
+
+모든 머테리얼 프로퍼티 선언은 다음 포맷을 따른다:
+
+```glsl
+[optional: attribute] 변수명("인스펙터 상에 표시할 레이블 텍스트", 데이터 타입명) = 디폴트값
+```
+
+이제 위의 포맷에 따라 해당 Properties에 색을 표현할 컬러값을 가진 머테리얼 프로퍼티 하나를 추가해보자.
 
 ```glsl
 Shader "MyShaders/EmptyShader"
