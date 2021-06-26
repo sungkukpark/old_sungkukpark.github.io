@@ -20,7 +20,10 @@
     <span class="token punctuation">}</span>
     Fallback <span class="token keyword">false</span>
 <span class="token punctuation">}</span></code></pre></div>
-<p>이제 해당 Properties에 색을 표현할 컬러값을 가진 프로퍼티 하나를 추가해보자.</p>
+<h2>머테리얼 프로퍼티 선언</h2>
+<p>모든 머테리얼 프로퍼티 선언은 다음 포맷을 따른다:</p>
+<div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl"><span class="token punctuation">[</span>optional<span class="token operator">:</span> <span class="token keyword">attribute</span><span class="token punctuation">]</span> 변수명<span class="token punctuation">(</span><span class="token string">"인스펙터 상에 표시할 레이블 텍스트"</span><span class="token punctuation">,</span> 데이터 타입명<span class="token punctuation">)</span> <span class="token operator">=</span> 디폴트값</code></pre></div>
+<p>이제 위의 포맷에 따라 해당 Properties에 색을 표현할 컬러값을 가진 머테리얼 프로퍼티 하나를 추가해보자.</p>
 <div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl">Shader <span class="token string">"MyShaders/EmptyShader"</span>
 <span class="token punctuation">{</span>
     Properties
