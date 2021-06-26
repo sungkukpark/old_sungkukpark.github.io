@@ -6,7 +6,12 @@
 <p>위의 코드는 단순히 셰이더의 이름을 가진 빈 껍데기에 불과하다. 이제 여기에 확장 가능한 형태의 뼈대를 하나씩 세워보도록 하자.</p>
 <h2>프로퍼티(Properties)</h2>
 <p>셰이더는 기본적으로 <strong>특정 시각적 표현 의도를 구현하는 코드</strong>이기 때문에 필요에 따라 아티스트나 디자이너가 직접 셰이더를 구성하는 값을 변경할 수 있어야 한다. 이 때문에 유니티의 ShaderLab은 유니티의 머테리얼 인스펙터 창에서 여러 가지 인자(parameters)를 변경할 수 있게 지원하는 코드 정의 블록을 갖고 있다. 이를 <a href="https://docs.unity3d.com/Manual/SL-Properties.html">Properties</a>라 한다. 그리고 이 Properties를 구성하는 각각의 요소를 프로퍼티(Property)라고 한다. 참고로 ShaderLab에서의 Properties 구문(syntax)은 다음과 같다:</p>
-<div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl">Properties <span class="token punctuation">{</span> Property <span class="token punctuation">[</span>Property <span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">]</span> <span class="token punctuation">}</span></code></pre></div>
+<div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl">Properties
+<span class="token punctuation">{</span>
+    <span class="token operator">&lt;</span>머테리얼 프로퍼티 선언 <span class="token punctuation">(</span>Material property declaration<span class="token punctuation">)</span><span class="token operator">></span>
+    <span class="token operator">&lt;</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token operator">></span>
+<span class="token punctuation">}</span></code></pre></div>
+<p>이렇게 프로퍼티를 선언하면 주어진 각각의 프로퍼티를 머터리얼 어셋(material asset)으로 저장하고, 이 머테리얼 어셋에 저장된 값을 렌더링 시에 사용하게 된다. 프로퍼티 블록은 어떤 수의 머테리얼 프로퍼티 선언이라도 포함할 수 있다.</p>
 <p>이제 우리가 방금 만든 빈 셰이더에 Properties 블록을 정의해보자.</p>
 <div class="gatsby-highlight" data-language="glsl"><pre class="language-glsl"><code class="language-glsl">Shader <span class="token string">"MyShaders/EmptyShader"</span>
 <span class="token punctuation">{</span>
