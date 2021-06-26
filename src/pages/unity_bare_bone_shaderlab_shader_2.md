@@ -25,8 +25,14 @@ Shader "MyShaders/EmptyShader"
 셰이더는 기본적으로 **특정 시각적 표현 의도를 구현하는 코드**이기 때문에 필요에 따라 아티스트나 디자이너가 직접 셰이더를 구성하는 값을 변경할 수 있어야 한다. 이 때문에 유니티의 ShaderLab은 유니티의 머테리얼 인스펙터 창에서 여러 가지 인자(parameters)를 변경할 수 있게 지원하는 코드 정의 블록을 갖고 있다. 이를 [Properties]라 한다. 그리고 이 Properties를 구성하는 각각의 요소를 프로퍼티(Property)라고 한다. 참고로 ShaderLab에서의 Properties 구문(syntax)은 다음과 같다:
 
 ```glsl
-Properties { Property [Property ...] }
+Properties
+{
+    <머테리얼 프로퍼티 선언 (Material property declaration)>
+    <...>
+}
 ```
+
+이렇게 프로퍼티를 선언하면 주어진 각각의 프로퍼티를 머터리얼 어셋(material asset)으로 저장하고, 이 머테리얼 어셋에 저장된 값을 렌더링 시에 사용하게 된다. 프로퍼티 블록은 어떤 수의 머테리얼 프로퍼티 선언이라도 포함할 수 있다.
 
 이제 우리가 방금 만든 빈 셰이더에 Properties 블록을 정의해보자.
 
