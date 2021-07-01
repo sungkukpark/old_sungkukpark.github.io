@@ -4,7 +4,7 @@ date: "2020-02-15"
 ---
 
 [블렌더(Blender)]: https://www.blender.org/
-[블렌더 2.8 런치 패드(BLENDER 2.8 LAUNCH PAD)]: https://academy.cgboost.com/p/blender-2-8-launch-pad
+[블렌더 2.8 런치 패드(BLENDER 2.8 LAUNCH PAD)]: https://academy.cgboost.com/p/blender-2-8-launch-pad?affcode=206256_rghwbwlz
 [리얼타임 렌더링(Real-time Rendering)]: https://www.amazon.de/Real-Time-Rendering-Fourth-Tomas-Akenine-M%C3%B6ller/dp/1138627003
 [스크립터블 렌더 파이프라인(Scriptable Render Pipeline)]: https://docs.unity3d.com/Manual/ScriptableRenderPipeline.html
 [유니티를 활용한 셰이더 개발(Shader Development using Unity)]: https://shaderdev.com/
