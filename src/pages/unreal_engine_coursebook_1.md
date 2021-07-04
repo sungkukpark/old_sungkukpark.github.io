@@ -50,6 +50,14 @@ date: "2021-07-04"
 
 이때, EngineAssociation의 값이 `4.26`인 것은 컴퓨터에 만약 여러 개의 언리얼 엔진이 설치되어 있다면 `4.26` 버전의 언리얼 엔진을 실행해 해당 프로젝트를 열어야 한다는 뜻이다.
 
+## `NetFxSDK` 설치 폴더를 찾을 수 없는 문제 해결
+
+다음과 같은 에러 메시지가 발생하는 경우에는 Visual Studio Installer를 통해 .Net desktop development 설치를 통해 .Net Framework SDK 4.6.0 이상을 설치해주면 해결된다.
+
+```
+ERROR: Could not find NetFxSDK install dir; this will prevent SwarmInterface from installing.  Install a version of .NET Framework SDK at 4.6.0 or higher.
+```
+
 ## 참고 자료
 
 - 이득우, 『이득우의 언리얼 C++ 게임 개발의 정석』
