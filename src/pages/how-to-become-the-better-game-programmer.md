@@ -4,8 +4,10 @@ date: "2020-02-14"
 ---
 
 [공변성(covariance)과 반공변성(contravariance)]: https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/concepts/covariance-contravariance/
+
 [C# in Depth]: https://www.amazon.de/dp/1617294535/ref=sr_1_1?keywords=c%23+in+depth&qid=1581712767&sr=8-1
-[에릭 에반스(Eric J. Evans)]: https://www.amazon.de/dp/0321125215/ref=sr_1_1?keywords=Domain-Driven+Design&qid=1581714240&sr=8-1)
+
+[에릭 에반스(Eric J. Evans)]: https://www.amazon.de/dp/0321125215/ref=sr_1_1?keywords=Domain-Driven+Design&qid=1581714240&sr=8-1
 
 어디서부터 말해야 할까. 그래, 가장 기본적인 것부터 시작하자. 채용 과정과 스크리닝 과정에서 가장 실망스러운 점 중 하나는 얼마나 많은 프론트엔드 프로그래머들이 그들이 주력으로 삼는 프로그래밍 언어에 대해 아는 바가 거의 없는지에 대한 부분이야. 예를 들면, 나는 [공변성(covariance)과 반공변성(contravariance)]에 대하여 설명할 수 있는 프로그래머를 한 명이라도 만나 인터뷰한 경험이 없어. 우리 회사 엔지니어들 중에서도 몇 명이라도 그걸 설명할 수 있으리라고 기대하기도 어렵네. 솔직히 말해 이건 좀 슬픈 일이야. 내가 직접 읽어본 적은 없지만 존 스킷(Jon Skeets)의 저서들은 읽을 가치가 있을 거라고 확신해. [C# in Depth]도 내 독서 목록에 들어있어. 요컨대, 네 주력 프로그래밍 언어의 전문가가 되어야 해.
 
