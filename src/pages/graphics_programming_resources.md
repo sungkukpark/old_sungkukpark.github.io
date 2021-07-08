@@ -22,6 +22,48 @@ date: "2020-05-08"
 
 - [2017 12 09_데브루키_리얼타임 렌더링_입문편(3차원 그래픽스[저자 : 한정현] 참조)](https://www.slideshare.net/SukwooLee4/2017-12-09-85033171)
 
+- [Ray Tracomg Gems](http://www.realtimerendering.com/raytracinggems/), Haines et al.
+
+- "Essentials of Interactive Computer Graphics", Sung et al.
+
+- "Interactive Computer Graphics", Angel and Schreiner
+
+- "Computer Graphics Principles and Practice", Hugues et al.
+
+- "Computer Graphics with OpenGL", Hearn et al.
+
+- "Physically Based Rendering", Pharr and Humphreys
+
+- "Real-Time Rendering", Akenine-Möller et al.
+
+- "3D Game Programming with DirectX 12", Luna
+
+- "Digital Image Processing", Gonzalez
+
+- "OpenGL SuperBible", Sellers et al.
+
+- "OpenGL Programming Guide", Kessenich
+
+- "Game Engine Architecture", Gregory
+
+- "Multiview Geometry", Hartley and Zisserman
+
+- "Linear Algebra and Its Applications", Lay
+
+- "Mathematics for 3D Game Programming and Computer Graphics", Lengyel
+
+- "3D Math Primer for Graphics and Game Developers", Dunn and Parberry
+
+- "An Instruction to 3D Computer Vision Techniques and Algorithms", Cyganek and Siebert
+
+- "Computer Animation Algorithms & Techniques", Parent
+
+- "Real-time Collision Detection", Ericson
+
+- "수학과 OpenGL 프로그래밍", 강영민
+
+- "OpenGL로 배우는 컴퓨터 그래픽스", 주우석
+
 ### NPR
 
 - [[NDC] 할머니가 들려주신 마비노기 개발 전설](https://www.youtube.com/watch?v=w106hHTwhfk&feature=youtu.be&t=739)
