@@ -39,7 +39,7 @@ date: "2021-07-11"
 
 ### 유니티 학습(Learn)
 
-- New card layout to showcase featured and recommended content
+- 피처드나 추천 컨텐츠 진열을 위한 새로운 카드 레이아웃 디자인
 
 ## 알려진 이슈 & 한계
 
