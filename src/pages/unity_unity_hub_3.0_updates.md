@@ -5,7 +5,7 @@ date: "2021-07-11"
 
 원문: [Unity Hub Release Notes - 3.0.0-beta.1](https://unity3d.com/hub/whats-new)
 
-<iframe width="1102" height="620" src="https://www.youtube.com/embed/cfDoIs1r2qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="551" height="310" src="https://www.youtube.com/embed/cfDoIs1r2qU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 유니티 허브(Unity Hub)가 지난 7월 8일 3.0으로 재단장했다. 본 포스팅은 유니티 허브 3.0 릴리스 노트를 번역한 글이다.
 
