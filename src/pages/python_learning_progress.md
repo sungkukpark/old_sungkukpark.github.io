@@ -9,4 +9,16 @@ date: "2021-07-26"
 
 ---
 
-- [ ] [Fluent Python Part 1. 파이썬 데이터 모델 목차 번역 및 요약]하기
+- [ ] Fluent Python 완독
+  - [x] [Fluent Python Part 1. 파이썬 데이터 모델 목차 번역]하기
+    - [ ] 요약하기
+  - [ ] Fluent Python Part 2. 자료 구조 목차 번역하기
+    - [ ] 요약하기
+  - [ ] Fluent Python Part 3. 객체로서의 함수 목차 번역하기
+    - [ ] 요약하기
+  - [ ] Fluent Python Part 4. 객체-지향 숙어 번역하기
+    - [ ] 요약하기
+  - [ ] Fluent Python Part 5. 제어 흐름 목차 번역하기
+    - [ ] 요약하기
+  - [ ] Fluent Python Part 6. 메타프로그래밍 목차 번역하기
+    - [ ] 요약하기
