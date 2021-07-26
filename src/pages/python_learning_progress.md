@@ -22,3 +22,8 @@ date: "2021-07-26"
     - [ ] 요약하기
   - [ ] Fluent Python Part 6. 메타프로그래밍 목차 번역하기
     - [ ] 요약하기
+- [ ] Harvard University | CS50's Introduction to Computer Science 완강
+- [ ] University of Rechester | Department of Physics and Astronomy |
+CSC 161 | Intro to Programming 완강
+- [ ] Python으로 TODO앱 만들기
+- [ ] Python으로 「Angry Bird」 만들기
