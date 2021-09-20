@@ -7,6 +7,7 @@ date: "2021-09-20"
 [SendMessage]: https://docs.unity3d.com/ScriptReference/GameObject.SendMessage.html
 [AnimationClip.AddEvent]: https://docs.unity3d.com/ScriptReference/AnimationClip.AddEvent.html
 [AnimationUtility.SetAnimationEvents]: https://docs.unity3d.com/ScriptReference/AnimationUtility.SetAnimationEvents.html
+[AnimationClip.frameRate]: https://docs.unity3d.com/ScriptReference/AnimationClip-frameRate.html
 
 ## 애니메이션 이벤트(AnimationEvent)란?
 
@@ -67,6 +68,8 @@ public class AddEventExample : MonoBehaviour
 }
 ```
 
+![add_event_example](./unity_how_to_add_animation_events_dynamically/add_event_example.png)
+
 ## AnimationEvent를 정적으로 추가하기
 
 위에서 알아본 AddEvent 메서드는 애니메이션 이벤트를 동적으로 추가한다. 여기서 AddEvent로 추가된 AnimationEvent는 플레이 모드가 종료되는 경우에 사라지게 된다. 해당 클립에 추가한 이벤트의 영속성(persistence)을 유지하기 위해서는 유니티 에디터 내에서 [AnimationUtility.SetAnimationEvents] 메서드를 호출하도록 한다.
@@ -74,3 +77,7 @@ public class AddEventExample : MonoBehaviour
 ## 결론
 
 요컨대, AnimationEvent를 동적으로 추가할 때는 [AnimationClip.AddEvent], 그게 아니라 유니티 에니터 내에서 정적으로 추가할 때에는 [AnimationUtility.SetAnimationEvents]를 활용하도록 한다.
+
+## 응용 문제
+
+만약, 위의 코드에서 특정 초(seconds)가 아니라 특정 프레임(frame)에 원하는 이벤트를 추가하려고 하면 어떻게 해야 할까? (힌트: [AnimationClip.frameRate]를 활용)
