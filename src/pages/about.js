@@ -24,13 +24,7 @@ const AboutPage = () => {
       width="256"
     />
     <p>
-      Engineer at Wooga.
-      Unity expert.
-      Aspiring Technical Artist.
-      Interested in Game Feel and Rendering Engineering.
-      Occasional game critic.
-      C# developer.
-      C++ enthusiast.
+      Technical Artist at Wooga.
     </p>
     <h2>Publications</h2>
     <h3>Critics</h3>
