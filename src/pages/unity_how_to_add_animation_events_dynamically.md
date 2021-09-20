@@ -71,4 +71,6 @@ public class AddEventExample : MonoBehaviour
 
 위에서 알아본 AddEvent 메서드는 애니메이션 이벤트를 동적으로 추가한다. 여기서 AddEvent로 추가된 AnimationEvent는 플레이 모드가 종료되는 경우에 사라지게 된다. 해당 클립에 추가한 이벤트의 영속성(persistence)을 유지하기 위해서는 유니티 에디터 내에서 [AnimationUtility.SetAnimationEvents] 메서드를 호출하도록 한다.
 
+## 결론
+
 요컨대, AnimationEvent를 동적으로 추가할 때는 [AnimationClip.AddEvent], 그게 아니라 유니티 에니터 내에서 정적으로 추가할 때에는 [AnimationUtility.SetAnimationEvents]를 활용하도록 한다.
