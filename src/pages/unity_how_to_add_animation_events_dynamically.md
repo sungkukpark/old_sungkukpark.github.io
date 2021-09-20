@@ -68,6 +68,8 @@ public class AddEventExample : MonoBehaviour
 }
 ```
 
+위의 코드를 실행하면 다음 스크린샷처럼 정확히 각각 `0.5`초, `1.5`초 구간에 애니메이션 이벤트가 동적으로 추가된 것을 볼 수 있다.
+
 ![add_event_example](./unity_how_to_add_animation_events_dynamically/add_event_example.png)
 
 ## AnimationEvent를 정적으로 추가하기
