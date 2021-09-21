@@ -24,7 +24,7 @@ const AboutPage = () => {
       width="256"
     />
     <p>
-      Technical Artist at Wooga
+      Engineer at Wooga
     </p>
     <h2>Publications</h2>
     <h3>Critics</h3>
