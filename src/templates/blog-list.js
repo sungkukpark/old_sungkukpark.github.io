@@ -95,9 +95,14 @@ export default class BlogList extends React.Component {
       </div>
       <div>
         {Array.from({ length: numPages }, (_, i) => (
-        <Link key={`pagination-number${i + 1}`} to={`/${i === 0 ? "" : i + 1}`} style={{ marginRight: '.5rem' }}>
-          {i + 1}
-        </Link>
+          (i + 1 === currentPage ?
+            <Link key={`pagination-number${i + 1}`} to="#" style={{ marginRight: '.5rem', color: 'inherit', textDecoration: 'inherit' }}>
+              {i + 1}
+            </Link> :
+            <Link key={`pagination-number${i + 1}`} to={`/${i === 0 ? "" : i + 1}`} style={{ marginRight: '.5rem' }}>
+            {i + 1}
+            </Link>
+          )
         ))}
       </div>
       </Layout>
