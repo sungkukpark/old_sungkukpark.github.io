@@ -26,6 +26,19 @@ const AboutPage = () => {
     <p>
       Engineer at Wooga
     </p>
+    <h2>Experience</h2>
+    <li>
+      <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 - Present
+    </li>
+    <li>
+      <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 - August 2018
+    </li>
+    <h2>Education</h2>
+    <ul>
+      <li>
+        <b>Hongik University</b> — Majored <i>Art History and Theory</i> (GPA 3.54/4.5) / March 2007 - February 2011
+      </li>
+    </ul>
     <h2>Publications</h2>
     <h3>Critics</h3>
     <ul>
