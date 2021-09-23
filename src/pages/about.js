@@ -48,7 +48,7 @@ const AboutPage = () => {
     <h2>Education</h2>
     <ul>
       <li>
-        <b>Hongik University</b> — Majored <i>Art History and Theory</i> (GPA 3.54/4.5) / March 2007 - February 2011
+        <b>Hongik University (Seoul Campus)</b> — Majored <i>Art History and Theory</i> (GPA 3.54/4.5) / March 2007 - February 2011
       </li>
     </ul>
     <h2>Publications</h2>
