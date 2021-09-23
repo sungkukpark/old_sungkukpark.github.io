@@ -27,12 +27,24 @@ const AboutPage = () => {
       Engineer at Wooga
     </p>
     <h2>Experience</h2>
-    <li>
-      <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 - Present
-    </li>
-    <li>
-      <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 - August 2018
-    </li>
+    <ul>
+      <li>
+        <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 - Present
+        <ul>
+          <li>
+            Currently working on an unannounced mobile game project
+          </li>
+        </ul>
+      </li>
+      <li>
+        <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 - August 2018
+        <ul>
+          <li>
+            Released <i><a rel="noopener noreferrer" href="https://store.steampowered.com/app/862490/Fantasy_Raiders/" target="_blank">Fantasy Raiders</a></i> on Steam (Windows, Macintosh)
+          </li>
+        </ul>        
+      </li>
+    </ul>
     <h2>Education</h2>
     <ul>
       <li>
