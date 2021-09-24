@@ -33,6 +33,7 @@ date: "2020-05-15"
 
 - [Carlos Baena](https://www.youtube.com/user/baenca00)
 - [Keith Lango](https://www.youtube.com/channel/UCp8-RuUuqWRnkEGKxgbDvKQ)
+- [Animation reviews from JP Sans](https://agora.community/reviewer/jp)
 
 ## 블로그
 
