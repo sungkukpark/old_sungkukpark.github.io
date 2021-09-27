@@ -3,6 +3,10 @@ title: "[C] The C Programming Language 1.1 시작하기"
 date: "2020-06-25"
 ---
 
+## 환경 설정
+
+Mac 환경의 경우, 첫 C 프로그램을 작성하기 이전에 [[C] Mac에 clang 설치하기](https://sungkukpark.github.io/c_how_to_install_clang_on_mac/) 포스팅을 읽고 clang을 설치할 것을 권장한다.
+
 ## 첫 프로그램 작성
 
 ### "hello, world"라고 출력하는 프로그램을 작성하라
