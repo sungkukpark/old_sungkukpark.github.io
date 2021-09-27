@@ -60,7 +60,15 @@ cc hello.c
 
 ### Answer 1-1
 
-세미콜론 `;`를 빼먹었을 때 `expected a ';'`라는 메시지가 출력된다.
+세미콜론 `;`를 빼먹었을 때 `cc` 명령을 실행했을 때 다음과 같은 에러 메시지가 출력된다.
+
+```shell
+a.c:5:28: error: expected ';' after expression
+    printf("hello, world!")
+                           ^
+                           ;
+1 error generated.
+```
 
 ### Exercise 1-2
 
@@ -68,4 +76,11 @@ cc hello.c
 
 ### Answer 1-2
 
-`warning: unknown escape sequence '\c'`라는 경고가 출력되면서 `c`라는 문자가 그대로 출력된다.
+`cc` 명령을 실행했을 때 다음과 같은 경고 메시지가 출력되면서 `c`라는 문자가 그대로 출력된다.
+
+```shell
+a.c:5:26: warning: unknown escape sequence '\c' [-Wunknown-escape-sequence]
+    printf("hello, world!\c");
+                         ^~
+1 warning generated.
+```
