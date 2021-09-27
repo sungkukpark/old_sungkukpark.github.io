@@ -1,5 +1,5 @@
 ---
-title: "[독서 노트] The C Programming Language 1.1 시작하기"
+title: "[C] The C Programming Language 1.1 시작하기"
 date: "2020-06-25"
 ---
 
