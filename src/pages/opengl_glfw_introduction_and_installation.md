@@ -17,9 +17,11 @@ GLFW는 C로 작성되었으며 윈도우, macOS, X11, 그리고 Wayland 운영 
 
 2. Visual Studio를 통해 새로운 프로젝트를 생성한 뒤 해당 GLFW 라이브러리의 `include` 폴더를 `C/C++ -> Additional Include Directories`에 추가한다.
 
-3. 해당 GLFW의 실제 라이브러리 파일을 `Configuration Properties/Linker/Input`에 추가한다.
+3. 해당 GLFW의 라이브러리 파일을 `Configuration Properties -> Linker -> Input`에 추가한다.
 
 4. C++ 파일을 생성한 다음 [GLFW 튜토리얼 코드](https://www.glfw.org/documentation.html)를 복사해 붙여넣는다.
+
+5. Visual Studio를 통해 해당 프로젝트를 빌드하고 실행한다.
 
 ## Mac의 경우
 
