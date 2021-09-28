@@ -33,7 +33,7 @@ brew install glfw
 
 2. C++ 파일을 생성한 다음 [GLFW 튜토리얼 코드](https://www.glfw.org/documentation.html)를 복사해 붙여넣는다.
 
-```
+```cpp
 /* Ask for an OpenGL Core Context */
 #define GLFW_INCLUDE_GLCOREARB
 #include <GLFW/glfw3.h>
