@@ -11,6 +11,18 @@ GLFW는 C로 작성되었으며 윈도우, macOS, X11, 그리고 Wayland 운영 
 
 ## GLFW 설치
 
+### 윈도우의 경우
+
 1. [GLFW 공식 홈페이지](https://www.glfw.org/)에서 GLFW를 다운로드 받는다.
 
-> WIP
+## Mac의 경우
+
+1. 다음 명령을 통해 Homebrew에서 GLFW를 설치한다.
+
+```shell
+brew install glfw
+```
+
+## 참고 자료
+
+- [OpenGL Development on OS X](https://gist.github.com/v3n/27e810ac744b076ceeb7)
