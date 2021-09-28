@@ -28,45 +28,45 @@
 <ol start="2">
 <li>C++ 파일을 생성한 다음 <a href="https://www.glfw.org/documentation.html">GLFW 튜토리얼 코드</a>를 복사해 붙여넣는다.</li>
 </ol>
-<div class="gatsby-highlight" data-language="text"><pre class="language-text"><code class="language-text">/* Ask for an OpenGL Core Context */
-#define GLFW_INCLUDE_GLCOREARB
-#include &lt;GLFW/glfw3.h&gt;
+<div class="gatsby-highlight" data-language="cpp"><pre class="language-cpp"><code class="language-cpp"><span class="token comment">/* Ask for an OpenGL Core Context */</span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">define</span> <span class="token macro-name">GLFW_INCLUDE_GLCOREARB</span></span>
+<span class="token macro property"><span class="token directive-hash">#</span><span class="token directive keyword">include</span> <span class="token string">&lt;GLFW/glfw3.h></span></span>
 
-int main(void)
-{
-    GLFWwindow* window;
+<span class="token keyword">int</span> <span class="token function">main</span><span class="token punctuation">(</span><span class="token keyword">void</span><span class="token punctuation">)</span>
+<span class="token punctuation">{</span>
+    GLFWwindow<span class="token operator">*</span> window<span class="token punctuation">;</span>
 
-    /* Initialize the library */
-    if (!glfwInit())
-        return -1;
+    <span class="token comment">/* Initialize the library */</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">glfwInit</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">)</span>
+        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
 
-    /* Create a windowed mode window and its OpenGL context */
-    window = glfwCreateWindow(640, 480, &quot;Hello World&quot;, NULL, NULL);
-    if (!window)
-    {
-        glfwTerminate();
-        return -1;
-    }
+    <span class="token comment">/* Create a windowed mode window and its OpenGL context */</span>
+    window <span class="token operator">=</span> <span class="token function">glfwCreateWindow</span><span class="token punctuation">(</span><span class="token number">640</span><span class="token punctuation">,</span> <span class="token number">480</span><span class="token punctuation">,</span> <span class="token string">"Hello World"</span><span class="token punctuation">,</span> <span class="token constant">NULL</span><span class="token punctuation">,</span> <span class="token constant">NULL</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">if</span> <span class="token punctuation">(</span><span class="token operator">!</span>window<span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token function">glfwTerminate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+        <span class="token keyword">return</span> <span class="token operator">-</span><span class="token number">1</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    /* Make the window&#39;s context current */
-    glfwMakeContextCurrent(window);
+    <span class="token comment">/* Make the window's context current */</span>
+    <span class="token function">glfwMakeContextCurrent</span><span class="token punctuation">(</span>window<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-    /* Loop until the user closes the window */
-    while (!glfwWindowShouldClose(window))
-    {
-        /* Render here */
-        glClear(GL_COLOR_BUFFER_BIT);
+    <span class="token comment">/* Loop until the user closes the window */</span>
+    <span class="token keyword">while</span> <span class="token punctuation">(</span><span class="token operator">!</span><span class="token function">glfwWindowShouldClose</span><span class="token punctuation">(</span>window<span class="token punctuation">)</span><span class="token punctuation">)</span>
+    <span class="token punctuation">{</span>
+        <span class="token comment">/* Render here */</span>
+        <span class="token function">glClear</span><span class="token punctuation">(</span>GL_COLOR_BUFFER_BIT<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        /* Swap front and back buffers */
-        glfwSwapBuffers(window);
+        <span class="token comment">/* Swap front and back buffers */</span>
+        <span class="token function">glfwSwapBuffers</span><span class="token punctuation">(</span>window<span class="token punctuation">)</span><span class="token punctuation">;</span>
 
-        /* Poll for and process events */
-        glfwPollEvents();
-    }
+        <span class="token comment">/* Poll for and process events */</span>
+        <span class="token function">glfwPollEvents</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token punctuation">}</span>
 
-    glfwTerminate();
-    return 0;
-}</code></pre></div>
+    <span class="token function">glfwTerminate</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+    <span class="token keyword">return</span> <span class="token number">0</span><span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre></div>
 <ol start="3">
 <li>다음 명령을 통해 주어진 C++ 파일을 컴파일한다. <code class="language-text">[/path/to/cpp/file]</code> 문자열은 컴파일할 C++ 파일의 경로로 대체한다.</li>
 </ol>
