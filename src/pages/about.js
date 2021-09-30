@@ -60,6 +60,12 @@ const AboutPage = () => {
         <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
       </li>
     </ul>
+    <h2>Programming Languages</h2>
+    <ul>
+      <li>
+        C#, C++, C, Python, Haskell, Maya Embedded Language (MEL)
+      </li>
+    </ul>
     <h2>Education</h2>
     <ul>
       <li>
