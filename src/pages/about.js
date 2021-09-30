@@ -40,7 +40,7 @@ const AboutPage = () => {
         <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 - August 2018
         <ul>
           <li>
-            Released <i><a rel="noopener noreferrer" href="https://store.steampowered.com/app/862490/Fantasy_Raiders/" target="_blank">Fantasy Raiders</a></i> on Steam (Windows, Macintosh)
+            Released <i><a rel="noopener noreferrer" href="https://store.steampowered.com/app/862490/Fantasy_Raiders/" target="_blank">Fantasy Raiders</a></i> on Steam (Windows, macOS)
           </li>
         </ul>        
       </li>
