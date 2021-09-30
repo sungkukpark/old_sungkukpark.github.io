@@ -45,6 +45,21 @@ const AboutPage = () => {
         </ul>        
       </li>
     </ul>
+    <h2>Languages</h2>
+    <ul>
+      <li>
+        <b>Korean 🇰🇷</b> — Native
+      </li>
+      <li>
+        <b>English 🇺🇸</b> — TOEFL iBT Total Score 97
+      </li>
+      <li>
+        <b>Deutsch 🇩🇪</b> — Learning in progress targeting B1
+      </li>
+      <li>
+        <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
+      </li>
+    </ul>
     <h2>Education</h2>
     <ul>
       <li>
