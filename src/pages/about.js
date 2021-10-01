@@ -58,12 +58,14 @@ const AboutPage = () => {
       <li>
         <b>English 🇺🇸</b> — TOEFL iBT Total Score 97
       </li>
+      <p style={{ color: 'lightgrey' }}>
       <li>
         <b>Deutsch 🇩🇪</b> — Learning in progress targeting B1
       </li>
       <li>
         <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
       </li>
+      </p>
     </ul>
     <h2>Programming Languages</h2>
     <ul>
