@@ -29,7 +29,12 @@ const AboutPage = () => {
     <h2>Experience</h2>
     <ul>
       <li>
-        <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 - Present
+      <p style={{ color: 'lightgrey' }}>
+        <b>Wooga</b> — Planning to work as a <i>Technical Artist</i> / January 2022 ~
+      </p>
+      </li>
+      <li>
+        <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 ~ Present
         <ul>
           <li>
             Currently working on an unannounced mobile game project
@@ -37,7 +42,7 @@ const AboutPage = () => {
         </ul>
       </li>
       <li>
-        <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 - August 2018
+        <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 ~ August 2018
         <ul>
           <li>
             Released <i><a rel="noopener noreferrer" href="https://store.steampowered.com/app/862490/Fantasy_Raiders/" target="_blank">Fantasy Raiders</a></i> on Steam (Windows, macOS)
