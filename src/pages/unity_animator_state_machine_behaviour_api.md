@@ -9,6 +9,12 @@ date: "2021-10-02"
 
 특히, 이번 업무는 커스텀 에디터([Custom Editors](https://docs.unity3d.com/Manual/editor-CustomEditors.html))를 통해 해당 동작을 구현해야 했으므로 이러한 특수한 구현이 필요했다. 문제를 해결하는 과정에서 나는 해당 요구사항을 [AnimationClip.AddEvent](https://docs.unity3d.com/ScriptReference/AnimationClip.AddEvent.html) 메서드를 통해 구현했으므로 관심있는 분들은 다음 [[Unity] 애니메이션 이벤트(AnimationEvent) 동적으로 추가하기](https://sungkukpark.github.io/unity_how_to_add_animation_events_dynamically/) 포스팅을 참고하기 바란다.
 
+## 3줄 요약
+
+1. 애니메이터의 특정 상태의 조건에 따라 원하는 동작을 수행하고 싶다면?
+2. StateMachineBehaviour를 활용해 해당 동작을 구현한다.
+3. 예컨대, 이는 특정 캐릭터의 공격 시점에 특정 이펙트를 생성하거나 등의 용도로 활용할 수 있다.
+
 ## StateMachineBehaviour란?
 
 **StateMachineBehaviour**는 애니메이터(Animator)의 스테이트 머신 상태에 추가할 수 있는 컴포넌트(Component)다. StateMachineBehaviour는 상태에 추가되는 모든 스크립트가 상속받는 기반 클래스(base class)다. 즉, 씬(Scene)에 MonoBehaviour가 있다면, 애니메이터에는 StateMachineBehaviour가 있다.
