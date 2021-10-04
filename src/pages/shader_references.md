@@ -19,7 +19,11 @@ date: "2021-02-02"
 - [C# and Shader Tutorials for the Unity Engine](https://catlikecoding.com/unity/tutorials/)
 
 - 유니티를 활용한 셰이더 개발(Shader Development using Unity)
-    - <a href="https://shaderdev.com/" target="_blank">유니티를 활용한 셰이더 개발(Shader Development using Unity)</a>은 디즈니의 테크니컬 아티스트였고 현재는 페이스북의 테크니컬 아티스트인 샤안 비나약(Chayan Vinayak)의 셰이더 입문자를 위한 온라인 강좌. 유니티를 통한 예제를 통해 셰이더를 학습하게 된다. 현재 기준으로 유니티 2019 버전까지 지원하는 예제를 제공하고 있다
+  - <a href="https://shaderdev.com/" target="_blank">유니티를 활용한 셰이더 개발(Shader Development using Unity)</a>은 디즈니의 테크니컬 아티스트였고 현재는 페이스북의 테크니컬 아티스트인 샤안 비나약(Chayan Vinayak)의 셰이더 입문자를 위한 온라인 강좌. 유니티를 통한 예제를 통해 셰이더를 학습하게 된다. 현재 기준으로 유니티 2019 버전까지 지원하는 예제를 제공하고 있다
+
+## Patreon Pages
+
+- [Daniel Santalla](https://www.patreon.com/danielsantalla)
 
 ## 더 읽어볼 것들
 
