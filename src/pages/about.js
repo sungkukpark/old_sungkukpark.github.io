@@ -26,6 +26,48 @@ const AboutPage = () => {
     <p>
       Engineer at Wooga
     </p>
+    <h2>Career Goals</h2>
+    <ul>
+      <li>
+        ✅&#160;<s>Engineer</s>
+        <ul>
+          <li>
+            ✅&#160;<s>Work as an Engineer in 🇩🇪</s>
+          </li>
+          <li>
+            Write a Unity game engine book in 🇰🇷
+          </li>
+        </ul>
+      </li>
+      <li>
+        Technical Artist
+        <ul>
+          <li>
+            Work as a Technical Artist in 🇯🇵
+          </li>
+          <li>
+            Write a shader programming book in 🇰🇷
+          </li>
+          <li>
+            Stand as a speaker at <a rel="noopener noreferrer" href="https://unity.com/events/unite" target="_blank">Unity Unite</a>
+          </li>
+          <li>
+            Stand as a speaker at <a rel="noopener noreferrer" href="https://gdconf.com/" target="_blank">GDC (Game Developer Conference)</a>
+          </li>
+        </ul>
+      </li>
+      <li>
+        Game Director
+      </li>
+      <li>
+        Game Critic
+        <ul>
+          <li>
+            Write a game criticism book in 🇰🇷
+          </li>
+        </ul>
+      </li>
+    </ul>
     <h2>Experience</h2>
     <ul>
       <li>
