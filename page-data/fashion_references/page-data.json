@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/fashion_references/","result":{"data":{"markdownRemark":{"html":"<h2>트렌드 리서치</h2>\n<ul>\n<li><a href=\"https://www.wgsn.com/en/\">WGSN | Create Tomorrow | Trend Forecasting &#x26; Analytics</a></li>\n<li><a href=\"http://pantone.kr/\">PANTONE 팬톤코리아</a></li>\n</ul>","frontmatter":{"title":"[패션] 패션 레퍼런스"},"excerpt":"트렌드 리서치 WGSN | Create Tomorrow | Trend Forecasting & Analytics PANTONE 팬톤코리아"}},"pageContext":{"slug":"/fashion_references/"}},"staticQueryHashes":["3159585216","63159454"]}
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/fashion_references/",
+    "result": {"data":{"markdownRemark":{"html":"<h2>트렌드 리서치</h2>\n<ul>\n<li><a href=\"https://www.wgsn.com/en/\">WGSN | Create Tomorrow | Trend Forecasting &#x26; Analytics</a></li>\n<li><a href=\"http://pantone.kr/\">PANTONE 팬톤코리아</a></li>\n</ul>","frontmatter":{"title":"[패션] 패션 레퍼런스"},"excerpt":"트렌드 리서치 WGSN | Create Tomorrow | Trend Forecasting & Analytics PANTONE 팬톤코리아"}},"pageContext":{"slug":"/fashion_references/"}},
+    "staticQueryHashes": ["3159585216","63159454"]}

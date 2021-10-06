@@ -1,1 +1,5 @@
-{"componentChunkName":"component---src-templates-blog-post-js","path":"/graphics_what_is_cg_language/","result":{"data":{"markdownRemark":{"html":"","frontmatter":{"title":"[그래픽] CG 언어란?"},"excerpt":""}},"pageContext":{"slug":"/graphics_what_is_cg_language/"}},"staticQueryHashes":["3159585216","63159454"]}
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/graphics_what_is_cg_language/",
+    "result": {"data":{"markdownRemark":{"html":"","frontmatter":{"title":"[그래픽] CG 언어란?"},"excerpt":""}},"pageContext":{"slug":"/graphics_what_is_cg_language/"}},
+    "staticQueryHashes": ["3159585216","63159454"]}
