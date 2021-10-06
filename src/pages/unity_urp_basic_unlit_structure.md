@@ -7,7 +7,7 @@ date: "2021-10-05"
 
 코드가 실행되는 것을 확인하려면, 다음 셰이더 랩(ShaderLab) 코드를 셰이더 어셋에 복사해 붙여넣으면 된다.
 
-## [URP unlit basic shader 코드](https://gist.github.com/sungkukpark/5405116c379baca2da69b1230bca2ebe)
+## URP unlit basic shader 코드
 
 `gist:sungkukpark/5405116c379baca2da69b1230bca2ebe#urp-basic-unlit-structure_sample.shader`
 
