@@ -71,9 +71,7 @@ const AboutPage = () => {
     <h2>Experience</h2>
     <ul>
       <li>
-      <p style={{ color: 'lightgrey' }}>
         <b>Wooga</b> — Planning to work as a <i>Technical Artist</i> / January 2022 ~
-      </p>
       </li>
       <li>
         <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 ~ Present
