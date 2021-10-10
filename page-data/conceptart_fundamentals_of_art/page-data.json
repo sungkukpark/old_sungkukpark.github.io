@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/conceptart_fundamentals_of_art/",
+    "result": {"data":{"markdownRemark":{"html":"<ol>\n<li>해부학/드로잉(Anatomy/Drawing)</li>\n<li>색채(Color)</li>\n<li>구성(Composition)</li>\n<li>원근법(Perspective)</li>\n<li>명암(Values)</li>\n</ol>","frontmatter":{"title":"[컨셉아트] 미술의 기본(Fundamentals of Art)"},"excerpt":"해부학/드로잉(Anatomy/Drawing) 색채(Color) 구성(Composition) 원근법(Perspective) 명암(Values)"}},"pageContext":{"slug":"/conceptart_fundamentals_of_art/"}},
+    "staticQueryHashes": ["3159585216","63159454"]}
