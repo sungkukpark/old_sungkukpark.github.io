@@ -3,7 +3,7 @@ title: "[프로그래밍] 『Code Complete, 2nd Ed.』 학습 진도"
 date: "2021-09-27"
 ---
 
-본 포스팅은 박성국의 『Code Complete 2nd Ed.』에 대한 학습 진도를 표현합니다.
+본 포스팅은 박성국의 『Code Complete 2nd Ed.』에 대한 학습 진도를 표현한다.
 
 ---
 
