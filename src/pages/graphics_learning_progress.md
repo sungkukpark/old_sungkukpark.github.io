@@ -10,12 +10,12 @@ date: "2021-10-13"
   - [x] 2. Interactive 3D Rendering
   - [x] 3. First Quiz
   - [x] 4. WebGL Setup
-  - [ ] 5. Core Ideas
-  - [ ] 6. Interactivity and FPS
-  - [ ] 7. FPS Demo
-  - [ ] 8. FPS and Refresh Rate
-  - [ ] 9. Math Refresher
-  - [ ] 10. CPU Cycles
+  - [x] 5. Core Ideas
+  - [x] 6. Interactivity and FPS
+  - [x] 7. FPS Demo
+  - [x] 8. FPS and Refresh Rate
+  - [x] 9. Math Refresher
+  - [x] 10. CPU Cycles
   - [ ] 11. The Eye
   - [ ] 12. The Pinhole Camera
   - [ ] 13. Seeing Is Believing

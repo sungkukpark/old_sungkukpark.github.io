@@ -7,6 +7,7 @@ date: "2020-05-08"
 
 - [Interactive 3D Graphics](https://classroom.udacity.com/courses/cs291)
 - [Computer Graphics](https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE167x+3T2017/home)
+- [홍정모, 「2017 컴퓨터 그래픽스 (OpenGL Programming)」](https://www.youtube.com/watch?v=ONpkvSlttzM&list=PLNfg4W25Tapx6yUnYX4a4aWJbAaDikzKo&t=2s&ab_channel=%ED%99%8D%EC%A0%95%EB%AA%A8%EC%97%B0%EA%B5%AC%EC%86%8C)
 
 ## 단행본
 
