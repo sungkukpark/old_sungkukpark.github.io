@@ -1,0 +1,5 @@
+{
+    "componentChunkName": "component---src-templates-blog-post-js",
+    "path": "/graphics_for_artists/",
+    "result": {"data":{"markdownRemark":{"html":"<h2>렌더링(Rendering)이란 무엇인가?</h2>\n<p>렌더링(Rendering)이란 **묘사(depiction)**를 뜻한다. 즉, 이미지를 만드는 것 내지 이미지를 생성하는 것을 의미한다. 특히, 3D 환경에서 렌더링이란 사물을 3차원 공간에 정의하는 것을 뜻한다.</p>\n<h2>WebGL이란 무엇인가?</h2>\n<p>WebGL은 웹 그래픽스 라이브러리(Web Graphics Library)의 약자로서 고성능의 인터렉티브 3D/2D 그래픽을 렌더링하기 위한 JavaScript API이다.</p>\n<p>만약 현재 사용 중인 브라우저가 WebGL을 지원하는지 확인하려면 다음 <a href=\"http://get.webgl.org/\">get.webgl.org</a> 페이지로 이동해 시계 방향으로 회전하는 정육면체가 보이는지 확인하면 된다.</p>\n<blockquote>\n<p>WIP</p>\n</blockquote>","frontmatter":{"title":"[Graphics] 미술가를 위한 그래픽스"},"excerpt":"렌더링(Rendering)이란 무엇인가? 렌더링(Rendering)이란 **묘사(depiction)**를 뜻한다. 즉, 이미지를 만드는 것 내지 이미지를 생성하는 것을 의미한다. 특히, 3D 환경에서 렌더링이란 사물을…"}},"pageContext":{"slug":"/graphics_for_artists/"}},
+    "staticQueryHashes": ["3159585216","63159454"]}
