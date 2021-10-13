@@ -5,11 +5,11 @@ date: "2021-10-13"
 
 본 포스팅은 박성국의 Graphics 학습 진도를 표현한다.
 
-- [ ] [Udacity] *Interactive 3D Graphics* by Eric Haines
+- [ ] [Udacity] Interactive 3D Graphics by Eric Haines
   - [x] 1. Introduction
-  - [ ] 2. Interactive 3D Rendering
-  - [ ] 3. First Quiz
-  - [ ] 4. WebGL Setup
+  - [x] 2. Interactive 3D Rendering
+  - [x] 3. First Quiz
+  - [x] 4. WebGL Setup
   - [ ] 5. Core Ideas
   - [ ] 6. Interactivity and FPS
   - [ ] 7. FPS Demo
