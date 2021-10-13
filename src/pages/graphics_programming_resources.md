@@ -3,7 +3,12 @@ title: "[Graphics] 그래픽스 레퍼런스 모음"
 date: "2020-05-08"
 ---
 
-### 그래픽 일반
+## 강의
+
+- [Interactive 3D Graphics](https://classroom.udacity.com/courses/cs291)
+- [Computer Graphics](https://learning.edx.org/course/course-v1:UCSanDiegoX+CSE167x+3T2017/home)
+
+## 단행본
 
 - [Foundations of 3D Computer Graphics (The MIT Press)](https://www.amazon.com/Foundations-Computer-Graphics-MIT-Press/dp/0262017350)
     - KAIST 학부 과정 그래픽스 교재
@@ -64,7 +69,7 @@ date: "2020-05-08"
 
 - "OpenGL로 배우는 컴퓨터 그래픽스", 주우석
 
-### NPR
+## NPR
 
 - [[NDC] 할머니가 들려주신 마비노기 개발 전설](https://www.youtube.com/watch?v=w106hHTwhfk&feature=youtu.be&t=739)
 - [[Unite Seoul 2019] 최재영 류재성 - 일곱개의 대죄 : "애니메이션의 감성을 그대로"와 "개발 최적화"](https://www.youtube.com/watch?v=0LwlNVS3FJo)
