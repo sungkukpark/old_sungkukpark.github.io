@@ -5,41 +5,81 @@ date: "2021-10-13"
 
 본 포스팅은 박성국의 Graphics 학습 진도를 표현한다.
 
-- [ ] [Udacity] Interactive 3D Graphics by Eric Haines
-  - [x] 1. Introduction
-  - [x] 2. Interactive 3D Rendering
-  - [x] 3. First Quiz
-  - [x] 4. WebGL Setup
-  - [x] 5. Core Ideas
-  - [x] 6. Interactivity and FPS
-  - [x] 7. FPS Demo
-  - [x] 8. FPS and Refresh Rate
-  - [x] 9. Math Refresher
-  - [x] 10. CPU Cycles
-  - [x] 11. The Eye
-  - [x] 12. The Pinhole Camera
-  - [x] 13. Seeing Is Believing
-  - [x] 14. Eye vs. Camera
-  - [x] 15. View Frustum
-  - [x] 16. Screen Door
-  - [x] 17. 3D Scene
-  - [ ] 18. How Many Pixels?
-  - [ ] 19. Light and Rendering
-  - [ ] 20. How Many Computers?
-  - [ ] 21. Reversing the Process
-  - [ ] 22. History of the Teapot
-  - [ ] 23. Simple Materials
-  - [ ] 24. A Jog Down the Pipeline
-  - [ ] 25. Pipeline Parallelism
-  - [ ] 26. Advanced Box Factory
-  - [ ] 27. Parallelism
-  - [ ] 28. Bottleneck
-  - [ ] 29. Stalling and Starving
-  - [ ] 30. Painter's Algorithm
-  - [ ] 31. Flawed Painting
-  - [ ] 32. Z-Buffer
-  - [ ] 33. How the Z-Buffer Works
-  - [ ] 34. Z-Buffer Optimization
-  - [ ] 35. WebGL and three.js
-  - [ ] 36. Tricky Question
-  - [ ] 37. Conclusion
+- [x] [Udacity] Interactive 3D Graphics by Eric Haines
+  - [ ] Lesson 1: Introduction
+    - [x] 1. Introduction
+    - [x] 2. Interactive 3D Rendering
+    - [x] 3. First Quiz
+    - [x] 4. WebGL Setup
+    - [x] 5. Core Ideas
+    - [x] 6. Interactivity and FPS
+    - [x] 7. FPS Demo
+    - [x] 8. FPS and Refresh Rate
+    - [x] 9. Math Refresher
+    - [x] 10. CPU Cycles
+    - [x] 11. The Eye
+    - [x] 12. The Pinhole Camera
+    - [x] 13. Seeing Is Believing
+    - [x] 14. Eye vs. Camera
+    - [x] 15. View Frustum
+    - [x] 16. Screen Door
+    - [x] 17. 3D Scene
+    - [x] 18. How Many Pixels?
+    - [x] 19. Light and Rendering
+    - [x] 20. How Many Computers?
+    - [x] 21. Reversing the Process
+    - [x] 22. History of the Teapot
+    - [x] 23. Simple Materials
+    - [x] 24. A Jog Down the Pipeline
+    - [x] 25. Pipeline Parallelism
+    - [x] 26. Advanced Box Factory
+    - [x] 27. Parallelism
+    - [x] 28. Bottleneck
+    - [x] 29. Stalling and Starving
+    - [x] 30. Painter's Algorithm
+    - [x] 31. Flawed Painting
+    - [x] 32. Z-Buffer
+    - [x] 33. How the Z-Buffer Works
+    - [x] 34. Z-Buffer Optimization
+    - [x] 35. WebGL and three.js
+    - [x] 36. Tricky Question
+    - [x] 37. Conclusion
+  - [ ] Lesson 2: Problem Set
+    - [x] 1. Frame Skipping
+    - [x] 2. What Is Not Paintable?
+    - [x] 3. FPS vs. MIlliseconds
+    - [ ] 4. Rendering Costs
+    - [ ] 5. Firefly
+    - [ ] 6. Light Field Dimensions
+    - [ ] 7. First Programming Exercise
+  - [ ] Lesson 3: Interview: 3D Modelling and Printing
+    - [ ] 1. Making Virtual Things Real
+    - [ ] 2. Jesse Harrington Au at Autodesk
+    - [ ] 3. How 3D Printing Works
+    - [ ] 4. Any Shape Can Be Made
+    - [ ] 5. Complexity Is Free
+    - [ ] 6. 3D Printing Materials
+    - [ ] 7. Design Process
+    - [ ] 8. Problems and Future of 3D Printing
+  - [x] Lesson 4: Points, Vectors, and Meshes
+    - [x] 1. Coordinate System
+    - [x] 2. Cartesian Coordinates
+    - [x] 3. Point or Vector?
+    - [x] 4. Left-Handed vs. Right-Handed
+    - [x] 5. Left-Handed or Right-Handed?
+    - [x] 6. The Sun Also Rises
+    - [x] 7. Which Way Is Up?
+    - [x] 8. Interview: Which Way Is Up?
+    - [x] 9. Coordinate System Transform
+    - [x] 10. Points and Lines
+    - [x] 11. Triangles
+    - [x] 12. Creating Geometry in three.js
+    - [x] 13. Create a Square
+    - [x] 14. Triangulation and Tessellation
+    - [x] 15. Minimum Triangulation
+    - [x] 16. How Many Triangulations?
+    - [x] 17. Vertex Ordering and Culling
+    - [x] 18. Return of the Square
+    - [x] 19. Model Creation
+    - [x] 20. Conclusion
+  - [ ] 

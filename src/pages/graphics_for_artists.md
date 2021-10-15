@@ -5,11 +5,11 @@ date: "2021-10-13"
 
 [클럭 속도는 무엇입니까?]: https://www.intel.co.kr/content/www/kr/ko/gaming/resources/cpu-clock-speed.html
 
-## 렌더링(Rendering)이란 무엇인가?
+## 렌더링(Rendering)이란?
 
 렌더링(Rendering)이란 묘사(depiction)를 뜻한다. 즉, 이미지를 만드는 것 내지 이미지를 생성하는 것을 의미한다. 특히, 3D 환경에서 렌더링이란 사물을 3차원 공간에 정의하는 것을 뜻한다.
 
-## WebGL이란 무엇인가?
+## WebGL이란?
 
 WebGL은 웹 그래픽스 라이브러리(Web Graphics Library)의 약자로서 고성능의 인터렉티브 3D/2D 그래픽을 렌더링하기 위한 JavaScript API이다.
 
@@ -65,6 +65,16 @@ WebGL은 웹 그래픽스 라이브러리(Web Graphics Library)의 약자로서 
 2. 모든 사물은 그림자를 드리우지 않는다
 
 이 두 가지 전제를 통해 극단적으로 빠른 라이팅 연산이 가능해진다.
+
+## GPU(Graphics Processing Unit)이란?
+
+GPU는 Graphics Processing Unit의 약자로서 래스터라이제이션(rasterization) 또는 스캔 변환(scan conversion)이라고 불리는 렌더링 처리에 최적화된 하드웨어이다.
+
+## GPU에 전달하는 기본 3도형
+
+1. 점(Point)
+2. 선(Line)
+3. 삼각형(Triangle)
 
 > WIP
 
