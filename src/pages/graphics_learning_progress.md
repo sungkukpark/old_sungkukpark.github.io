@@ -18,11 +18,11 @@ date: "2021-10-13"
   - [x] 10. CPU Cycles
   - [x] 11. The Eye
   - [x] 12. The Pinhole Camera
-  - [ ] 13. Seeing Is Believing
-  - [ ] 14. Eye vs. Camera
-  - [ ] 15. View Frustum
-  - [ ] 16. Screen Door
-  - [ ] 17. 3D Scene
+  - [x] 13. Seeing Is Believing
+  - [x] 14. Eye vs. Camera
+  - [x] 15. View Frustum
+  - [x] 16. Screen Door
+  - [x] 17. 3D Scene
   - [ ] 18. How Many Pixels?
   - [ ] 19. Light and Rendering
   - [ ] 20. How Many Computers?
