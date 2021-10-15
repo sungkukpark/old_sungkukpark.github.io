@@ -16,8 +16,8 @@ date: "2021-10-13"
   - [x] 8. FPS and Refresh Rate
   - [x] 9. Math Refresher
   - [x] 10. CPU Cycles
-  - [ ] 11. The Eye
-  - [ ] 12. The Pinhole Camera
+  - [x] 11. The Eye
+  - [x] 12. The Pinhole Camera
   - [ ] 13. Seeing Is Believing
   - [ ] 14. Eye vs. Camera
   - [ ] 15. View Frustum
