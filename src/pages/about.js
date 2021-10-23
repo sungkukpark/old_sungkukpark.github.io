@@ -40,7 +40,7 @@ const AboutPage = () => {
         </ul>
       </li>
       <li>
-        Technical Artist
+      ✅&#160;<s>Technical Artist</s>
         <ul>
           <li>
             Work as a Technical Artist in 🇯🇵
