@@ -26,6 +26,9 @@ const AboutPage = () => {
     <p>
       Engineer at Wooga
     </p>
+    <p style={{ color: 'lightgrey' }}>
+      Technical Artist at Wooga (From January 2022)
+    </p>
     <h2>Career Goals</h2>
     <ul>
       <li>
