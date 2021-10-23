@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/diary_template/",
-    "result": {"data":{"markdownRemark":{"html":"<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">## 업무/생활 관리, 잡무\n\n\n\n## 아침 업무 회의 (Daily Scrum)\n\n\n\n## 봐야 할 책, 논문/아이디어, 아티클\n\n\n\n## 중단기 계획\n\n\n\n## 했던 일, 있었던 일, 좋았던 일\n\n\n\n## 교훈, 지침\n\n\n</code></pre></div>\n<h2>참고 도서</h2>\n<p>이민열, 『인생을 바꾸는 탐구 습관』 (미지북스, 2020)</p>","frontmatter":{"title":"[회고] 일기(日記) 템플릿"},"excerpt":"참고 도서 이민열, 『인생을 바꾸는 탐구 습관』 (미지북스, 2020)"}},"pageContext":{"slug":"/diary_template/"}},
-    "staticQueryHashes": ["3159585216","63159454"]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/diary_template/","result":{"data":{"markdownRemark":{"html":"<div class=\"gatsby-highlight\" data-language=\"text\"><pre class=\"language-text\"><code class=\"language-text\">## 업무/생활 관리, 잡무\n\n\n\n## 아침 업무 회의 (Daily Scrum)\n\n\n\n## 봐야 할 책, 논문/아이디어, 아티클\n\n\n\n## 중단기 계획\n\n\n\n## 했던 일, 있었던 일, 좋았던 일\n\n\n\n## 교훈, 지침\n\n\n</code></pre></div>\n<h2>참고 도서</h2>\n<p>이민열, 『인생을 바꾸는 탐구 습관』 (미지북스, 2020)</p>","frontmatter":{"title":"[회고] 일기(日記) 템플릿"},"excerpt":"참고 도서 이민열, 『인생을 바꾸는 탐구 습관』 (미지북스, 2020)"}},"pageContext":{"slug":"/diary_template/"}},"staticQueryHashes":["3159585216","63159454"]}

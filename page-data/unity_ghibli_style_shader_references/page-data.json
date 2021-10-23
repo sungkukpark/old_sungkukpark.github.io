@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/unity_ghibli_style_shader_references/",
-    "result": {"data":{"markdownRemark":{"html":"<ul>\n<li><a href=\"https://youtu.be/-C9mg3EnF9w\">Baldo Gameplay Trailer</a></li>\n<li><a href=\"https://youtu.be/e2-qMjmVeL4\">Hoa - Announcement Trailer</a></li>\n</ul>","frontmatter":{"title":"[Unity] 지브리 스타일 유니티 셰이더 래퍼런스"},"excerpt":"Baldo Gameplay Trailer Hoa - Announcement Trailer"}},"pageContext":{"slug":"/unity_ghibli_style_shader_references/"}},
-    "staticQueryHashes": ["3159585216","63159454"]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/unity_ghibli_style_shader_references/","result":{"data":{"markdownRemark":{"html":"<ul>\n<li><a href=\"https://youtu.be/-C9mg3EnF9w\">Baldo Gameplay Trailer</a></li>\n<li><a href=\"https://youtu.be/e2-qMjmVeL4\">Hoa - Announcement Trailer</a></li>\n</ul>","frontmatter":{"title":"[Unity] 지브리 스타일 유니티 셰이더 래퍼런스"},"excerpt":"Baldo Gameplay Trailer Hoa - Announcement Trailer"}},"pageContext":{"slug":"/unity_ghibli_style_shader_references/"}},"staticQueryHashes":["3159585216","63159454"]}

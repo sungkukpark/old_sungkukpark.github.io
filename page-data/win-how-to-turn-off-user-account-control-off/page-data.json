@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/win-how-to-turn-off-user-account-control-off/",
-    "result": {"data":{"markdownRemark":{"html":"<ol>\n<li>Win + R</li>\n<li>Enter <code class=\"language-text\">UserAccountControlSettings.exe</code> and click OK</li>\n<li>Drag the slider to the buttom and apply</li>\n</ol>","frontmatter":{"title":"[윈도우] 사용자 계정 컨트롤 비활성화"},"excerpt":"Win + R Enter  and click OK Drag the slider to the buttom and apply"}},"pageContext":{"slug":"/win-how-to-turn-off-user-account-control-off/"}},
-    "staticQueryHashes": ["3159585216","63159454"]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/win-how-to-turn-off-user-account-control-off/","result":{"data":{"markdownRemark":{"html":"<ol>\n<li>Win + R</li>\n<li>Enter <code class=\"language-text\">UserAccountControlSettings.exe</code> and click OK</li>\n<li>Drag the slider to the buttom and apply</li>\n</ol>","frontmatter":{"title":"[윈도우] 사용자 계정 컨트롤 비활성화"},"excerpt":"Win + R Enter  and click OK Drag the slider to the buttom and apply"}},"pageContext":{"slug":"/win-how-to-turn-off-user-account-control-off/"}},"staticQueryHashes":["3159585216","63159454"]}

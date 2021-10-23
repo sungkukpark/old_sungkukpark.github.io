@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/favorite_linux_commands/",
-    "result": {"data":{"markdownRemark":{"html":"<table>\n<thead>\n<tr>\n<th>명령어</th>\n<th>기능</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ls</td>\n<td>파일과 디렉토리 출력 (list files and directories)</td>\n</tr>\n<tr>\n<td>pwd</td>\n<td>현재 작업 디렉토리 경로 출력 (print working directory)</td>\n</tr>\n</tbody>\n</table>","frontmatter":{"title":"[리눅스] 자주 쓰는 리눅스(Linux) 명령어"},"excerpt":"명령어 기능 ls 파일과 디렉토리 출력 (list files and directories) pwd 현재 작업 디렉토리 경로 출력 (print working directory)"}},"pageContext":{"slug":"/favorite_linux_commands/"}},
-    "staticQueryHashes": ["3159585216","63159454"]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/favorite_linux_commands/","result":{"data":{"markdownRemark":{"html":"<table>\n<thead>\n<tr>\n<th>명령어</th>\n<th>기능</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>ls</td>\n<td>파일과 디렉토리 출력 (list files and directories)</td>\n</tr>\n<tr>\n<td>pwd</td>\n<td>현재 작업 디렉토리 경로 출력 (print working directory)</td>\n</tr>\n</tbody>\n</table>","frontmatter":{"title":"[리눅스] 자주 쓰는 리눅스(Linux) 명령어"},"excerpt":"명령어 기능 ls 파일과 디렉토리 출력 (list files and directories) pwd 현재 작업 디렉토리 경로 출력 (print working directory)"}},"pageContext":{"slug":"/favorite_linux_commands/"}},"staticQueryHashes":["3159585216","63159454"]}

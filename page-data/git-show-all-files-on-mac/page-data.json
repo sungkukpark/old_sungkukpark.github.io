@@ -1,5 +1,1 @@
-{
-    "componentChunkName": "component---src-templates-blog-post-js",
-    "path": "/git-show-all-files-on-mac/",
-    "result": {"data":{"markdownRemark":{"html":"<ol>\n<li>\n<p>Terminal을 실행한 뒤, 다음 명령을 실행한다 (OS X 10.9 이후 버전 기준):</p>\n <code>\n defaults write com.apple.finder AppleShowAllFiles TRUE\n </code>\n</li>\n<li>\n<p>이후 다음 명령으로 모든 Finder 인스턴스를 파괴한 뒤 재생성한다:</p>\n <code>\n killall Finder\n </code>\n</li>\n</ol>","frontmatter":{"title":"[Git] 맥에서 숨겨진 파일 표시하기"},"excerpt":"Terminal을 실행한 뒤, 다음 명령을 실행한다 (OS X 10.9 이후 버전 기준): 이후 다음 명령으로 모든 Finder 인스턴스를 파괴한 뒤 재생성한다:"}},"pageContext":{"slug":"/git-show-all-files-on-mac/"}},
-    "staticQueryHashes": ["3159585216","63159454"]}
+{"componentChunkName":"component---src-templates-blog-post-js","path":"/git-show-all-files-on-mac/","result":{"data":{"markdownRemark":{"html":"<ol>\n<li>\n<p>Terminal을 실행한 뒤, 다음 명령을 실행한다 (OS X 10.9 이후 버전 기준):</p>\n <code>\n defaults write com.apple.finder AppleShowAllFiles TRUE\n </code>\n</li>\n<li>\n<p>이후 다음 명령으로 모든 Finder 인스턴스를 파괴한 뒤 재생성한다:</p>\n <code>\n killall Finder\n </code>\n</li>\n</ol>","frontmatter":{"title":"[Git] 맥에서 숨겨진 파일 표시하기"},"excerpt":"Terminal을 실행한 뒤, 다음 명령을 실행한다 (OS X 10.9 이후 버전 기준): 이후 다음 명령으로 모든 Finder 인스턴스를 파괴한 뒤 재생성한다:"}},"pageContext":{"slug":"/git-show-all-files-on-mac/"}},"staticQueryHashes":["3159585216","63159454"]}
