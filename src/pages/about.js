@@ -152,6 +152,9 @@ const AboutPage = () => {
     <li>
       <b>Participated as Reviewer</b> of <i>Unity 2020 Cookbook (Packt)</i>
     </li>
+    <li>
+      <b>Participated as Reviewer</b> of <i>Mind-Melding Unity and Blender for 3D Game Development (Packt)</i>
+    </li>
   </Layout>
   )
 }
