@@ -24,10 +24,7 @@ const AboutPage = () => {
       width="256"
     />
     <p>
-      Engineer at Wooga
-    </p>
-    <p style={{ color: 'lightgrey' }}>
-      Technical Artist at Wooga (From January 2022)
+      Technical Artist at Wooga
     </p>
     <h2>Career Goals</h2>
     <ul>
@@ -74,15 +71,15 @@ const AboutPage = () => {
     <h2>Experience</h2>
     <ul>
       <li>
-        <b>Wooga</b> — Planning to work as a <i>Technical Artist</i> / January 2022 ~
-      </li>
-      <li>
-        <b>Wooga</b> — Working as an <i>Engineer</i> / April 2019 ~ Present
+        <b>Wooga</b> — Working as a <i>Technical Artist</i> / January 2022 ~ Present
         <ul>
           <li>
             Currently working on an unannounced mobile game project
           </li>
         </ul>
+      </li>
+      <li>
+        <b>Wooga</b> — Worked as an <i>Engineer</i> / April 2019 ~ November 2021
       </li>
       <li>
         <b>Maverick Games</b> — Worked as a <i>Game Programmer</i> / August 2015 ~ August 2018
