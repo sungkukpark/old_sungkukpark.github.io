@@ -144,13 +144,13 @@ const AboutPage = () => {
       <b>Participated as Reviewer</b> of <i>Hands-On Unity 2020 Game Development (Packt)</i>, Written by Nicolas Alejandro Borromeo
     </li>
     <li>
-      <b>Participated as Reviewer</b> of <i>Hands-On Unity 2021 Game Development (Packt)</i>
+      <b>Participated as Reviewer</b> of <i>Hands-On Unity 2021 Game Development - Second Edition (Packt), Written by Nicolas Alejandro Borromeo</i>
     </li>
     <li>
-      <b>Participated as Reviewer</b> of <i>Unity 2020 Cookbook (Packt)</i>
+      <b>Participated as Reviewer</b> of <i>Unity 2021 Cookbook - Fourth Edition (Packt), Written by Matt Smith and Shaun Ferns</i>
     </li>
     <li>
-      <b>Participated as Reviewer</b> of <i>Mind-Melding Unity and Blender for 3D Game Development (Packt)</i>
+      <b>Participated as Reviewer</b> of <i>Mind-Melding Unity and Blender for 3D Game Development (Packt), Written by Spencer Grey</i>
     </li>
   </Layout>
   )
