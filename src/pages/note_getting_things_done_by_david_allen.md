@@ -1,5 +1,5 @@
 ---
-title: "[독서 노트] Getting Things Done"
+title: "[노트 정리] GTD(Getting Things Done) 방법론"
 date: "2020-06-25"
 ---
 
