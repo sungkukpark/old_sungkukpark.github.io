@@ -24,7 +24,7 @@ const AboutPage = () => {
       width="256"
     />
     <p>
-      Technical Artist at Wooga
+      Technical Artist at <a rel="noopener noreferrer" href="https://www.wooga.com/" target="_blank">Wooga</a>
     </p>
     <h2>Career Goals</h2>
     <ul>
