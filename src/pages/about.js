@@ -26,6 +26,10 @@ const AboutPage = () => {
     <p>
       Technical Artist at <a rel="noopener noreferrer" href="https://www.wooga.com/" target="_blank">Wooga</a>
     </p>
+    <h2>Hobbies</h2>
+    <li>
+      Bodybuilding, Pilates
+    </li>
     <h2>Career Goals</h2>
     <ul>
       <li>
