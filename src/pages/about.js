@@ -125,7 +125,7 @@ const AboutPage = () => {
     <h3>Critics</h3>
     <ul>
       <li>
-        <b>Wrote as Author</b> of <i>Seamless Society</i>, 21 July 2020, in collaboration with an online exhibition plartform DDDD (<a rel="noopener noreferrer" href="http://0000-dddd.com/en/texts/seamless-society/" target="_blank">English</a> / <a rel="noopener noreferrer" href="http://0000-dddd.com/ko/texts/seamless-society/" target="_blank">한글</a>)
+        <b>Wrote as Author</b> of <i>Seamless Society</i>, 21 July 2020, in collaboration with an online exhibition plartform DDDD (<a rel="noopener noreferrer" href="https://kakaotalk.iwinv.net/html/detail_en1.html?idx=11" target="_blank">English</a> / <a rel="noopener noreferrer" href="https://kakaotalk.iwinv.net/html/detail_ko1.html?idx=35" target="_blank">한글</a>)
       </li>
       <li>
       <b>Wrote as Author</b> of <i>Wallpeckers: Breaking down the barriers between media</i>, Article of Korean Art magazine Misulsegye, March 2019 (<a rel="noopener noreferrer" href="https://post.naver.com/viewer/postView.nhn?volumeNo=20035276" target="_blank">한글</a>)
