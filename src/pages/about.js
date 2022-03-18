@@ -110,7 +110,9 @@ const AboutPage = () => {
     <h2>Programming Languages</h2>
     <ul>
       <li>
-        C#, C++, C, Python, JavaScript, Haskell, MEL(Maya Embedded Language), MASM(Microsoft Macro Assembler), HTML
+        C#, C++, C, Python, JavaScript, HTML, <p style={{ display: 'inline', color: 'lightgrey' }}>
+          Haskell, MEL(Maya Embedded Language), MASM(Microsoft Macro Assembler)
+        </p>
       </li>
     </ul>
     <h2>Education</h2>
