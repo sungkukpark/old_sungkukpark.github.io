@@ -59,8 +59,8 @@ GPU Zen 시리즈 ([Book 1](https://www.amazon.de/-/en/Wolfgang-Engel/dp/0998822
 블렌더 지오메트리 노드는 후디니로 넘어가기 위한 징검다리로서 유용하다. 후디니에 비하면 블렌더 지오메트리 노드는 애들 장난이다.
 
 [BlenderDude](https://www.youtube.com/playlist?list=PLdU0WPU8jshhjKJ43kYOSTtDf5jAygeXE), [Kammerbild](https://www.youtube.com/c/Kammerbild/playlists), [CrossMind Studio](https://www.youtube.com/playlist?list=PLgO2ChD7acqHzccBuhAGw8dTPLnR1E3QB) 유투브 채널은 GeoNodes를 초보자 수준부터 다루는 플레이리스트를 제공한다.
-[Erindale]은 많은 비디오를 제공하긴 하는데 각 영상의 길이가 꽤 길 수 있다.
-[Entagma]도 최근에 GeoNodes에 관련된 비디오를 제공하기 시작했다.
+[Erindale](https://www.youtube.com/c/Erindale)은 많은 비디오를 제공하긴 하는데 각 영상의 길이가 꽤 길 수 있다.
+[Entagma](https://www.youtube.com/c/Entagma/featured)도 최근에 GeoNodes에 관련된 비디오를 제공하기 시작했다.
 [Geometry Nodes](https://www.dropbox.com/s/kmn53dem1f6zweb/GN_Compiled.pdf?dl=0)라는 문서도 도움이 된다.
 
 이외에 더 많은 자료가 필요하면 유투브나 유데미에 올라온 컨텐츠를 확인해보는 것을 추천한다.
