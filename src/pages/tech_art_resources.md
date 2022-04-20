@@ -31,7 +31,7 @@ URP/SRP 주제를 학습하기 위해서는 SRP까지 커버하는 [Catlike Codi
 
 유투브의 [CS4600 Introduction to Computer Graphics course](https://www.youtube.com/playlist?list=PLplnkTzzqsZTfYh4UbhLGpI5kGd5oW_Hh)([코스 웹사이트](https://graphics.cs.utah.edu/courses/cs4600/fall2020/))에서 참고 서적과 함께 시작하는 것을 추천한다. 개인적으로는 참고 서적으로서 [Real-Time Rendering, 4th Edition](https://www.amazon.de/-/en/Tomas-Akenine-M%C3%B6ller/dp/1138627003/)을 추천한다.
 
-다음은 [WebGL Fundamentals tutorials]와 함께 [CS5610/6610 Interactive Graphics Computers course](https://www.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN)([코스 웹사이트](https://graphics.cs.utah.edu/courses/cs6610/spring2021/))를 병행해 수강하는 것을 추천한다.
+다음은 [WebGL Fundamentals tutorials](https://webglfundamentals.org/)와 함께 [CS5610/6610 Interactive Graphics Computers course](https://www.youtube.com/playlist?list=PLplnkTzzqsZS3R5DjmCQsqupu43oS9CFN)([코스 웹사이트](https://graphics.cs.utah.edu/courses/cs6610/spring2021/))를 병행해 수강하는 것을 추천한다.
 
 Jendrik Illner의 [Graphics Programming Weekly](https://www.jendrikillner.com/tags/weekly/)를 메일링 서비스를 구독하는 것도 한 방법이다.
 
