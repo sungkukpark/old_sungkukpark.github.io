@@ -68,6 +68,7 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
 - [공식 SideFX 학습 사이트](https://www.sidefx.com/learn/getting_started/)
 - [Takeru cgwiki](https://www.tokeru.com/cgwiki/index.php?title=Main_Page)는 훌륭한 후디니 관련 비-영상 참고 자료이다.
 - [Official Houdini](https://www.youtube.com/c/houdini3d), [Simon Houdini](https://www.youtube.com/channel/UCvuT2bzBB0kzne16DBAtmLQ). [Nine Between](https://www.youtube.com/c/NineBetween/videos) 유투브 채널은 많은 튜토리얼을 제공한다.
+- [TWA 후디니의 정석](https://www.youtube.com/c/TWAHOUDINI): 한국어로 된 후디니를 다루는 채널이다.
 
 보다 고급 주제에 관심이 있으면 [Entagma](https://www.youtube.com/c/Entagma/featured) 채널이나 [Konstantin Magnus’s procegen](https://procegen.konstantinmagnus.de/) 사이트를 팔로우하면 된다.
 
