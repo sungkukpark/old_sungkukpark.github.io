@@ -1,11 +1,21 @@
 ---
-title: "[유니티] HLSL #include 전처리기 지시어 경로 찾을 수 없음 에러 해결"
+title: "[유니티] HLSL #include 전처리기 지시어가 경로 찾을 수 없는 에러 해결"
 date: "2022-04-21"
 ---
 
 ## 문제 기술
 
-유니티 셰이더 작성 시, HLSL #include 전처리기 지시어가 경로 찾을 수 없는 에러가 발생했다.
+유니티 셰이더 작성 시, HLSL #include 전처리기 지시어가 주어진 경로를 찾을 수 없는 에러가 발생했다.
+
+## 예제 코드
+
+```hlsl
+HLSLPROGRAM
+#include "UnlitPass.hlsl"
+ENDHLSL
+```
+
+> 여기서 `UnlitPass.hlsl` 파일은 `#include` 지시자를 포함한 파일과 같은 폴더에 위치해있었다.
 
 ## 해결 방법
 
