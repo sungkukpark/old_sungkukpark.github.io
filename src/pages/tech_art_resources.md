@@ -76,3 +76,27 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
 
 - CGMA - [Procedural Environments in Houdini](https://www.cgmasteracademy.com/courses/procedural-environments-in-houdini/)
 - Pluralsight - [Houdini Engine for Unity Fundamentals](https://www.pluralsight.com/courses/houdini-engine-unity-fundamentals)
+
+## 리깅
+
+- [Level Pixel Level](https://www.youtube.com/channel/UCpxizXEIm73-GJJwayhGceA) 유투브 채널 전문 리거의 튜토리얼들을 제공한다.
+- [Pierrick Picaut](https://www.youtube.com/c/PierrickPicaut_P2DESIGN/videos) 유투브 채널. 게임 리깅 강의를 제공하지만 Level Pixel Level보다는 더 산만한 채널이다.
+- [Armin’s Rigging Tutorials](https://www.notion.so/arminhalac/Tutorials-239ce42c42b04ac295935710a20fb677). 리깅과 GameRig/Rigify에 관련된 일반적인 가이드.
+- [Stop Staring book](https://www.amazon.de/-/en/Jason-Osipa/dp/0470609907) 페이셜 모델링, 리깅, 애니메이션에 관련된 책. 게임이나 블렌더를 위해 저술된 책은 아니지만 책의 내용은 블렌더에 적용 가능하다.
+- Lollypopman의 [Rigify tutorial](https://lollypopman.com/2016/03/04/tutorial-rigify/)
+- cgDive의 [Rig Anything with Rigify](https://cgdive.com/easy-rigging-in-blender-with-rigify-armature-basics/)
+- [Rigify Docs](https://docs.blender.org/manual/en/3.0/addons/rigging/rigify/index.html?highlight=rigify)
+
+## 파이프라인
+
+- [Production Pipeline Fundamentals for Film and Games](https://www.amazon.de/-/en/Renee-Dunlop/dp/0415812291)
+
+## 툴 개발
+
+- [Designing the User Experience of Game Development Tools](https://www.amazon.de/-/en/David-Lightbown/dp/148224019X)
+
+## 파이썬
+
+- [홍정모의 파이썬으로 시작하는 프로그래밍](https://youtu.be/VmFCE3mkti0) - 2022년 5월 기준 아직 얼리버드 접근만 가능한 강의
+- [Dive Into Python 3](https://diveintopython3.net/) - 파이썬으로 시작하기 좋은 책
+- [Clean Code in Python](https://www.amazon.de/-/en/Mariano-Anaya-dp-1800560214/dp/1800560214/) - 파이썬으로 클린 코드를 작성하는 법을 배우기 책
