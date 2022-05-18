@@ -7,8 +7,9 @@ date: "2020-05-16"
 
 ### 입문용
 
-- [Blender Beginner Tutorial - Part 1 (일명 도넛 아저씨 강좌)](https://www.youtube.com/watch?v=TPrnSACiTJ4)
+- [Blender Fundamentals 2.8](https://youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - [블렌더 공식 튜토리얼](https://www.blender.org/support/tutorials/)
+- [Blender Beginner Tutorial - Part 1 (일명 도넛 아저씨 강좌)](https://www.youtube.com/watch?v=TPrnSACiTJ4)
 - [블렌더 2.8 런치 패드(BLENDER 2.8 LAUNCH PAD)](https://academy.cgboost.com/p/blender-2-8-launch-pad)
 - [Cubic Worlds (로우폴리 모델링 강좌)](https://academy.cgboost.com/p/cubic-worlds)
 - [Become a 3D illustrator!](https://polygonrunway.com/)
