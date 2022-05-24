@@ -7,6 +7,7 @@ date: "2020-05-16"
 
 ### 입문용
 
+- [Blender 2.8 Fundamentals](https://studio.blender.org/training/blender-2-8-fundamentals/)
 - [Blender Fundamentals 2.8](https://youtube.com/playlist?list=PLa1F2ddGya_-UvuAqHAksYnB0qL9yWDO6)
 - [블렌더 공식 튜토리얼](https://www.blender.org/support/tutorials/)
 - [Blender Beginner Tutorial - Part 1 (일명 도넛 아저씨 강좌)](https://www.youtube.com/watch?v=TPrnSACiTJ4)
