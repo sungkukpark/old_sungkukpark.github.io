@@ -19,8 +19,9 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
 
 ## 셰이더 개발
 
-[The Unity Shaders Bible]은 유니티의 다양한 기본 셰이더를 다루고 있는 얼리 엑세스 중인 전자 도서이다. 이 도서는 디폴트와 URP(Universal Render Pipeline)를 모두 다루고 있으며 셰이더 영역 안에서 더 고급 주제들 역시 다루고 있다. 이 도서는 교육 예산으로 구매하기 알맞은 도서이며 이미 독자 일부는 이 책을 구매한 것으로 알고 있다.
-[mamoniem.com](http://www.mamoniem.com/)
+- [The Unity Shaders Bible]은 유니티의 다양한 기본 셰이더를 다루고 있는 얼리 엑세스 중인 전자 도서이다. 이 도서는 디폴트와 URP(Universal Render Pipeline)를 모두 다루고 있으며 셰이더 영역 안에서 더 고급 주제들 역시 다루고 있다. 이 도서는 교육 예산으로 구매하기 알맞은 도서이며 이미 독자 일부는 이 책을 구매한 것으로 알고 있다.
+- [mamoniem.com](http://www.mamoniem.com/)
+- [이상윤, 「유니티 URP 쉐이더 기본 가이드 문서」](https://docs.google.com/document/d/1UX0319CXa29fCFAgg0qa5vnH-U6875jt0KLKUk5mke8/edit)
 
 ## 유니티에서의 메시 및 UV 생성
 
@@ -86,6 +87,7 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
 - [Stop Staring book](https://www.amazon.de/-/en/Jason-Osipa/dp/0470609907) 페이셜 모델링, 리깅, 애니메이션에 관련된 책. 게임이나 블렌더를 위해 저술된 책은 아니지만 책의 내용은 블렌더에 적용 가능하다.
 - Lollypopman의 [Rigify tutorial](https://lollypopman.com/2016/03/04/tutorial-rigify/)
 - cgDive의 [Rig Anything with Rigify](https://cgdive.com/easy-rigging-in-blender-with-rigify-armature-basics/)
+  - [Rig Anything With Rigify (Auto-Rigging in Blender)](https://toshicg.gumroad.com/l/rigify)
 - [Rigify Docs](https://docs.blender.org/manual/en/3.0/addons/rigging/rigify/index.html?highlight=rigify)
 
 ## 파이프라인
