@@ -20,6 +20,7 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
 ## 셰이더 개발
 
 [The Unity Shaders Bible]은 유니티의 다양한 기본 셰이더를 다루고 있는 얼리 엑세스 중인 전자 도서이다. 이 도서는 디폴트와 URP(Universal Render Pipeline)를 모두 다루고 있으며 셰이더 영역 안에서 더 고급 주제들 역시 다루고 있다. 이 도서는 교육 예산으로 구매하기 알맞은 도서이며 이미 독자 일부는 이 책을 구매한 것으로 알고 있다.
+[mamoniem.com](http://www.mamoniem.com/)
 
 ## 유니티에서의 메시 및 UV 생성
 
