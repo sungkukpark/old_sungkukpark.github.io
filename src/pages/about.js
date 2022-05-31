@@ -48,6 +48,9 @@ const AboutPage = () => {
           <li>
             Write a Unity game engine book in 🇰🇷
           </li>
+          <li>
+            Launch a Unity engine course in 🇰🇷
+          </li>
         </ul>
       </li>
       <li>
@@ -58,6 +61,9 @@ const AboutPage = () => {
           </li>
           <li>
             Write a shader programming book in 🇰🇷
+          </li>
+          <li>
+            Launch a Unity shader course in 🇰🇷
           </li>
           <li>
             Stand as a speaker at <a rel="noopener noreferrer" href="https://unity.com/events/unite" target="_blank">Unity Unite</a>
