@@ -3,6 +3,7 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import portrait from "../images/sungkukpark_portrait.png";
+import wooga_leading_employer from "../images/wooga_leading_employer.png";
 
 const AboutPage = () => {
   return (
@@ -26,6 +27,12 @@ const AboutPage = () => {
     <p>
       Technical Artist at <a rel="noopener noreferrer" href="https://www.wooga.com/" target="_blank">Wooga</a>
     </p>
+    <img
+      src={wooga_leading_employer}
+      alt="Wooga as Leading Employer in Germany"
+      title="Wooga Leading Employer in Germany"
+      width="128"
+    />
     <h2>Hobbies</h2>
     <li>
       Bodybuilding, Pilates
