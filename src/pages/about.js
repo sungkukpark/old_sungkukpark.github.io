@@ -46,10 +46,10 @@ const AboutPage = () => {
             ✅&#160;<s>Work as an Engineer in 🇩🇪</s>
           </li>
           <li>
-            Write a Unity game engine book in 🇰🇷
+            Launch a Unity engine course in 🇰🇷
           </li>
           <li>
-            Launch a Unity engine course in 🇰🇷
+            Write a Unity game engine book in 🇰🇷
           </li>
         </ul>
       </li>
@@ -60,10 +60,10 @@ const AboutPage = () => {
             Work as a Technical Artist in 🇯🇵
           </li>
           <li>
-            Write a shader programming book in 🇰🇷
+            Launch a Unity shader course in 🇰🇷
           </li>
           <li>
-            Launch a Unity shader course in 🇰🇷
+            Write a shader programming book in 🇰🇷
           </li>
           <li>
             Stand as a speaker at <a rel="noopener noreferrer" href="https://unity.com/events/unite" target="_blank">Unity Unite</a>
