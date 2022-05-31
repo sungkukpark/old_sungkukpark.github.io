@@ -117,10 +117,10 @@ const AboutPage = () => {
       </li>
       <p style={{ color: 'lightgrey' }}>
       <li>
-        <b>Deutsch 🇩🇪</b> — Learning in progress targeting B1
+        <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
       </li>
       <li>
-        <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
+        <b>Deutsch 🇩🇪</b> — Learning in progress targeting B1
       </li>
       </p>
     </ul>
