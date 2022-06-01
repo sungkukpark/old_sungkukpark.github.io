@@ -17,7 +17,10 @@ date: "2020-12-01"
 - [p.29 DirectX SDK](https://www.microsoft.com/en-us/download/confirmation.aspx?id=6812)
 - [p.29 samples/01_DxFramework](https://github.com/sungkukpark/shader_programming_intro/blob/master/zip/01_DxFramework.zip)
 
-
 ## 트러블슈팅 가이드
 
 - 만약 DirectX SDK를 설치 시 S1023 에러 메시지가 문제가 발생하면 [[DirectX] DirectX SDK 설치 오류: S1023](https://sungkukpark.github.io/fix_direct_x_installation_failure/) 포스팅을 참조해 문제를 해결하도록 한다
+
+## 참고 자료
+
+- [[포프의 쉐이더 입문강좌] 00. 들어가며](https://vsts2010.tistory.com/638)
