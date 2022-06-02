@@ -63,6 +63,9 @@ const AboutPage = () => {
             Launch a Unity shader course in 🇰🇷
           </li>
           <li>
+            Write a Blender scripting book in 🇰🇷
+          </li>
+          <li>
             Write a shader programming book in 🇰🇷
           </li>
           <li>
