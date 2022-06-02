@@ -130,7 +130,7 @@ float4 ps_main() : COLOR
 
 ### 완성된 "진짜 쉬운 빨강 셰이더"
 
-마침내 **"진짜 쉬운 빨강 셰이더"**가 완성되었다. 다들 각자 생애 첫 셰이더를 만든 기쁨을 만끽하도록 하자
+마침내 "진짜 쉬운 빨강 셰이더"가 완성되었다. 다들 각자 생애 첫 셰이더를 만든 기쁨을 만끽하도록 하자
 
 ![complete_easiest_red_shader](./shader_programming_intro_2/complete_easiest_red_shader.png)
 
