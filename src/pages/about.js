@@ -60,6 +60,9 @@ const AboutPage = () => {
             Work as a Technical Artist in 🇯🇵
           </li>
           <li>
+            Study at <a rel="noopener noreferrer" href="http://graphics.cs.cmu.edu/" target="_blank">Carnegie Mellon Graphics Lab</a> in 🇺🇸
+          </li>
+          <li>
             Launch a Unity shader course in 🇰🇷
           </li>
           <li>
