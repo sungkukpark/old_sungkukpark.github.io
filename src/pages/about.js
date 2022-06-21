@@ -57,9 +57,6 @@ const AboutPage = () => {
       ✅&#160;<s>Technical Artist</s>
         <ul>
           <li>
-            Work as a Technical Artist in 🇯🇵
-          </li>
-          <li>
             Study at M.S. in Computer Science<a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">Carnegie Mellon</a> in 🇺🇸
           </li>
           <ul>
@@ -67,6 +64,9 @@ const AboutPage = () => {
               Research at <a rel="noopener noreferrer" href="http://graphics.cs.cmu.edu/" target="_blank">Carnegie Mellon Graphics Lab</a> in 🇺🇸
             </li>
           </ul>
+          <li>
+            Work as a Technical Artist in 🇯🇵
+          </li>
           <li>
             Launch a Unity shader course in 🇰🇷
           </li>
