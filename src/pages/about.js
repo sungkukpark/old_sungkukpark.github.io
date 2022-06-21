@@ -80,6 +80,9 @@ const AboutPage = () => {
             Write a shader programming book in 🇰🇷
           </li>
           <li>
+            Write a game feel book in 🇰🇷
+          </li>
+          <li>
             Stand as a speaker at <a rel="noopener noreferrer" href="https://unity.com/events/unite" target="_blank">Unity Unite</a>
           </li>
           <li>
