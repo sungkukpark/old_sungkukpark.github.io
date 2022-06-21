@@ -57,7 +57,7 @@ const AboutPage = () => {
       ✅&#160;<s>Technical Artist</s>
         <ul>
           <li>
-            Study at M.S. in Computer Science<a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">Carnegie Mellon</a> in 🇺🇸
+            Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸
           </li>
           <ul>
             <li>
