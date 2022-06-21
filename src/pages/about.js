@@ -35,7 +35,7 @@ const AboutPage = () => {
     />
     <h2>Hobbies</h2>
     <li>
-      Bodybuilding
+      Bodybuilding / 2021 ~
     </li>
     <h2>Career Goals</h2>
     <ul>
