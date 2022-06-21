@@ -40,10 +40,10 @@ const AboutPage = () => {
     <h2>Career Goals</h2>
     <ul>
       <li>
-        ✅&#160;<s>Engineer</s> / 2015
+        ✅&#160;<s>Engineer / 2015</s>
         <ul>
           <li>
-            ✅&#160;<s>Work as an Engineer in 🇩🇪</s> / 2019
+            ✅&#160;<s>Work as an Engineer in 🇩🇪 / 2019</s>
           </li>
           <li>
             Launch a Unity engine course in 🇰🇷 / December 2022
@@ -54,10 +54,10 @@ const AboutPage = () => {
         </ul>
       </li>
       <li>
-      ✅&#160;<s>Technical Artist</s> / 2022
+      ✅&#160;<s>Technical Artist / 2022</s>
       <ul>
         <li>
-          ✅&#160;<s>Work as a Technical Artist in 🇩🇪</s> / 2022
+          ✅&#160;<s>Work as a Technical Artist in 🇩🇪 / 2022</s>
         </li>
           <li>
             Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
