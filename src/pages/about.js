@@ -55,6 +55,9 @@ const AboutPage = () => {
       </li>
       <li>
       ✅&#160;<s>Technical Artist</s>
+        <li>
+          ✅&#160;<s>Work as a Technical Artist in 🇩🇪</s>
+        </li>
         <ul>
           <li>
             Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
