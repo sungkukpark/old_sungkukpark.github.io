@@ -46,7 +46,7 @@ const AboutPage = () => {
             ✅&#160;<s>Work as an Engineer in 🇩🇪</s>
           </li>
           <li>
-            Launch a Unity engine course in 🇰🇷
+            Launch a Unity engine course in 🇰🇷 / December 2022
           </li>
           <li>
             Write a Unity game engine book in 🇰🇷
@@ -57,11 +57,11 @@ const AboutPage = () => {
       ✅&#160;<s>Technical Artist</s>
         <ul>
           <li>
-            Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸
+            Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
           </li>
           <ul>
             <li>
-              Research at <a rel="noopener noreferrer" href="http://graphics.cs.cmu.edu/" target="_blank">Carnegie Mellon Graphics Lab</a> in 🇺🇸
+              Research at <a rel="noopener noreferrer" href="http://graphics.cs.cmu.edu/" target="_blank">Carnegie Mellon Graphics Lab</a> in 🇺🇸 / 2024 ~ 2025
             </li>
           </ul>
           <li>
