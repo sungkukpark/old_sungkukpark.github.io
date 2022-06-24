@@ -11,11 +11,13 @@ set-executionpolicy remotesigned
 
 ## conda로 가상 환경 만들기
 
+윈도우에서는 아래처럼 Powershell에서 conda를 초기화 해줘야 한다.
+
 ```python
 conda init powershell
 ```
 
-윈도우에서는 위처럼 Powershell에서 conda를 초기화 해줘야 한다.
+아래에서 `python=` 다음에는 설치하고자 하는 Python의 버전을 명시한다.
 
 ```python
 conda create -n my_env python=3.8
