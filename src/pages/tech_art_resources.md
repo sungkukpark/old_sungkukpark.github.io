@@ -90,6 +90,10 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
   - [Rig Anything With Rigify (Auto-Rigging in Blender)](https://toshicg.gumroad.com/l/rigify)
 - [Rigify Docs](https://docs.blender.org/manual/en/3.0/addons/rigging/rigify/index.html?highlight=rigify)
 
+## 애니메이션
+
+- []()
+
 ## 파이프라인
 
 - [Production Pipeline Fundamentals for Film and Games](https://www.amazon.de/-/en/Renee-Dunlop/dp/0415812291)
