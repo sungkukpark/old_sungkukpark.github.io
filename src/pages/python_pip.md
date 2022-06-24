@@ -32,5 +32,4 @@ pip list
 - [Python PIP](https://www.w3schools.com/python/python_pip.asp)
 - [Getting Started - pip documentation v22.1.2](https://pip.pypa.io/en/stable/getting-started/)
 
-[^1]:
-  [Python PIP](https://www.w3schools.com/python/python_pip.asp)
+[^1]: [Python PIP](https://www.w3schools.com/python/python_pip.asp)
