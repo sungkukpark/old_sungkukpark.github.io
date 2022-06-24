@@ -22,7 +22,7 @@ conda create -n my_env python=3.8
 ```
 
 ```python
-conda deactivate my_env
+conda activate my_env
 ```
 
 ## 추가: Pytorch 설치하기
