@@ -17,7 +17,7 @@ set-executionpolicy remotesigned
 conda init powershell
 ```
 
-아래에서 `python=` 다음에는 설치하고자 하는 Python의 버전을 명시한다.
+아래에서 `python=` 다음에 설치하고자 하는 Python의 버전을 명시한다.
 
 ```python
 conda create -n my_env python=3.8
