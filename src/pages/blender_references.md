@@ -29,9 +29,18 @@ date: "2020-05-16"
 - [블렌더 공식 유투브](https://www.youtube.com/user/BlenderFoundation/videos)
 - [Blender Guru](https://www.youtube.com/user/AndrewPPrice/videos)
 
+## 블렌더 스크립팅
+
+- [Beginner Blender Python Scripting Practice](https://youtube.com/playlist?list=PLB8-FQgROBmmeCnCfuJEGzP0nH0u3tz7j)
+- [Scripting for Artists](https://youtube.com/playlist?list=PLa1F2ddGya_8acrgoQr1fTeIuQtkSd6BW)
+- [Pillow](https://pypi.org/project/Pillow/)
+- [PySide2](https://pypi.org/project/PySide2/)
+- [Dive Into Python 3](https://diveintopython3.net/index.html)
+
 ## 도서
 
 - [Blender secrets E-book](https://www.blendersecrets.org/book)
+
 ## 연관된 문서
 
 - [[번역] 테크니컬 아티스트가 되려면](https://sungkukpark.github.io/how-to-become-a-technical-artist/)
