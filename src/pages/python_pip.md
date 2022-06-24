@@ -1,5 +1,5 @@
 ---
-title: "[Python] PIP(Package Installer for Python)란?"
+title: "[Python] PIP(Package Installer for Python)"
 date: "2022-06-24"
 ---
 
@@ -9,10 +9,22 @@ PIP는 "Package Installer for Python"의 약자로서 파이썬 패키지나 모
 
 > 참고: Python 3.4 이상 버전에서는 PIP는 디폴트로 포함된다.
 
-## PIP로 패키지 설치하기
+## PIP로 신규 패키지 설치하기
 
 ```python
-python -m pip install sampleproject
+pip install sampleproject
+```
+
+## PIP로 기존 패키지 삭제하기
+
+```python
+pip uninstall sampleproject
+```
+
+## PIP로 설치된 패키리 리스트 출력하기
+
+```python
+pip list
 ```
 
 [^1]:
