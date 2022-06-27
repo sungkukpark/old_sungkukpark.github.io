@@ -3,7 +3,8 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import portrait from "../images/sungkukpark_portrait.png";
-import wooga_leading_employer from "../images/wooga_leading_employer.png";
+import wooga_leading_employer_2021 from "../images/wooga_leading_employer_2021.png";
+import wooga_leading_employer_2022 from "../images/wooga_leading_employer_2022.png";
 
 const AboutPage = () => {
   return (
