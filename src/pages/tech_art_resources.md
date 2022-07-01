@@ -90,13 +90,13 @@ URP/SRP 주제를 학습하기 위해서는 [SRP를 다루는 Catlike Coding 튜
   - [Rig Anything With Rigify (Auto-Rigging in Blender)](https://toshicg.gumroad.com/l/rigify)
 - [Rigify Docs](https://docs.blender.org/manual/en/3.0/addons/rigging/rigify/index.html?highlight=rigify)
 
-## 애니메이션
-
-- []()
-
 ## 파이프라인
 
 - [Production Pipeline Fundamentals for Film and Games](https://www.amazon.de/-/en/Renee-Dunlop/dp/0415812291)
+
+## 인하우스 툴
+
+- [Designing the User Experience of Game Development Tools](https://www.amazon.de/-/en/gp/product/148224019X/ref=ox_sc_act_title_3): 커스텀 도구나 인스펙터 등의 개발에 필요한 좋은 사용자 경험을 제공하기 위해 산업 전문가들이 추천한 도서.
 
 ## 툴 개발
 
