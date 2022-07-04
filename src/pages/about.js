@@ -67,7 +67,7 @@ const AboutPage = () => {
           ✅&#160;<s>Work as a Technical Artist in 🇩🇪 / 2022</s>
         </li>
           <li>
-            Study at <a rel="noopener noreferrer" href="https://csd.cmu.edu/academics/masters/overview#mscsoverview" target="_blank">M.S. in Computer Science of Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
+            Study at <a rel="noopener noreferrer" href="http://www.etc.cmu.edu/learn/about-the-etc/" target="_blank">Master of Entertainment Technology (MET) in Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
           </li>
           <ul>
             <li>
