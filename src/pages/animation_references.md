@@ -8,6 +8,10 @@ date: "2020-05-15"
 - [OpenToonz](https://opentoonz.github.io/e/)
 - [TVPaint](https://www.tvpaint.com/)
 
+## 소프트웨어 문서
+
+- [TVPaint 11 Documentation](https://www.tvpaint.com/doc/tvpaint-animation-11)
+
 ## 도전
 
 - [11 Second Club - The Monthly Character Animation Competition](https://www.11secondclub.com/)
