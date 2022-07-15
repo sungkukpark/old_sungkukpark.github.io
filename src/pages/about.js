@@ -53,7 +53,7 @@ const AboutPage = () => {
             ✅&#160;<s>Work as an Engineer in 🇩🇪 / 2019</s>
           </li>
           <li>
-            Launch a Unity engine course in 🇰🇷 / December 2022
+            🚧 Launch a Unity engine course in 🇰🇷 / December 2022
           </li>
           <li>
             Write a Unity game engine book in 🇰🇷
@@ -99,6 +99,9 @@ const AboutPage = () => {
             Stand as a speaker at <a rel="noopener noreferrer" href="https://gdconf.com/" target="_blank">GDC (Game Developer Conference)</a>
           </li>
         </ul>
+      </li>
+      <li>
+        Art Director
       </li>
       <li>
         Game Director
