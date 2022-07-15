@@ -7,289 +7,316 @@
         <div class="js-gist-file-update-container js-task-list-container file-box">
   <div id="file-urp-basic-unlit-structure_sample-shader" class="file my-2">
     
-  <div itemprop="text" class="Box-body p-0 blob-wrapper data type-shaderlab  ">
+    <div itemprop="text" class="Box-body p-0 blob-wrapper data type-shaderlab  ">
 
-      
-<table class="highlight tab-size js-file-line-container" data-tab-size="8" data-paste-markdown-skip>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L1" class="blob-num js-line-number" data-line-number="1"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// Copied from https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/writing-shaders-urp-basic-unlit-structure.html and translated by sungkukpark.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L2" class="blob-num js-line-number" data-line-number="2"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// 이 셰이더는 메시 형태를 코드에 미리 지정된 컬러로 채우는 셰이더이다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L3" class="blob-num js-line-number" data-line-number="3"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">Shader</span> <span class="pl-s">&quot;Example/URPUnlitShaderBasic&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L4" class="blob-num js-line-number" data-line-number="4"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC4" class="blob-code blob-code-inner js-file-line">{</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L5" class="blob-num js-line-number" data-line-number="5"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 유니티 셰이더의 프로퍼티 블록이다. 본 예제에서 이 블록은 비어있다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L6" class="blob-num js-line-number" data-line-number="6"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 왜냐하면 프래그먼트(fragment) 셰이더에 출력 컬러가 미리 지정되어 있기 때문이다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L7" class="blob-num js-line-number" data-line-number="7"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">Properties</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L8" class="blob-num js-line-number" data-line-number="8"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC8" class="blob-code blob-code-inner js-file-line">    { }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L9" class="blob-num js-line-number" data-line-number="9"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC9" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L10" class="blob-num js-line-number" data-line-number="10"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 서브셰이더(SubShader) 블록은 셰이더 코드를 담고 있다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L11" class="blob-num js-line-number" data-line-number="11"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">SubShader</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L12" class="blob-num js-line-number" data-line-number="12"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC12" class="blob-code blob-code-inner js-file-line">    {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L13" class="blob-num js-line-number" data-line-number="13"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC13" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">// 서브셰이더 태그는 언제, 그리고 어떤 조건 하에서 서브셰이더 블록이나 패스가 실행되는지 정의한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L14" class="blob-num js-line-number" data-line-number="14"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC14" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">Tags</span> { <span class="pl-s">&quot;RenderType&quot;</span> = <span class="pl-s">&quot;Opaque&quot;</span> <span class="pl-s">&quot;RenderPipeline&quot;</span> = <span class="pl-s">&quot;UniversalPipeline&quot;</span> }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L15" class="blob-num js-line-number" data-line-number="15"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC15" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L16" class="blob-num js-line-number" data-line-number="16"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC16" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">Pass</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L17" class="blob-num js-line-number" data-line-number="17"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC17" class="blob-code blob-code-inner js-file-line">        {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L18" class="blob-num js-line-number" data-line-number="18"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC18" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// HLSL 코드 블록. 유니티 SRP는 HLSL 언어를 사용한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L19" class="blob-num js-line-number" data-line-number="19"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC19" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">HLSLPROGRAM</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L20" class="blob-num js-line-number" data-line-number="20"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC20" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 줄은 버텍스 셰이더의 이름을 정의한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L21" class="blob-num js-line-number" data-line-number="21"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #pragma</span> vertex vert</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L22" class="blob-num js-line-number" data-line-number="22"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC22" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 줄은 프래그먼트 셰이더의 이름을 정의한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L23" class="blob-num js-line-number" data-line-number="23"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #pragma</span> fragment frag</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L24" class="blob-num js-line-number" data-line-number="24"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC24" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L25" class="blob-num js-line-number" data-line-number="25"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC25" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// Core.hlsl 파일은 자주 쓰이는 HLSL 매크로나 함수 정의를 포함한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L26" class="blob-num js-line-number" data-line-number="26"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 또한, 이 파일은 Common.hlsl나 SpaceTransforms.hlsl와 같은</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L27" class="blob-num js-line-number" data-line-number="27"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC27" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 다른 HLSL #include 래퍼런스들 또한 포함한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L28" class="blob-num js-line-number" data-line-number="28"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #include</span> <span class="pl-s">&quot;Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl&quot;</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L29" class="blob-num js-line-number" data-line-number="29"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC29" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L30" class="blob-num js-line-number" data-line-number="30"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 구조체 정의는 어떤 변수를 포함하는지 정의한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L31" class="blob-num js-line-number" data-line-number="31"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC31" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 예제는 Attributes 구조체를 버텍스 세이더의 입력 구조체로 받는다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L32" class="blob-num js-line-number" data-line-number="32"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC32" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">struct</span> Attributes</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L33" class="blob-num js-line-number" data-line-number="33"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC33" class="blob-code blob-code-inner js-file-line">            {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L34" class="blob-num js-line-number" data-line-number="34"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC34" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// positionOS 변수는 오브젝트 스페이스의 정점 위치를 갖는다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L35" class="blob-num js-line-number" data-line-number="35"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC35" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">float4</span> positionOS   : <span class="pl-c1">POSITION</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L36" class="blob-num js-line-number" data-line-number="36"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC36" class="blob-code blob-code-inner js-file-line">            };</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L37" class="blob-num js-line-number" data-line-number="37"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC37" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L38" class="blob-num js-line-number" data-line-number="38"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC38" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">struct</span> Varyings</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L39" class="blob-num js-line-number" data-line-number="39"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC39" class="blob-code blob-code-inner js-file-line">            {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L40" class="blob-num js-line-number" data-line-number="40"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC40" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 이 구조체의 위치 변수는 반드시 SV_POSITION 시멘틱을 가져야만 한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L41" class="blob-num js-line-number" data-line-number="41"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC41" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">float4</span> positionHCS  : <span class="pl-c1">SV_POSITION</span>;</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L42" class="blob-num js-line-number" data-line-number="42"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC42" class="blob-code blob-code-inner js-file-line">            };</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L43" class="blob-num js-line-number" data-line-number="43"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC43" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L44" class="blob-num js-line-number" data-line-number="44"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC44" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// Varyings 구조체 안에 정의된 프로퍼티를 가진 버텍스 셰이더 정의.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L45" class="blob-num js-line-number" data-line-number="45"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC45" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// vert 함수의 타입은 반드시 해당 함수가 반환하는 (구조체) 타입과 동일해야 한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L46" class="blob-num js-line-number" data-line-number="46"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC46" class="blob-code blob-code-inner js-file-line">            Varyings <span class="pl-c1">vert</span>(Attributes IN)</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L47" class="blob-num js-line-number" data-line-number="47"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC47" class="blob-code blob-code-inner js-file-line">            {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L48" class="blob-num js-line-number" data-line-number="48"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC48" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// Varyings 구조체 타입의 출력 객체 (OUT) 선언.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L49" class="blob-num js-line-number" data-line-number="49"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC49" class="blob-code blob-code-inner js-file-line">                Varyings OUT;</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L50" class="blob-num js-line-number" data-line-number="50"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC50" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// TransformObjectToHClip 함수는 오브젝트 스페이스의 버텍스 위치를</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L51" class="blob-num js-line-number" data-line-number="51"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC51" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 동차 클립 스페이스의 위치로 변환한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L52" class="blob-num js-line-number" data-line-number="52"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC52" class="blob-code blob-code-inner js-file-line">                OUT.positionHCS = <span class="pl-c1">TransformObjectToHClip</span>(IN.positionOS.xyz);</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L53" class="blob-num js-line-number" data-line-number="53"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC53" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 출력을 반환.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L54" class="blob-num js-line-number" data-line-number="54"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC54" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> OUT;</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L55" class="blob-num js-line-number" data-line-number="55"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC55" class="blob-code blob-code-inner js-file-line">            }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L56" class="blob-num js-line-number" data-line-number="56"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC56" class="blob-code blob-code-inner js-file-line">
-</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L57" class="blob-num js-line-number" data-line-number="57"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC57" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 프래그먼트 셰이더 정의.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L58" class="blob-num js-line-number" data-line-number="58"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC58" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">half4</span> <span class="pl-c1">frag</span>() : <span class="pl-c1">SV_Target</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L59" class="blob-num js-line-number" data-line-number="59"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC59" class="blob-code blob-code-inner js-file-line">            {</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L60" class="blob-num js-line-number" data-line-number="60"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC60" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 컬러 변수를 정의하고 이를 반환한다.</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L61" class="blob-num js-line-number" data-line-number="61"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC61" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">half4</span> customColor = <span class="pl-k">half4</span>(<span class="pl-c1">0.5</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-c1">1</span>);</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L62" class="blob-num js-line-number" data-line-number="62"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC62" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> customColor;</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L63" class="blob-num js-line-number" data-line-number="63"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC63" class="blob-code blob-code-inner js-file-line">            }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L64" class="blob-num js-line-number" data-line-number="64"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC64" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">ENDHLSL</span></td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L65" class="blob-num js-line-number" data-line-number="65"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC65" class="blob-code blob-code-inner js-file-line">        }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L66" class="blob-num js-line-number" data-line-number="66"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC66" class="blob-code blob-code-inner js-file-line">    }</td>
-      </tr>
-      <tr>
-        <td id="file-urp-basic-unlit-structure_sample-shader-L67" class="blob-num js-line-number" data-line-number="67"></td>
-        <td id="file-urp-basic-unlit-structure_sample-shader-LC67" class="blob-code blob-code-inner js-file-line">}</td>
-      </tr>
-</table>
+        
+<div class="js-check-bidi js-blob-code-container blob-code-content">
+
+  <template class="js-file-alert-template">
+  <div data-view-component="true" class="flash flash-warn flash-full d-flex flex-items-center">
+  <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+  
+    <span>
+      This file contains bidirectional Unicode text that may be interpreted or compiled differently than what appears below. To review, open the file in an editor that reveals hidden Unicode characters.
+      <a href="https://github.co/hiddenchars" target="_blank">Learn more about bidirectional Unicode characters</a>
+    </span>
 
 
-  </div>
+  <div data-view-component="true" class="flash-action">      <a href="{{ revealButtonHref }}" data-view-component="true" class="btn-sm btn">  Show hidden characters
+  
+</a>
+</div>
+</div></template>
+<template class="js-line-alert-template">
+  <span aria-label="This line has hidden Unicode characters" data-view-component="true" class="line-alert tooltipped tooltipped-e">
+    <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-alert">
+    <path fill-rule="evenodd" d="M8.22 1.754a.25.25 0 00-.44 0L1.698 13.132a.25.25 0 00.22.368h12.164a.25.25 0 00.22-.368L8.22 1.754zm-1.763-.707c.659-1.234 2.427-1.234 3.086 0l6.082 11.378A1.75 1.75 0 0114.082 15H1.918a1.75 1.75 0 01-1.543-2.575L6.457 1.047zM9 11a1 1 0 11-2 0 1 1 0 012 0zm-.25-5.25a.75.75 0 00-1.5 0v2.5a.75.75 0 001.5 0v-2.5z"></path>
+</svg>
+</span></template>
+
+  <table class="highlight tab-size js-file-line-container js-code-nav-container js-tagsearch-file" data-tab-size="8" data-paste-markdown-skip data-tagsearch-lang="ShaderLab" data-tagsearch-path="urp-basic-unlit-structure_sample.shader">
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L1" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="1"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC1" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// Copied from https://docs.unity3d.com/Packages/com.unity.render-pipelines.universal@12.0/manual/writing-shaders-urp-basic-unlit-structure.html and translated by sungkukpark.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L2" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="2"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC2" class="blob-code blob-code-inner js-file-line"><span class="pl-c">// 이 셰이더는 메시 형태를 코드에 미리 지정된 컬러로 채우는 셰이더이다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L3" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="3"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC3" class="blob-code blob-code-inner js-file-line"><span class="pl-k">Shader</span> <span class="pl-s">&quot;Example/URPUnlitShaderBasic&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L4" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="4"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC4" class="blob-code blob-code-inner js-file-line">{</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L5" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="5"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC5" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 유니티 셰이더의 프로퍼티 블록이다. 본 예제에서 이 블록은 비어있다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L6" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="6"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC6" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 왜냐하면 프래그먼트(fragment) 셰이더에 출력 컬러가 미리 지정되어 있기 때문이다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L7" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="7"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC7" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">Properties</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L8" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="8"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC8" class="blob-code blob-code-inner js-file-line">    { }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L9" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="9"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC9" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L10" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="10"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC10" class="blob-code blob-code-inner js-file-line">    <span class="pl-c">// 서브셰이더(SubShader) 블록은 셰이더 코드를 담고 있다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L11" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="11"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC11" class="blob-code blob-code-inner js-file-line">    <span class="pl-k">SubShader</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L12" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="12"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC12" class="blob-code blob-code-inner js-file-line">    {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L13" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="13"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC13" class="blob-code blob-code-inner js-file-line">        <span class="pl-c">// 서브셰이더 태그는 언제, 그리고 어떤 조건 하에서 서브셰이더 블록이나 패스가 실행되는지 정의한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L14" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="14"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC14" class="blob-code blob-code-inner js-file-line">        <span class="pl-c1">Tags</span> { <span class="pl-s">&quot;RenderType&quot;</span> = <span class="pl-s">&quot;Opaque&quot;</span> <span class="pl-s">&quot;RenderPipeline&quot;</span> = <span class="pl-s">&quot;UniversalPipeline&quot;</span> }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L15" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="15"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC15" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L16" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="16"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC16" class="blob-code blob-code-inner js-file-line">        <span class="pl-k">Pass</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L17" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="17"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC17" class="blob-code blob-code-inner js-file-line">        {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L18" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="18"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC18" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// HLSL 코드 블록. 유니티 SRP는 HLSL 언어를 사용한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L19" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="19"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC19" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">HLSLPROGRAM</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L20" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="20"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC20" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 줄은 버텍스 셰이더의 이름을 정의한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L21" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="21"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC21" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #pragma</span> vertex vert</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L22" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="22"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC22" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 줄은 프래그먼트 셰이더의 이름을 정의한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L23" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="23"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC23" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #pragma</span> fragment frag</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L24" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="24"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC24" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L25" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="25"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC25" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// Core.hlsl 파일은 자주 쓰이는 HLSL 매크로나 함수 정의를 포함한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L26" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="26"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC26" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 또한, 이 파일은 Common.hlsl나 SpaceTransforms.hlsl와 같은</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L27" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="27"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC27" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 다른 HLSL #include 래퍼런스들 또한 포함한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L28" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="28"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC28" class="blob-code blob-code-inner js-file-line"><span class="pl-k">            #include</span> <span class="pl-s">&quot;Packages/com.unity.render-pipelines.universal/ShaderLibrary/Core.hlsl&quot;</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L29" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="29"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC29" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L30" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="30"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC30" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 구조체 정의는 어떤 변수를 포함하는지 정의한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L31" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="31"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC31" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 이 예제는 Attributes 구조체를 버텍스 세이더의 입력 구조체로 받는다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L32" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="32"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC32" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">struct</span> Attributes</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L33" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="33"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC33" class="blob-code blob-code-inner js-file-line">            {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L34" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="34"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC34" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// positionOS 변수는 오브젝트 스페이스의 정점 위치를 갖는다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L35" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="35"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC35" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">float4</span> positionOS   : <span class="pl-c1">POSITION</span>;</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L36" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="36"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC36" class="blob-code blob-code-inner js-file-line">            };</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L37" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="37"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC37" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L38" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="38"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC38" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">struct</span> Varyings</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L39" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="39"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC39" class="blob-code blob-code-inner js-file-line">            {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L40" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="40"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC40" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 이 구조체의 위치 변수는 반드시 SV_POSITION 시멘틱을 가져야만 한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L41" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="41"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC41" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">float4</span> positionHCS  : <span class="pl-c1">SV_POSITION</span>;</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L42" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="42"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC42" class="blob-code blob-code-inner js-file-line">            };</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L43" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="43"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC43" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L44" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="44"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC44" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// Varyings 구조체 안에 정의된 프로퍼티를 가진 버텍스 셰이더 정의.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L45" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="45"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC45" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// vert 함수의 타입은 반드시 해당 함수가 반환하는 (구조체) 타입과 동일해야 한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L46" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="46"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC46" class="blob-code blob-code-inner js-file-line">            Varyings <span class="pl-c1">vert</span>(Attributes IN)</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L47" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="47"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC47" class="blob-code blob-code-inner js-file-line">            {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L48" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="48"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC48" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// Varyings 구조체 타입의 출력 객체 (OUT) 선언.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L49" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="49"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC49" class="blob-code blob-code-inner js-file-line">                Varyings OUT;</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L50" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="50"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC50" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// TransformObjectToHClip 함수는 오브젝트 스페이스의 버텍스 위치를</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L51" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="51"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC51" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 동차 클립 스페이스의 위치로 변환한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L52" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="52"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC52" class="blob-code blob-code-inner js-file-line">                OUT.positionHCS = <span class="pl-c1">TransformObjectToHClip</span>(IN.positionOS.xyz);</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L53" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="53"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC53" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 출력을 반환.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L54" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="54"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC54" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> OUT;</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L55" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="55"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC55" class="blob-code blob-code-inner js-file-line">            }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L56" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="56"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC56" class="blob-code blob-code-inner js-file-line">
+</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L57" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="57"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC57" class="blob-code blob-code-inner js-file-line">            <span class="pl-c">// 프래그먼트 셰이더 정의.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L58" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="58"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC58" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">half4</span> <span class="pl-c1">frag</span>() : <span class="pl-c1">SV_Target</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L59" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="59"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC59" class="blob-code blob-code-inner js-file-line">            {</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L60" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="60"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC60" class="blob-code blob-code-inner js-file-line">                <span class="pl-c">// 컬러 변수를 정의하고 이를 반환한다.</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L61" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="61"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC61" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">half4</span> customColor = <span class="pl-k">half4</span>(<span class="pl-c1">0.5</span>, <span class="pl-c1">0</span>, <span class="pl-c1">0</span>, <span class="pl-c1">1</span>);</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L62" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="62"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC62" class="blob-code blob-code-inner js-file-line">                <span class="pl-k">return</span> customColor;</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L63" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="63"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC63" class="blob-code blob-code-inner js-file-line">            }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L64" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="64"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC64" class="blob-code blob-code-inner js-file-line">            <span class="pl-k">ENDHLSL</span></td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L65" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="65"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC65" class="blob-code blob-code-inner js-file-line">        }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L66" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="66"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC66" class="blob-code blob-code-inner js-file-line">    }</td>
+        </tr>
+        <tr>
+          <td id="file-urp-basic-unlit-structure_sample-shader-L67" class="blob-num js-line-number js-code-nav-line-number js-blob-rnum" data-line-number="67"></td>
+          <td id="file-urp-basic-unlit-structure_sample-shader-LC67" class="blob-code blob-code-inner js-file-line">}</td>
+        </tr>
+  </table>
+</div>
+
+
+    </div>
 
   </div>
 </div>
