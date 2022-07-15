@@ -67,13 +67,16 @@ const AboutPage = () => {
           ✅&#160;<s>Work as a Technical Artist in 🇩🇪 / 2022</s>
         </li>
           <li>
+            Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇺🇸 / 2024 ~ 2025
+          </li>
+          {/* <li>
             Study at <a rel="noopener noreferrer" href="http://www.etc.cmu.edu/learn/about-the-etc/" target="_blank">Master of Entertainment Technology (MET) in Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
           </li>
           <ul>
             <li>
               Research at <a rel="noopener noreferrer" href="http://graphics.cs.cmu.edu/" target="_blank">Carnegie Mellon Graphics Lab</a> in 🇺🇸 / 2024 ~ 2025
             </li>
-          </ul>
+          </ul> */}
           <li>
             Work as a Technical Artist in 🇯🇵
           </li>
