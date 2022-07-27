@@ -150,6 +150,9 @@ const AboutPage = () => {
             <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
           </li>
           <li>
+            <b>French 🇫🇷</b> — Learning in progress targeting B1
+          </li>
+          <li>
             <b>Deutsch 🇩🇪</b> — Learning in progress targeting B1
           </li>
         </p>
