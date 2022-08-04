@@ -5,6 +5,8 @@ date: "2021-02-22"
 
 ## 유투브 채널
 
+- [Skim On West](https://www.youtube.com/c/SkimOnWest)
+- [The Cinema Cartography](https://www.youtube.com/c/TheCinemaCartography)
 - [Every Frame a Painting](https://www.youtube.com/channel/UCjFqcJQXGZ6T6sxyFB-5i6A)
 - [StudioBinder](https://www.youtube.com/channel/UCUFoQUaVRt3MVFxqwPUMLCQ/featured)
 - [Cinematography Techniques](https://www.youtube.com/watch?v=n1EKLvdUSac&list=PLEzQZpmbzckX3A_SopJ-krGsV6BERxdwb)
