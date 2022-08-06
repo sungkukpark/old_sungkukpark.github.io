@@ -57,8 +57,7 @@ date: "2018-12-31"
 
 [일주일에 게임 하나 (Game A Week)]는 라미 이스메일(Rami Ismail)이 주창한 게임 개발 경험과 능력을 배양하는 방법론이다. 「[Downwell]」을 만든 Moppin 역시 해당 방법론을 따라 매주 게임을 하나씩 만드는 과정에서 「Downwell」의 프로토타입(prototype)을 개발한 것으로 알려져있다. 나는 당시에도 회사에서 상용 게임을 개발 중이었지만, 회사 업무 외에 남는 시간을 투자할 생각으로 Gamasutra에 실린 라미 이스메일의 글을 번역한 뒤 이에 방법론에 근거한 게임잼을 열었다. 하지만 우습게도, 직전의 게임잼에서 만난 친구인 Ralf Van Der Fjelde의 참여에도 불구하고 해당 게임잼은 단 일 회에 그치고 말았다. 당시 일주일 게임 하나를 실제 회사 업무와 병행하게 되는 순간의 스트레스 때문에 그만 두게 되었던 것으로 기억한다.
 
-<blockquote class="twitter-tweet" data-lang="en"><p lang="ko" dir="ltr">잼 주최자 <a href="https://twitter.com/sungkkshawnpark?ref_src=twsrc%5Etfw">@sungkkshawnpark</a>은 독일 친구가 아니었으면 혼자 게임을 올릴 뻔 했어요! 괜찮아요! 외롭지 않아요(눈물). 이번에는 <a href="https://twitter.com/atari?ref_src=twsrc%5Etfw">@atari</a> &lt;Pong&gt;의 변형인 &lt;Dead Pong&gt;을 만들었어요. <a href="https://t.co/AO5pC9VpEc">https://t.co/AO5pC9VpEc</a></p>&mdash; 일주게하 (Game A Week) (@game_a_week) <a href="https://twitter.com/game_a_week/status/891648678590533632?ref_src=twsrc%5Etfw">July 30, 2017</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="ko" dir="ltr">지난 일주일 간 잘 지내셨나요? 7월 23일부터 오늘 자정까지 진행될 &quot;일주일에 게임 하나 만들기&quot;는 현재 4분이 참여하셨고 그 중 2분이 게임을 제출하셨습니다. <a href="https://twitter.com/elCrabman?ref_src=twsrc%5Etfw">@elCrabman</a> <a href="https://twitter.com/sungkkshawnpark?ref_src=twsrc%5Etfw">@sungkkshawnpark</a> <a href="https://twitter.com/hashtag/%EC%9D%BC%EC%A3%BC%EC%9D%BC%EC%97%90%EA%B2%8C%EC%9E%84%ED%95%98%EB%82%98?src=hash&amp;ref_src=twsrc%5Etfw">#일주일에게임하나</a> <a href="https://twitter.com/hashtag/GameAWeek?src=hash&amp;ref_src=twsrc%5Etfw">#GameAWeek</a></p>&mdash; 일주게하 (Game A Week) (@game_a_week) <a href="https://twitter.com/game_a_week/status/891645005827264512?ref_src=twsrc%5Etfw">July 30, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## 일주일 게임 하나의 부활
 
