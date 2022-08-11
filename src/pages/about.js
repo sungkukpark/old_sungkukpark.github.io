@@ -3,8 +3,6 @@ import { graphql } from "gatsby";
 import Layout from "../components/layout";
 import { Helmet } from "react-helmet";
 import portrait from "../images/sungkukpark_portrait.png";
-import wooga_leading_employer_2021 from "../images/wooga_leading_employer_2021.png";
-import wooga_leading_employer_2022 from "../images/wooga_leading_employer_2022.png";
 
 const AboutPage = () => {
   return (
@@ -28,18 +26,6 @@ const AboutPage = () => {
       <p>
         Technical Artist at <a rel="noopener noreferrer" href="https://www.wooga.com/" target="_blank">Wooga</a>
       </p>
-      <img
-        src={wooga_leading_employer_2021}
-        alt="Wooga as Leading Employer in Germany 2021"
-        title="Wooga Leading Employer in Germany 2021"
-        width="128"
-      />
-      <img
-        src={wooga_leading_employer_2022}
-        alt="Wooga as Leading Employer in Germany 2022"
-        title="Wooga Leading Employer in Germany 2022"
-        width="128"
-      />
       <h2>Hobbies</h2>
       <li>
         Bodybuilding / 2021 ~
