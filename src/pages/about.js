@@ -58,6 +58,12 @@ const AboutPage = () => {
             <li>
               Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇺🇸 / 2024 ~ 2025
             </li>
+            <li>
+              Write my own rendering engine (PSKREngine)
+            </li>
+            <li>
+              Write my own game engine (PSKEngine)
+            </li>
             {/* <li>
             Study at <a rel="noopener noreferrer" href="http://www.etc.cmu.edu/learn/about-the-etc/" target="_blank">Master of Entertainment Technology (MET) in Carnegie Mellon</a> in 🇺🇸 / 2024 ~ 2025
           </li>
