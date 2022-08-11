@@ -53,6 +53,9 @@ const AboutPage = () => {
               ✅&#160;<s>Work as a Technical Artist in 🇩🇪 / 2022</s>
             </li>
             <li>
+              🚧 Stand as a speaker at <a rel="noopener noreferrer" href="https://2022.pycon.kr/" target="_blank">PyCon Korea 2022</a>
+            </li>
+            <li>
               Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇺🇸 / 2024 ~ 2025
             </li>
             {/* <li>
@@ -70,7 +73,7 @@ const AboutPage = () => {
               Launch a Unity shader course in 🇰🇷
             </li>
             <li>
-              Write a Blender scripting book in 🇰🇷
+              Write a Blender scripting book in 🇰🇷 with <a rel="noopener noreferrer" href="https://vielbooks.com/" target="_blank">비엘북스(VIELbooks)</a>
             </li>
             <li>
               Write a shader programming book in 🇰🇷
