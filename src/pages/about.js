@@ -73,16 +73,16 @@ const AboutPage = () => {
             </li>
           </ul> */}
             <li>
-              Work as a Technical Artist in 🇯🇵
+              Write a Blender scripting book in 🇰🇷 with <a rel="noopener noreferrer" href="https://vielbooks.com/" target="_blank">비엘북스(VIELbooks)</a>
             </li>
             <li>
               Launch a Unity shader course in 🇰🇷
             </li>
             <li>
-              Write a Blender scripting book in 🇰🇷 with <a rel="noopener noreferrer" href="https://vielbooks.com/" target="_blank">비엘북스(VIELbooks)</a>
+              Write a shader programming book in 🇰🇷
             </li>
             <li>
-              Write a shader programming book in 🇰🇷
+              Work as a Technical Artist in 🇯🇵
             </li>
             <li>
               Write a game feel book in 🇰🇷
@@ -140,10 +140,10 @@ const AboutPage = () => {
         <li>
           <b>English 🇺🇸</b> — TOEFL iBT Total Score 97
         </li>
+        <li>
+          <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N1
+        </li>
         <p style={{ color: 'lightgrey' }}>
-          <li>
-            <b>日本語 🇯🇵</b> — Learning in progress targeting JLPT N2
-          </li>
           <li>
             <b>French 🇫🇷</b> — Learning in progress targeting B1
           </li>
