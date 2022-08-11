@@ -28,7 +28,7 @@ const AboutPage = () => {
       </p>
       <h2>Hobbies</h2>
       <li>
-        Bodybuilding / 2021 ~
+        Bodybuilding / 2023 ~
       </li>
       <h2>Career Goals</h2>
       <ul>
@@ -36,7 +36,7 @@ const AboutPage = () => {
           ✅&#160;<s>Engineer / 2015</s>
           <ul>
             <li>
-              ✅&#160;<s>Work as an Engineer in 🇩🇪 / 2019</s>
+              ✅&#160;<s><b>Work as Engineer</b> in 🇩🇪 / 2019</s>
             </li>
             <li>
               🚧 Launch a Unity engine course in 🇰🇷 / December 2022
@@ -47,10 +47,10 @@ const AboutPage = () => {
           </ul>
         </li>
         <li>
-          ✅&#160;<s>Technical Artist / 2022</s>
+          ✅&#160;<s><b>Technical Artist</b> / 2022</s>
           <ul>
             <li>
-              ✅&#160;<s>Work as a Technical Artist in 🇩🇪 / 2022</s>
+              ✅&#160;<s><b>Work as Technical Artist</b> in 🇩🇪 / 2022</s>
             </li>
             <li>
               🚧 Stand as a speaker at <a rel="noopener noreferrer" href="https://2022.pycon.kr/" target="_blank">PyCon Korea 2022</a>
