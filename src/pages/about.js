@@ -56,9 +56,6 @@ const AboutPage = () => {
               ✅&#160;<s>Stand as a speaker at <a rel="noopener noreferrer" href="https://2022.pycon.kr/" target="_blank">PyCon Korea</a> / 2022</s>
             </li>
             <li>
-              Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇫🇷 / 2024 ~ 2025
-            </li>
-            <li>
               Write my own rendering engine (PSKREngine)
             </li>
             <li>
@@ -95,6 +92,14 @@ const AboutPage = () => {
             </li>
           </ul>
         </li>
+        <li>
+          🚧 Animator
+        </li>
+          <ul>
+            <li>
+              Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇫🇷 / 2024 ~ 2025
+            </li>
+          </ul>
         <li>
           Art Director
         </li>
