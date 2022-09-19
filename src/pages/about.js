@@ -97,6 +97,9 @@ const AboutPage = () => {
         </li>
           <ul>
             <li>
+              Study at <a rel="noopener noreferrer" href="https://bhentertainment.ca/courses-animation/" target="_blank">Beaver House Animation Master Course</a> 10th Season / September 2022 ~ July 2023
+            </li>
+            <li>
               Study at <a rel="noopener noreferrer" href="https://www.gobelins-school.com/formation/englishtrack-master-arts-character-animation-and-animated-filmmaking" target="_blank">Master of Arts in Character Animation and Animated Filmmaking at School L'image Gobelins</a> in 🇫🇷 / 2024 ~ 2025
             </li>
           </ul>
