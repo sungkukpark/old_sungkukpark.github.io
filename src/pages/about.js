@@ -101,6 +101,17 @@ const AboutPage = () => {
             </li>
           </ul>
         <li>
+          VFX Artist
+        </li>
+        <ul>
+          <li>
+            Study at <a rel="noopener noreferrer" href="https://cafe.naver.com/rakfx" target="_blank">Rak UI FX</a> in 🇰🇷 / September ~ October 2022
+          </li>
+          <li>
+            Study at <a rel="noopener noreferrer" href="https://cafe.naver.com/gfxdesign" target="_blank">Garbn GFX Class</a> in 🇰🇷 / December 2023 ~ April 2024
+          </li>
+        </ul>
+        <li>
           Art Director
         </li>
         <li>
