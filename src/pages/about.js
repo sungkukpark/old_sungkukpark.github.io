@@ -182,6 +182,12 @@ const AboutPage = () => {
           <b>Hongik University (Seoul Campus)</b> — Majored <i>Art History and Theory</i> (GPA 3.54/4.5) / March 2007 - February 2011
         </li>
       </ul>
+      <h2>Presentations</h2>
+      <ul>
+        <li>
+          <b>Participated as Speaker</b> of <i>Technical Art 101: Building a Blender Asset Pipeline with Python</i>, 2nd October 2022, Python 2022 (<a rel="noopener noreferrer" href="https://2022.pycon.kr/program/talks/10" target="_blank">Description</a> / <a rel="noopener noreferrer" href="https://youtu.be/6TW66F2NVyA?list=PLZPhyNeJvHRn5DjhDAZFTKjJCJSMqeirO" target="_blank">Youtube</a>)
+        </li>
+      </ul>
       <h2>Publications</h2>
       <h3>Critics</h3>
       <ul>
