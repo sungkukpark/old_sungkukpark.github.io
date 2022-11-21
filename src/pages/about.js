@@ -39,7 +39,7 @@ const AboutPage = () => {
               ✅&#160;<s>Work as Engineer in 🇩🇪 / 2019</s>
             </li>
             <li>
-              🚧 Launch a Unity engine course in 🇰🇷 / December 2022
+              ✅&#160;<s>Launch a Unity engine course in 🇰🇷 / December 2022</s>
             </li>
           </ul>
         </li>
